@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Resources>
+	<Textures2D>
+		<texture2D id="AvatarAuda" path="textures\Heroes\Auda.png"/>
+		<texture2D id="AvatarFogg" path="textures\Heroes\Fogg.png"/>
+		<texture2D id="AvatarPasp" path="textures\Heroes\Pasport.png"/>
+		<texture2D id="AvatarFix" path="textures\Heroes\Fix.png"/>
+		<texture2D id="AvatarPred" path="textures\Heroes\Pred.png"/>
+		<texture2D id="AvatarEgypt" path="textures\Heroes\Egypt.png"/>
+		<texture2D id="AvatarChina" path="textures\Heroes\China.png"/>
+		<texture2D id="AvatarPirate" path="textures\Heroes\Pirate.png"/>
+		<texture2D id="AvatarCapt" path="textures\Heroes\Capt.png"/>
+		<texture2D id="AvatarRamkaBack" path="textures\Heroes\RamkaBack.png"/>
+		<texture2D id="AvatarRamkaFront" path="textures\Heroes\RamkaFront.png"/>
+		<texture2D id="AvatarRamkaShadow" path="textures\Heroes\RamkaShadow.png"/>
+
+		<texture2D id="RamkaDialogNoAvatar" path="textures\Heroes\Ramka.png"/>
+		<texture2D id="RamkaDialog" path="textures\Heroes\RamkaDialog.png"/>
+		<texture2D id="RamkaBag" path="textures\Heroes\RamkaBag.png"/>
+	</Textures2D>
+</Resources>

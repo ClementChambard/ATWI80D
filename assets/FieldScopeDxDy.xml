@@ -1,0 +1,38 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Root>
+	<Stage1>
+		<Position1 x="0" y="0"/>
+		<Position2 x="0" y="0"/>
+		<Position3 x="0" y="0"/>
+	</Stage1>
+	<Stage2>
+		<Position1 x="0" y="0"/>
+		<Position2 x="0" y="0"/>
+		<Position3 x="0" y="0"/>
+	</Stage2>
+	<Stage3>
+		<Position1 x="0" y="-2"/>
+		<Position2 x="1" y="-2"/>
+		<Position3 x="0" y="0"/>
+	</Stage3>
+	<Stage4>
+		<Position1 x="0" y="-5"/>
+		<Position2 x="2" y="-5"/>
+		<Position3 x="0" y="0"/>
+	</Stage4>
+	<Stage5>
+		<Position1 x="-5" y="1"/>
+		<Position2 x="6" y="1"/>
+		<Position3 x="0" y="0"/>
+	</Stage5>
+	<Stage6>
+		<Position1 x="1" y="0"/>
+		<Position2 x="0" y="0"/>
+		<Position3 x="0" y="0"/>
+	</Stage6>
+	<Stage7>
+		<Position1 x="0" y="0"/>
+		<Position2 x="0" y="0"/>
+		<Position3 x="0" y="0"/>
+	</Stage7>
+</Root>

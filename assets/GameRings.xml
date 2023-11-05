@@ -1,0 +1,18 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Rings>
+	<Ring texture="GameKoleso1" v="0.1" diskrTime="0.0" startAngle="0.0" angleSign="-1" k="12">
+		<Position x="141" y="352"/>
+	</Ring>
+	<Ring texture="GameKoleso2" v="0.4" diskrTime="0.0" startAngle="0.0" angleSign="1" k="17">
+		<Position x="55" y="399"/>
+	</Ring>
+	<Ring texture="GameKoleso5" v="0.1" diskrTime="0.0" startAngle="0.0" angleSign="1" k="12">
+		<Position x="117" y="405"/>
+	</Ring>
+	<Ring texture="GameKoleso4" v="0.095833333" diskrTime="0.5" startAngle="0.0" angleSign="-1" k="12">
+		<Position x="141" y="392"/>
+	</Ring>
+	<Ring texture="GameKoleso6" v="0.05" diskrTime="0.5" startAngle="-4" angleSign="1" k="23">
+		<Position x="80" y="361"/>
+	</Ring>
+</Rings>

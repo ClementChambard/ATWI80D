@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Fonts/>
+	<Textures/>
+	<Textures2D>
+		<texture2D id="BUTTON1_ACTIVE" path="textures\GUI\Button1Active.png"/>
+		<texture2D id="BUTTON1_NORMAL" path="textures\GUI\Button1.png"/>
+		<texture2D id="BUTTON1_PRESS" path="textures\GUI\Button1Press.png"/>
+		<texture2D id="BUTTON_SMALL_ACTIVE" path="textures\GUI\ButtonSmallActive.png"/>
+		<texture2D id="BUTTON_SMALL_NORMAL" path="textures\GUI\ButtonSmall.png"/>
+		<texture2D id="BUTTON_SMALL_PRESS" path="textures\GUI\ButtonSmallPress.png"/>
+		<texture2D id="STR_UP" path="textures\GUI\str_up.png"/>
+		<texture2D id="STR_DOWN" path="textures\GUI\str_down.png"/>
+		<texture2D id="CHECK_BUTTON" path="textures\GUI\check0.png"/>
+		<texture2D id="CHECK_BUTTON_ON" path="textures\GUI\check1.png"/>
+		<texture2D id="CheckButtonBig" path="textures\GUI\check0Big.png"/>
+		<texture2D id="CheckButtonBigOn" path="textures\GUI\check1Big.png"/>
+		<texture2D id="OPTIONS_PANEL" path="textures\GUI\options.png"/>
+		<texture2D id="SSOPTIONS_PANEL" path="textures\GUI\ss_options.png"/>
+		<texture2D id="SLIDER" path="textures\GUI\slider.png"/>
+		<texture2D id="SLIDER_GRADIENT" path="textures\GUI\slider_a.png"/>
+		<texture2D id="SliderSmallNormal" path="textures\GUI\SliderSmallNormal.png"/>
+		<texture2D id="SliderSmallActive" path="textures\GUI\SliderSmallActive.png"/>
+		<texture2D id="SLIDER_MANIPULATOR" path="textures\GUI\slider_m.png"/>
+		<texture2D id="WINDOW_SMALL" path="textures\GUI\window_small.png"/>
+		<texture2D id="WINDOW_MEDIUM" path="textures\GUI\window_medium.png"/>
+		<texture2D id="WINDOW_INNER" path="textures\GUI\inner.png"/>
+		<texture2D id="WINDOW_INNER_SMALL" path="textures\GUI\inner_small.png"/>
+		<texture2D id="sbutton" path="textures\GUI\sm_p1.tga"/>
+		<texture2D id="sbutton_active" path="textures\GUI\sm_p2.tga"/>
+		<texture2D id="sbutton_press" path="textures\GUI\sm_p3.tga"/>
+		
+		<texture2D id="MessagePanel" path="textures\GUI\message.png"/>
+
+		<texture2D id="FinalWindow" path="textures\GUI\FinalWindow.png"/>
+
+		<texture2D id="OkNormal" path="textures\Local\OkNormal.png"/>
+		<texture2D id="OkActive" path="textures\Local\OkActive.png"/>
+		<texture2D id="OkPressed" path="textures\Local\OkPressed.png"/>
+
+		<texture2D id="CancelNormal" path="textures\Local\CancelNormal.png"/>
+		<texture2D id="CancelActive" path="textures\Local\CancelActive.png"/>
+		<texture2D id="CancelPressed" path="textures\Local\CancelPressed.png"/>
+
+		<texture2D id="OptionsCreditsNormal" path="textures\Local\Options\OptionsCreditsNormal.png"/>
+		<texture2D id="OptionsCreditsActive" path="textures\Local\Options\OptionsCreditsActive.png"/>
+		<texture2D id="OptionsCreditsPressed" path="textures\Local\Options\OptionsCreditsPressed.png"/>
+
+		<texture2D id="HiScoresPanel" path="textures\GUI\HiScores.png"/>
+
+
+		<texture2D id="MenuButton" path="textures\Menu\ButtonNorm.png"/>
+		<texture2D id="MenuButtonActive" path="textures\Menu\ButtonActive.png"/>
+		<texture2D id="MenuButtonPressed" path="textures\Menu\ButtonPressed.png"/>
+		<texture2D id="MenuButtonSmall" path="textures\Menu\ButSmallNorm.png"/>
+		<texture2D id="MenuButtonSmallActive" path="textures\Menu\ButSmallActive.png"/>
+		<texture2D id="MenuButtonSmallPressed" path="textures\Menu\ButSmallPressed.png"/>
+		<texture2D id="MenuHeroes" path="textures\Menu\Heroes.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuVenik1" path="textures\Menu\Venik.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaSmile1" path="textures\Menu\AudaSmile1.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaCloseEyes" path="textures\Menu\AudaCloseEyes.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaSmile" path="textures\Menu\AudaSmile.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaEyesToLeft" path="textures\Menu\AudaEyesToLeft.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaDress" path="textures\Menu\AudaDress.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaDressShadow" path="textures\Menu\AudaDressShadow.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaDress2" path="textures\Menu\AudaDress2.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaDressShadow2" path="textures\Menu\AudaDress2Shadow.png" upload="true" group="MainMenu"/>
+		<texture2D id="AudaPart" path="textures\Menu\PeaceOfAuda.png" upload="true" group="MainMenu"/>
+		<texture2D id="PasportPart" path="textures\Menu\PeaceOfPasport.png" upload="true" group="MainMenu"/>		
+		<texture2D id="FoggDress" path="textures\Menu\FoggDress.png" upload="true" group="MainMenu"/>
+		<texture2D id="FoggDressShadow" path="textures\Menu\FoggDressShadow.png" upload="true" group="MainMenu"/>
+		<texture2D id="PaspEyes1" path="textures\Menu\PaspEyes1.png" upload="true" group="MainMenu"/>
+		<texture2D id="PaspEyes2" path="textures\Menu\PaspEyes2.png" upload="true" group="MainMenu"/>
+		<texture2D id="PaspEyes3" path="textures\Menu\PaspEyes3.png" upload="true" group="MainMenu"/>
+		<texture2D id="FoggEyes1" path="textures\Menu\FoggEyes1.png" upload="true" group="MainMenu"/>
+		<texture2D id="FoggEyes2" path="textures\Menu\FoggEyes2.png" upload="true" group="MainMenu"/>
+		<texture2D id="FoggEyes3" path="textures\Menu\FoggEyes3.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="SkipDialogNormal" path="textures\Local\SkipDialogNormal.png"/>
+		<texture2D id="SkipDialogActive" path="textures\Local\SkipDialogActive.png"/>
+		
+
+		<texture2D id="Profile" path="textures\GUI\profile.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ProfileSelectNormal" path="textures\Local\profileSelectNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileSelectActive" path="textures\Local\profileSelectActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileSelectPressed" path="textures\Local\profileSelectPressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ProfileNewNormal" path="textures\Local\profileNewNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileNewActive" path="textures\Local\profileNewActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileNewPressed" path="textures\Local\profileNewPressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ProfileDeleteNormal" path="textures\Local\profileDeleteNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileDeleteActive" path="textures\Local\profileDeleteActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileDeletePressed" path="textures\Local\profileDeletePressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ProfileUpNormal" path="textures\GUI\profileUpNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileUpActive" path="textures\GUI\profileUpActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileUpPressed" path="textures\GUI\profileUpPressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ProfileDownNormal" path="textures\GUI\profileDownNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileDownActive" path="textures\GUI\profileDownActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="ProfileDownPressed" path="textures\GUI\profileDownPressed.png" upload="true" group="MainMenu"/>
+	</Textures2D>
+	<BigTextures/>
+	<FrameAnimations/>
+	<VertexBuffers/>
+	<Sounds/>
+</Resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="MenuInGame">
+		<Controls>
+			<Panel name="MenuInGame" static="false">
+				<texture name="#MenuInGame"/>
+				<position x="282" y="444"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#MenuInGameCaption</text>
+						<position x="116" y="47"/>
+						<font name="Interface22"/>
+						<align>Center</align>
+					</Text>
+					<Button name="MainMenu">
+						<position x="41" y="119"/>
+						<state normal="#MigMainMenuNormal" active="#MigMainMenuActive" pressed="#MigMainMenuPressed"/>
+					</Button>
+					<Button name="Help">
+						<position x="41" y="167"/>
+						<state normal="#MigHelpNormal" active="#MigHelpActive" pressed="#MigHelpPressed"/>
+					</Button>
+					<Button name="A_Options">
+						<position x="41" y="215"/>
+						<state normal="#MigOptionsNormal" active="#MigOptionsActive" pressed="#MigOptionsPressed"/>
+					</Button>
+					<Button name="Resume">
+						<position x="41" y="263"/>
+						<state normal="#MigResumeNormal" active="#MigResumeActive" pressed="#MigResumePressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>MenuInGameFunc</Script>
+	</Layer>
+
+	<Layer name="ExitGame">
+		<Controls>
+			<Panel name="Panel" static="false">
+				<texture name="#WINDOW_MEDIUM"/>
+				<position x="243" y="433"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#ExitGameCaption</text>
+						<position x="179" y="30"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="ConfirmText">
+						<text>@EndGameAndLostLife</text>
+						<position x="179" y="75"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Yes">
+						<position x="51" y="240"/>
+						<state normal="#YesNormal" active="#YesActive" pressed="#YesPressed"/>
+					</Button>
+					<Button name="No">
+						<position x="200" y="240"/>
+						<state normal="#NoNormal" active="#NoActive" pressed="#NoPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ExitGameFunc</Script>
+	</Layer>
+
+	<Layer name="ExitGameNoLostLife">
+		<Controls>
+			<Panel name="Panel" static="false">
+				<texture name="#WINDOW_MEDIUM" static="false"/>
+				<position x="243" y="433"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#ExitGameCaption</text>
+						<position x="179" y="30"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="ConfirmText">
+						<text>@EndGame</text>
+						<position x="179" y="70"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Yes">
+						<position x="51" y="240"/>
+						<state normal="#YesNormal" active="#YesActive" pressed="#YesPressed"/>
+					</Button>
+					<Button name="No">
+						<position x="200" y="240"/>
+						<state normal="#NoNormal" active="#NoActive" pressed="#NoPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ExitGameFunc</Script>
+	</Layer>
+	<Layer name="LoseLife">
+		<Controls>
+			<Panel name="LoseLife" freeze="true">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="285" y="420"/>
+				<Controls>
+					<Text name="#LifeLoseCaption">
+						<text>Out of time!</text>
+						<position x="145" y="33"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="LivesLeft">
+						<text>@LivesLeft</text>
+						<position x="145" y="55"/>
+						<font name="Interface20"/>
+						<align>Center</align>
+					</Text>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>LoseLifeFunc</Script>
+	</Layer>
+	<Layer name="GameOver">
+		<Controls>
+			<Panel name="GameOver" freeze="true">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="285" y="420"/>
+				<Controls>
+					<Text name="#GameOverCaption">
+						<text>Game Over!</text>
+						<position x="145" y="33"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="GameOverText">
+						<text>@GameOver</text>
+						<position x="145" y="60"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<_Button name="Continue">
+						<position x="120" y="360"/>
+						<text>Continue</text>
+						<textPosition>
+							<position x="12" y="10"/>
+						</textPosition>
+						<state normal="#sbutton" active="#sbutton_active" pressed="#sbutton_press"/>
+						<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+					</_Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>GameOverFunc</Script>
+	</Layer>
+</GUI>

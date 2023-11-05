@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="StageLayer_1">
+		<Controls>
+			<GameField name="GameField"/>
+			<London name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_2">
+		<Controls>
+			<GameField name="GameField"/>
+			<France name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_3">
+		<Controls>
+			<GameField name="GameField"/>
+			<Egypt name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_4">
+		<Controls>
+			<GameField name="GameField"/>
+			<India name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_5">
+		<Controls>
+			<GameField name="GameField"/>
+			<China name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_6">
+		<Controls>
+			<GameField name="GameField"/>
+			<Japan name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_7">
+		<Controls>
+			<GameField name="GameField"/>
+			<America name="Background"/>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+</GUI>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Bag">
+		<Controls>
+			<Bag name="Bag"/>
+
+<!--			
+			<Button name="menu">
+				<position x="535" y="582"/>
+				<text>Menu</text>
+				<state normal="#MenuButton" active="#MenuButtonActive" pressed="#MenuButtonPressed"/>
+				<textPosition>
+					<position x="70" y="19"/>
+				</textPosition>
+				<font normal="dark" active="dark" pressed="dark"/>
+			</Button>
+			
+			<Button name="viewMap">
+				<position x="127" y="582"/>
+				<text>View Map</text>
+				<state normal="#MenuButton" active="#MenuButtonActive" pressed="#MenuButtonPressed"/>
+				<textPosition>
+					<position x="70" y="19"/>
+				</textPosition>
+				<font normal="dark" active="dark" pressed="dark"/>
+			</Button>
+			
+			<Button name="start">
+				<position x="330" y="578"/>
+				<text>Start</text>
+				<state normal="#MenuButton" active="#MenuButtonActive" pressed="#MenuButtonPressed"/>
+				<textPosition>
+					<position x="70" y="19"/>
+				</textPosition>
+				<font normal="dark" active="dark" pressed="dark"/>
+			</Button>
+			<Button name="back">
+				<position x="330" y="1578"/>
+				<text>Back</text>
+				<state normal="#MenuButton" active="#MenuButtonActive" pressed="#MenuButtonPressed"/>
+				<textPosition>
+					<position x="70" y="19"/>
+				</textPosition>
+				<font normal="dark" active="dark" pressed="dark"/>
+			</Button>
+			-->
+
+		</Controls>
+		<Background>
+			<texture name="#SucBG"/>
+		</Background>
+		<Script>SucFunc</Script>
+	</Layer>
+</GUI>

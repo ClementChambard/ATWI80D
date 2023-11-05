@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Sounds>
+		<track id="Bag" path="Music\Bag.ogg"/>
+		<track id="Menu" path="Music\Music_Menu.ogg"/>
+		<track id="England1" path="Music\England1.ogg"/>
+		<track id="England2" path="Music\England2.ogg"/>
+		<track id="France1" path="Music\France.ogg"/>
+		<track id="France2" path="Music\France2.ogg"/>
+		<track id="Egypt" path="Music\Egypt.ogg"/>
+		<track id="India" path="Music\India.ogg"/>
+		<track id="China" path="Music\China.ogg"/>
+		<track id="Japan" path="Music\Japan.ogg"/>
+		<track id="USA" path="Music\USA.ogg"/>
+		<track id="Map" path="Music\Map.ogg"/>
+	</Sounds>
+	<MusicInfo>
+		<Stage nubmer="0" startMusic="Start1" mainMusic="Game1" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="1" startMusic="Start2" mainMusic="Game2" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="2" startMusic="Start3" mainMusic="Game3" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="3" startMusic="Start1" mainMusic="Game1" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="4" startMusic="Start2" mainMusic="Game2" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="5" startMusic="Start3" mainMusic="Game3" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+		<Stage nubmer="6" startMusic="Start1" mainMusic="Game1" mainMusicDelay="0.0" startFadeSpeed="1.0" mainFadeSpeed="1.0"/>
+	</MusicInfo>
+</Resources>

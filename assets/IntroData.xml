@@ -1,0 +1,36 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Root>
+	<StartGame timeScale="0.52">
+		<CameraPos>
+			<Key x="-656.0" y="-2264.0" z="1288.0"/>
+			<Key x="50" y="-300.0" z="951.0"/>
+			<Key x="122.5" y="25.5" z="666"/>
+		</CameraPos>
+		<CameraLookTo>
+			<Key x="-38.67" y="54.9" z="216.8"/>
+			<Key x="50" y="0.0" z="0.0"/>
+			<Key x="122.5" y="25.5" z="0.0"/>
+		</CameraLookTo>
+	</StartGame>
+	<NewPlayer1 timeScale="0.75">
+		<CameraPos>
+			<Key x="-656.0" y="-2264.0" z="1288.0"/>
+			<Key x="0" y="0" z="951.47852"/>
+		</CameraPos>
+		<CameraLookTo>
+			<Key x="-38.67" y="54.9" z="216.8"/>
+			<Key x="0" y="0" z="0.0"/>
+		</CameraLookTo>
+	</NewPlayer1>
+	<NewPlayer2 timeScale="1.2">
+		<CameraPos>
+			<Key x="0" y="0" z="951.47852"/>
+			<Key x="0" y="0" z="951.47852"/>
+			<Key x="122.5" y="25.5" z="666"/>
+		</CameraPos>
+		<CameraLookTo>
+			<Key x="0" y="0" z="0.0"/>
+			<Key x="122.5" y="25.5" z="0.0"/>
+		</CameraLookTo>
+	</NewPlayer2>
+</Root>

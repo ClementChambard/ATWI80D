@@ -1,0 +1,2225 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Dialogs>
+	<Offsets>
+		<Offset avatarName="Fogg">
+			<Position x="14" y="-8"/>
+		</Offset>
+		<Offset avatarName="Fix">
+			<Position x="23" y="-6"/>
+		</Offset>
+		<Offset avatarName="Pasp">
+			<Position x="0" y="0"/>
+		</Offset>
+		<Offset avatarName="Pred">
+			<Position x="10" y="0"/>
+		</Offset>
+		<Offset avatarName="Capt">
+			<Position x="0" y="0"/>
+		</Offset>
+		<Offset avatarName="Auda">
+			<Position x="12" y="-8"/>
+		</Offset>
+		<Offset avatarName="Egypt">
+			<Position x="10" y="0"/>
+		</Offset>
+		<Offset avatarName="Pirate">
+			<Position x="8" y="-15"/>
+		</Offset>
+		<Offset avatarName="China">
+			<Position x="0" y="0"/>
+		</Offset>
+	</Offsets>
+	<Dialog name="test" pause="0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="250"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6"/>
+			<Phrase avatar="No" text="EnglandIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<SetBGTime time="12"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EnglandFoggText1" delay="6.0"/>
+			<SetBGTime time="24"/>
+			<Delay timeScale="1.5"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="250"/>
+					<Key value="250"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EnglandFoggText2" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText1"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText3" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText1"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText3" delay="6.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_11" pause="1.0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="200"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<Phrase avatar="No" text="EnglandIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="EnglandPaspText1"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EnglandFoggText1" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText2"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText2" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText3"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText3" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText4"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText4" delay="6.0"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText5"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="-10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="EnglandPaspText6"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="-10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<____Next__________/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_12" pause="1.0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="200"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="-20"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1200"/>
+					<Key value="1200"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EnglandFoggText5"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText7"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText6"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText8"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText7"/>
+			<Phrase avatar="Pasp" text="EnglandPaspText9"/>
+			<Phrase avatar="Fogg" text="EnglandFoggText8"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="20"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1200"/>
+					<Key value="1200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_21" pause="1.0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="250"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="600" y="400"/>
+			</Avatar>
+			<Avatar name="Fix" texture="AvatarFix" orient="ToRight" visible="false">
+				<Position x="600" y="400"/>
+			</Avatar>
+			<Avatar name="Pred" texture="AvatarPred" orient="ToLeft" visible="false">
+				<Position x="400" y="400"/>
+			</Avatar>
+			<Avatar name="Capt" texture="AvatarCapt" orient="ToRight" visible="false">
+				<Position x="200" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<Phrase avatar="No" text="FranceIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Pred" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fix" text="FranceFixText1"/>
+			<Phrase avatar="Pred" text="FrancePredText1"/>
+			<Phrase avatar="Fix" text="FranceFixText2"/>
+			<Phrase avatar="Pred" text="FrancePredText2"/>
+			<Phrase avatar="Fix" text="FranceFixText3"/>
+			<Phrase avatar="Pred" text="FrancePredText3"/>
+			<Phrase avatar="Fix" text="FranceFixText4"/>
+			<Phrase avatar="Pred" text="FrancePredText4"/>
+			<Phrase avatar="Fix" text="FranceFixText5"/>
+			<Phrase avatar="Pred" text="FrancePredText5"/>
+			<Phrase avatar="Fix" text="FranceFixText6"/>
+			<Phrase avatar="Pred" text="FrancePredText6"/>
+			<Phrase avatar="Fix" text="FranceFixText7"/>
+			<Move avatar="Pred" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<LuaCall function="DialogSwitchToFrance" timeScale="1.0"/>
+			<Phrase avatar="No" text="FranceIntroText2" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="300"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="FrancePaspText1"/>
+			<Phrase avatar="Fogg" text="FranceFoggText1" delay="6.0"/>
+			<Move avatar="Capt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-150"/>
+					<Key value="-150"/>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="430"/>
+					<Key value="430"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Capt" text="FranceCaptText1"/>
+			<Phrase avatar="Fogg" text="FranceFoggText2" delay="6.0"/>
+			<Phrase avatar="Capt" text="FranceCaptText2"/>
+			<Phrase avatar="Fogg" text="FranceFoggText3" delay="6.0"/>
+			<Phrase avatar="Capt" text="FranceCaptText3"/>
+			<Phrase avatar="Pasp" text="FrancePaspText2"/>
+			<Phrase avatar="Fogg" text="FranceFoggText4" delay="6.0"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_22" pause="1.0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="200"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+			<Avatar name="Capt" texture="AvatarCapt" orient="ToRight" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="19.0"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="300"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Capt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-150"/>
+					<Key value="-150"/>
+					<Key value="200"/>
+					<Key value="200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="430"/>
+					<Key value="430"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Capt" text="FranceCaptText4"/>
+			<Phrase avatar="Capt" text="FranceCaptText5"/>
+			<Phrase avatar="Pasp" text="FrancePaspText3"/>
+			<Phrase avatar="Fogg" text="FranceFoggText5"/>
+			<Phrase avatar="Pasp" text="FrancePaspText4"/>
+			<Phrase avatar="Fogg" text="FranceFoggText6"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_31" pause="1.0">
+		<Avatars>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="150" y="200"/>
+			</Avatar>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+			<Avatar name="Fix" texture="AvatarFix" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+			<Avatar name="Egypt" texture="AvatarEgypt" orient="ToRight" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="0.0"/>
+			<Phrase avatar="No" text="EgyptIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Egypt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="380"/>
+					<Key value="380"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="160"/>
+					<Key value="160"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fix" text="EgyptFixText1"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText1"/>
+			<Phrase avatar="Fix" text="EgyptFixText2"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText2"/>
+			<Phrase avatar="Fix" text="EgyptFixText3"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText3"/>
+			<Phrase avatar="Fix" text="EgyptFixText4"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText4"/>
+			<Move avatar="Egypt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="380"/>
+					<Key value="380"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="160"/>
+					<Key value="160"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<SetBGTime time="6"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="660"/>
+					<Key value="660"/>
+				</SplineX>
+				<SplineY>
+					<Key value="300"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="140"/>
+					<Key value="140"/>
+				</SplineX>
+				<SplineY>
+					<Key value="140"/>
+					<Key value="140"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EgyptFoggText1"/>
+			<Phrase avatar="Pasp" text="EgyptPaspText1"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText2"/>
+			<Move avatar="Egypt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="440"/>
+					<Key value="440"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Egypt" text="EgyptEgyptText5"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText3"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText6"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText4"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText7"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText5"/>
+			<Phrase avatar="Pasp" text="EgyptPaspText2"/>
+			<Move avatar="Egypt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="440"/>
+					<Key value="440"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="660"/>
+					<Key value="660"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="300"/>
+					<Key value="440"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="EgyptPaspText3"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_32" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToRight" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+			<Avatar name="Egypt" texture="AvatarEgypt" orient="ToLeft" visible="false">
+				<Position x="650" y="400"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.0"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Egypt" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="400"/>
+					<Key value="400"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Egypt" text="EgyptEgyptText8"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText6"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText9"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText7"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText10"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText8"/>
+			<Phrase avatar="Egypt" text="EgyptEgyptText11"/>
+			<Phrase avatar="Fogg" text="EgyptFoggText9"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_41" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Phrase avatar="No" text="IndiaIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="IndiaFoggText1"/>
+			<Phrase avatar="Auda" text="IndiaAudaText1"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText2"/>
+			<Phrase avatar="Auda" text="IndiaAudaText2"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText3"/>
+			<Phrase avatar="Auda" text="IndiaAudaText3"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText4"/>
+			<Phrase avatar="Auda" text="IndiaAudaText4"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText5"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_42" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="IndiaFoggText6"/>
+			<Phrase avatar="Auda" text="IndiaAudaText5"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText7"/>
+			<Phrase avatar="Auda" text="IndiaAudaText6"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText8"/>
+			<Phrase avatar="Auda" text="IndiaAudaText7"/>
+			<Phrase avatar="Fogg" text="IndiaFoggText9"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_51" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToRight" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="China" texture="AvatarChina" orient="ToLeft" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<Phrase avatar="No" text="ChinaIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="450"/>
+					<Key value="450"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="270"/>
+					<Key value="270"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="ChinaPaspText1"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText1"/>
+			<Phrase avatar="Auda" text="ChinaAudaText1"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText2"/>
+			<Phrase avatar="Pasp" text="ChinaPaspText2"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText3"/>
+			<Phrase avatar="Pasp" text="ChinaPaspText3"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText4"/>
+			<Phrase avatar="Auda" text="ChinaAudaText2"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="270"/>
+					<Key value="270"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="China" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="270"/>
+					<Key value="270"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="ChinaFoggText5"/>
+			<Phrase avatar="China" text="ChinaSellText1"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText6"/>
+			<Phrase avatar="China" text="ChinaSellText2"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText7"/>
+			<Phrase avatar="China" text="ChinaSellText3"/>
+			<Phrase avatar="Auda" text="ChinaAudaText3"/>
+			<Phrase avatar="China" text="ChinaSellText4"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText8"/>
+			<Phrase avatar="China" text="ChinaSellText5"/>
+			<Phrase avatar="Auda" text="ChinaAudaText4"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText9"/>
+			<Phrase avatar="China" text="ChinaSellText6"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText10"/>
+			<Phrase avatar="China" text="ChinaSellText7"/>
+			<Phrase avatar="China" text="ChinaSellText8"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_52" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToRight" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="China" texture="AvatarChina" orient="ToLeft" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="China" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="ChinaFoggText11"/>
+			<Phrase avatar="China" text="ChinaSellText9"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText12"/>
+			<Phrase avatar="China" text="ChinaSellText10"/>
+			<Phrase avatar="Fogg" text="ChinaFoggText13"/>
+			<Move avatar="China" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="ChinaFoggText14"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_61" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="Fix" texture="AvatarFix" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<Phrase avatar="No" text="JapanIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="250"/>
+					<Key value="250"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fix" text="JapanFixText1"/>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="250"/>
+					<Key value="250"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="670"/>
+					<Key value="670"/>
+				</SplineX>
+				<SplineY>
+					<Key value="300"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="JapanFoggText1"/>
+			<Phrase avatar="Auda" text="JapanAudaText1"/>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="420"/>
+					<Key value="420"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fix" text="JapanFixText2"/>
+			<Phrase avatar="Fogg" text="JapanFoggText2"/>
+			<Phrase avatar="Auda" text="JapanAudaText2"/>
+			<Phrase avatar="Fix" text="JapanFixText3"/>
+			<Phrase avatar="Fogg" text="JapanFoggText3"/>
+			<Phrase avatar="Fix" text="JapanFixText4"/>
+			<Phrase avatar="Auda" text="JapanAudaText3"/>
+			<Phrase avatar="Fogg" text="JapanFoggText4"/>
+			<Phrase avatar="Fix" text="JapanFixText5"/>
+			<Phrase avatar="Auda" text="JapanAudaText4"/>
+			<Phrase avatar="Fix" text="JapanFixText6"/>
+			<Phrase avatar="Fogg" text="JapanFoggText5"/>
+			<Phrase avatar="Fix" text="JapanFixText7"/>
+			<Phrase avatar="Auda" text="JapanAudaText5"/>
+			<Phrase avatar="Fix" text="JapanFixText8"/>
+			<Move avatar="Fix" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="420"/>
+					<Key value="420"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="JapanFoggText6"/>
+			<Phrase avatar="Auda" text="JapanAudaText6"/>
+			<Phrase avatar="Fogg" text="JapanFoggText7"/>
+			<Phrase avatar="Auda" text="JapanAudaText7"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_62" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="JapanPaspText1"/>
+			<Phrase avatar="Fogg" text="JapanFoggText8"/>
+			<Phrase avatar="Pasp" text="JapanPaspText2"/>
+			<Phrase avatar="Fogg" text="JapanFoggText3"/>
+			<Phrase avatar="Pasp" text="JapanPaspText3"/>
+			<Phrase avatar="Fogg" text="JapanFoggText10"/>
+			<Phrase avatar="Pasp" text="JapanPaspText4"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_71" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="Pirate" texture="AvatarPirate" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Phrase avatar="No" text="AmericaIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="275"/>
+					<Key value="275"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="AmericaPaspText1"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText1"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText2"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText2"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText3"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="AmericaPaspText4"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText3"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText5"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText4"/>
+			<Move avatar="Pirate" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="445"/>
+					<Key value="445"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pirate" text="AmericaPirateText1"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText5"/>
+			<Phrase avatar="Pirate" text="AmericaPirateText2"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText6"/>
+			<Phrase avatar="Pirate" text="AmericaPirateText3"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText7"/>
+			<Phrase avatar="Pirate" text="AmericaPirateText4"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText6"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText8"/>
+			<Phrase avatar="Pirate" text="AmericaPirateText5"/>
+			<Move avatar="Pirate" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="445"/>
+					<Key value="445"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="AmericaPaspText7"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText9"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_72" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="6.3"/>
+			<Delay timeScale="0.45"/>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="330"/>
+					<Key value="330"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="AmericaFoggText10"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText8"/>
+			<Phrase avatar="Fogg" text="AmericaFoggText11"/>
+			<Phrase avatar="Pasp" text="AmericaPaspText9"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_81" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<SetBGTime time="20.55"/>
+			<Delay timeScale="0.45"/>
+			<Phrase avatar="No" text="EpilogueIntroText1" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="445"/>
+					<Key value="445"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="275"/>
+					<Key value="275"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EpilogueFoggText1"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText1"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText2"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText2"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText3"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText3"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText4"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText4"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText5"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText5"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText6"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText7"/>
+			<Phrase avatar="Pasp" text="EpiloguePaspText1"/>
+			<LuaCall function="StartGameByDialog" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+	<Dialog name="Dlg_82" pause="1.0">
+		<Avatars>
+			<Avatar name="Fogg" texture="AvatarFogg" orient="ToLeft" visible="false">
+				<Position x="150" y="400"/>
+			</Avatar>
+			<Avatar name="Pasp" texture="AvatarPasp" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="Auda" texture="AvatarAuda" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+			<Avatar name="Pred" texture="AvatarPred" orient="ToRight" visible="false">
+				<Position x="650" y="150"/>
+			</Avatar>
+		</Avatars>
+		<Actions>
+			<LuaCall function="StartLondonMusic" timeScale="5.0"/>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="445"/>
+					<Key value="445"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="275"/>
+					<Key value="275"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Delay timeScale="1.0"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Pasp" text="EpiloguePaspText2"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText6"/>
+			<Phrase avatar="Pasp" text="EpiloguePaspText3"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText8"/>
+			<Phrase avatar="Pasp" text="EpiloguePaspText4"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText9"/>
+			<Move avatar="Pasp" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="120"/>
+					<Key value="120"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="445"/>
+					<Key value="445"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="1000"/>
+					<Key value="1000"/>
+				</SplineX>
+				<SplineY>
+					<Key value="275"/>
+					<Key value="275"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="No" text="EpilogueIntroText2" delay="1.0">
+				<Position x="400" y="300"/>
+			</Phrase>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="1000"/>
+					<Key value="1000"/>
+					<Key value="650"/>
+					<Key value="650"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="350"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Pred" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Fogg" text="EpilogueFoggText10"/>
+			<Phrase avatar="Pred" text="EpiloguePredText1"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText11"/>
+			<Phrase avatar="Pred" text="EpiloguePredText2"/>
+			<Move avatar="Pred" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="150"/>
+					<Key value="150"/>
+					<Key value="-200"/>
+					<Key value="-200"/>
+				</SplineX>
+				<SplineY>
+					<Key value="150"/>
+					<Key value="150"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="0"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="1">
+				<SplineX>
+					<Key value="-200"/>
+					<Key value="-200"/>
+					<Key value="180"/>
+					<Key value="180"/>
+				</SplineX>
+				<SplineY>
+					<Key value="160"/>
+					<Key value="160"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="10"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="0"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Phrase avatar="Auda" text="EpilogueAoudaText7"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText12"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText13"/>
+			<Phrase avatar="Auda" text="EpilogueAoudaText8"/>
+			<Phrase avatar="Fogg" text="EpilogueFoggText14"/>
+			<Move avatar="Auda" destVisible="true" timeScale="1.0" zDisable="0">
+				<SplineX>
+					<Key value="180"/>
+					<Key value="180"/>
+					<Key value="485"/>
+					<Key value="485"/>
+				</SplineX>
+				<SplineY>
+					<Key value="160"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="3"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Move avatar="Fogg" destVisible="true" timeScale="1.0" zDisable="0">
+				<SplineX>
+					<Key value="650"/>
+					<Key value="650"/>
+					<Key value="315"/>
+					<Key value="315"/>
+				</SplineX>
+				<SplineY>
+					<Key value="350"/>
+					<Key value="300"/>
+				</SplineY>
+				<SplineAngle>
+					<Key value="0"/>
+					<Key value="0"/>
+					<Key value="-3"/>
+					<Key value="0"/>
+					<Key value="0"/>
+				</SplineAngle>
+				<SplineAlpha>
+					<Key value="255"/>
+					<Key value="255"/>
+				</SplineAlpha>
+			</Move>
+			<Delay timeScale="2.5"/>
+			<LuaCall function="ShowHeart" timeScale="1.0"/>
+			<Delay timeScale="0.25"/>
+			<LuaCall function="ShowFeerverk" timeScale="1.0"/>
+			<Delay timeScale="0.14"/>
+			<LuaCall function="HideFeerverk" timeScale="1.0"/>
+			<Delay timeScale="0.5"/>
+			<LuaCall function="StartFinalCredits" timeScale="1.0"/>
+		</Actions>
+	</Dialog>
+</Dialogs>

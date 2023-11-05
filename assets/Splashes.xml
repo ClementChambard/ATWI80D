@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<Layer name="Splashes">
+		<Controls>
+			<SplashesWidget name="Splashes"/>
+		</Controls>
+	</Layer>
+</GUI>

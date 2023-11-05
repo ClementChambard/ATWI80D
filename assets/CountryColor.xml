@@ -1,0 +1,11 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Countries>
+	<Country texture="#LondonColor">
+		<Position x="490" y="314"/>
+		<Center x="557" y="475"/>
+	</Country>
+	<Country texture="#EgyptColor">
+		<Position x="482" y="142"/>
+		<Center x="582" y="228"/>
+	</Country>
+</Countries>

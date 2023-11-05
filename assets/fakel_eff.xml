@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Effects>
+	<ParticleSystem name="BabylonFire" texture="textures\Particles\fakel.jpg" numOfParticles="20" lifeInitial="6.3" lifeVariation="0.8" startTime="6.3">
+		<Param name="x" initial="0" variation="9" d="0" dVariation="4">
+			<spline>
+				<key initial="0" variation="3"/>
+				<key initial="3" variation="8"/>
+				<key initial="-3" variation="8"/>
+				<key initial="0" variation="5"/>
+				<key initial="0" variation="5"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="9" d="40" dVariation="10">
+			<spline>
+				<key initial="0" variation="9"/>
+				<key initial="10" variation="9"/>
+				<key initial="90" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="5" variation="0" d="2" dVariation="2">
+			<spline>
+				<key initial="9" variation="0"/>
+				<key initial="29" variation="3"/>
+				<key initial="23" variation="0"/>
+				<key initial="20" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="7" d="0" dVariation="5"/>
+		<Param name="red" initial="255" variation="10" d="0" dVariation="0"/>
+		<Param name="green" initial="255" variation="20" d="0" dVariation="0"/>
+		<Param name="blue" initial="255" variation="10" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="BabylonFireSparks" texture="textures\Particles\adot.png" numOfParticles="10" lifeInitial="4.7" lifeVariation="1.5" startTime="2.7">
+		<Param name="x" initial="0" variation="9" d="0" dVariation="4">
+			<spline>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="9"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="9" d="40" dVariation="10">
+			<spline>
+				<key initial="30" variation="9"/>
+				<key initial="200" variation="50"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="5" variation="3" d="0" dVariation="0"/>
+		<Param name="angle" initial="0" variation="5" d="0" dVariation="10"/>
+		<Param name="red" initial="255" variation="70" d="0" dVariation="0"/>
+		<Param name="green" initial="55" variation="50" d="0" dVariation="0"/>
+		<Param name="blue" initial="0" variation="10" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="155" variation="100"/>
+				<key initial="155" variation="100"/>
+				<key initial="155" variation="100"/>
+				<key initial="155" variation="100"/>
+				<key initial="155" variation="100"/>
+				<key initial="155" variation="100"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="BabylonFireSmoke" texture="textures\Particles\tsmoke.tga" numOfParticles="25" lifeInitial="5.7" lifeVariation="1.5" startTime="5.7" additive="false">
+		<Param name="x" initial="0" variation="9" d="0" dVariation="4">
+			<spline>
+				<key initial="0" variation="9"/>
+				<key initial="10" variation="9"/>
+				<key initial="-10" variation="9"/>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="9"/>
+				<key initial="0" variation="29"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="9" d="40" dVariation="10">
+			<spline>
+				<key initial="50" variation="9"/>
+				<key initial="290" variation="10"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="5" variation="0" d="2" dVariation="2">
+			<spline>
+				<key initial="29" variation="0"/>
+				<key initial="29" variation="3"/>
+				<key initial="29" variation="0"/>
+				<key initial="19" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="0"/>
+		<Param name="red" initial="40" variation="10" d="0" dVariation="0"/>
+		<Param name="green" initial="40" variation="20" d="0" dVariation="0"/>
+		<Param name="blue" initial="40" variation="10" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="40" variation="0"/>
+				<key initial="40" variation="0"/>
+				<key initial="40" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<Effect name="BabylonFire">
+		<ParticleSystem name="BabylonFireSmoke" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="BabylonFire" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="BabylonFireSparks" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+</Effects>

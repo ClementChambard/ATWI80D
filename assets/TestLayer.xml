@@ -1,0 +1,8 @@
+<GUI>
+	<Layer name="ArtCutter">
+		<Controls>
+			<ArtCutter name="ArtCutter"/>
+		</Controls>
+		<Script>ArtCutterFunc</Script>
+	</Layer>
+</GUI>

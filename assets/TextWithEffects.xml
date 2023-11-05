@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Root>
+	<Text>
+		<String name="Tip1" font="Interface14" value="Swap chips to make a column or row" x="42" y="-345" showTime="4.0" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+		<String name="Tip2" font="Interface14" value="Tiles can only be swapped if" x="42" y="-360" showTime="4.4" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+		<String name="Tip3" font="Interface14" value="it results in matching three in a row" x="42" y="-375" showTime="4.8" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+		<String name="Tip4" font="Interface14" value="Swap chips to make a column or row" x="42" y="-390" showTime="5.2" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+		<String name="Tip5" font="Interface14" value="Swap chips to make a column or row" x="42" y="-405" showTime="5.6" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+		<String name="Tip6" font="Interface14" value="Swap chips to make a column or row" x="42" y="-420" showTime="6.0" startTime="0.4" leftFlame="StatsCursor" rightFlame="StatsCursor" startSound="StatTip" startMode="RightBurn" align="Center"/>
+	</Text>
+</Root>

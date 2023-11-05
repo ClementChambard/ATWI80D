@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<Effects>
+    <ParticleSystem name="Candle_Fire" numOfParticles="5" lifeInitial="1.00" lifeVariation="0.50" startTime="1.20" additive="true" linkedParticles="false" orientParticles="false" texture="candle.jpg">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="1.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="6.23" variation="0.00" />
+                <key time="0.47" initial="9.12" variation="3.26" />
+                <key time="1.00" initial="5.88" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="size" initial="13.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="0.07" variation="5.46" />
+                <key time="0.19" initial="0.51" variation="6.78" />
+                <key time="0.38" initial="0.05" variation="6.36" />
+                <key time="0.55" initial="0.80" variation="6.66" />
+                <key time="0.81" initial="-1.67" variation="5.44" />
+                <key time="1.00" initial="-0.07" variation="4.37" />
+            </spline>
+        </Param>
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="250.00" variation="0.00" />
+                <key time="0.29" initial="255.00" variation="0.00" />
+                <key time="0.62" initial="255.00" variation="36.00" />
+                <key time="1.00" initial="251.00" variation="77.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="234.00" variation="0.00" />
+                <key time="0.29" initial="255.00" variation="0.00" />
+                <key time="0.62" initial="255.00" variation="36.00" />
+                <key time="1.00" initial="223.00" variation="77.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="86.00" variation="0.00" />
+                <key time="0.29" initial="255.00" variation="0.00" />
+                <key time="0.62" initial="255.00" variation="36.00" />
+                <key time="1.00" initial="64.00" variation="77.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="31.00" variation="0.00" />
+                <key time="0.29" initial="43.00" variation="10.00" />
+                <key time="0.62" initial="76.00" variation="14.00" />
+                <key time="1.00" initial="33.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="Candle_Glow" numOfParticles="4" lifeInitial="2.00" lifeVariation="1.50" startTime="0.00" additive="true" linkedParticles="true" orientParticles="false" texture="coin.jpg">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="4.00" variation="2.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="180.00" variation="60.00" d="0.00" dVariation="3.00" d2="0.00" d2Variation="0.00" />
+        <Param name="angle" initial="13.00" variation="360.00" d="0.00" dVariation="20.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.23" initial="255.00" variation="65.00" />
+                <key time="0.52" initial="243.00" variation="69.00" />
+                <key time="0.77" initial="254.00" variation="59.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.23" initial="128.00" variation="65.00" />
+                <key time="0.52" initial="243.00" variation="69.00" />
+                <key time="0.77" initial="70.00" variation="59.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.23" initial="64.00" variation="65.00" />
+                <key time="0.52" initial="20.00" variation="69.00" />
+                <key time="0.77" initial="1.00" variation="59.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.23" initial="11.00" variation="0.00" />
+                <key time="0.52" initial="40.00" variation="25.00" />
+                <key time="0.77" initial="37.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <Effect name="Candle">
+        <ParticleSystem name="Candle_Fire" needStartDeadCounter="false" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="Candle_Glow" needStartDeadCounter="false" deadCountTime="0.00" bornTime="0.00" />
+    </Effect>
+</Effects>

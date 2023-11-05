@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Fonts/>
+	<Textures/>
+	<Textures2D>
+		<texture2D id="SSButtonPanel" path="textures\Menu\SSButtonPanel.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="SSButtonNormal" path="textures\Local\SSButtonNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="SSButtonActive" path="textures\Local\SSButtonActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="SSButtonPressed" path="textures\Local\SSButtonPressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="SSOptionsPreviewNormal" path="textures\Local\SSOptionsPreviewNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="SSOptionsPreviewActive" path="textures\Local\SSOptionsPreviewActive.png" upload="true" group="MainMenu"/>
+		<texture2D id="SSOptionsPreviewPressed" path="textures\Local\SSOptionsPreviewPressed.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuBlik1" path="textures\Menu\Blik1.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuBlik2" path="textures\Menu\Blik2.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="ChangeUserNormal" path="textures\Local\ChangeUserNormal.png" upload="true" group="MainMenu"/>
+		<texture2D id="ChangeUserActive" path="textures\Local\ChangeUserActive.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuStreet1" path="textures\Menu\Street1.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuStreet2" path="textures\Menu\Street2.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuRay" path="textures\Menu\Ray.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuStartNormal" path="textures\Local\Menu\start_normal.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuStartActive" path="textures\Local\Menu\start_active.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuStartPressed" path="textures\Local\Menu\start_pressed.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuOptionsNormal" path="textures\Local\Menu\options_normal.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuOptionsActive" path="textures\Local\Menu\options_active.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuOptionsPressed" path="textures\Local\Menu\options_pressed.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHelpNormal" path="textures\Local\Menu\help_normal.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHelpActive" path="textures\Local\Menu\help_active.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHelpPressed" path="textures\Local\Menu\help_pressed.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHighscoresNormal" path="textures\Local\Menu\highscores_normal.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHighscoresActive" path="textures\Local\Menu\highscores_active.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuHighscoresPressed" path="textures\Local\Menu\highscores_pressed.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuExitNormal" path="textures\Local\Menu\exit_normal.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuExitActive" path="textures\Local\Menu\exit_active.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuExitPressed" path="textures\Local\Menu\exit_pressed.png" upload="true" group="MainMenu"/>		
+
+		<texture2D id="MenuPaspartu" path="textures\Menu\Paspartu.png" upload="true" group="MainMenu"/>		
+
+		<texture2D id="MenuTree1" path="textures\Menu\MenuTree1.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuTree1Shadow" path="textures\Menu\MenuTree1Shadow.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuTree2" path="textures\Menu\MenuTree2.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuTree3" path="textures\Menu\MenuTree3.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuTree3Shadow" path="textures\Menu\MenuTree3Shadow.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuTree4" path="textures\Menu\MenuTree4.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuTree5" path="textures\Menu\MenuTree5.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuTree6" path="textures\Menu\MenuTree6.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuTree7" path="textures\Menu\MenuTree7.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuTitle" path="textures\Menu\Title.png" upload="true" group="MainMenu"/>
+		<texture2D id="MenuTitleLight" path="textures\Menu\TitleLight.png" upload="true" group="MainMenu"/>
+		<texture2D id="EarthSmall" path="textures\Menu\MapTexture.png" upload="true" group="MainMenu"/>
+
+		<texture2D id="MenuSky" path="textures\Menu\sky.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuBack1" path="textures\Menu\bg_1.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuBack2" path="textures\Menu\bg_2.png" upload="true" group="MainMenu"/>		
+		<texture2D id="MenuPanel" path="textures\Menu\panel.png" upload="true" group="MainMenu"/>		
+
+		<texture2D id="FaceAnim" path="textures\Menu\FaceAnim.png" upload="true" group="MainMenu"/>		
+
+		<texture2D id="LightLine" path="textures\Menu\LightLine.png" upload="true" group="MainMenu"/>		
+	</Textures2D>
+	<BigTextures/>
+	<FrameAnimations/>
+	<VertexBuffers/>
+	<Sounds/>
+</Resources>

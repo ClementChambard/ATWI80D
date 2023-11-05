@@ -1,0 +1,29 @@
+<GameInfo>
+    <Profiles />
+    <ActivePlayer name="00" />
+    <Options fullscreen="true" environment="75" sound="100" music="45" customCursor="0" />
+    <HiScores>
+        <HiScoresElem name="none" score="0" uid="15638" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="1920" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="1267" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="20202" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="24196" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="21754" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="30989" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="18262" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="30576" cycle="1" stage="1" day="1" />
+        <HiScoresElem name="none" score="0" uid="30235" cycle="1" stage="1" day="1" />
+    </HiScores>
+    <LoadScreenData callsNumber="273" />
+    <ScreensaverOptions ssEnable="false" timeMode="FastTime" rainMode="Sometimes" musicVolume="45" environmentVolume="75">
+        <Backgrounds>
+            <Background enabled="true" />
+            <Background enabled="true" />
+            <Background enabled="true" />
+            <Background enabled="true" />
+            <Background enabled="true" />
+            <Background enabled="true" />
+            <Background enabled="true" />
+        </Backgrounds>
+    </ScreensaverOptions>
+</GameInfo>

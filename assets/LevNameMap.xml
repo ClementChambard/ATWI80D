@@ -1,0 +1,67 @@
+<LevelNameMap>
+	<Stage name="Phoenicia">
+		<x value="2"/>
+		<x value="38"/>
+		<x value="70"/>
+		<x value="97"/>
+		<x value="125"/>
+		<x value="157"/>
+		<x value="177"/>
+		<x value="205"/>
+		<x value="225"/>
+		<x value="255"/>
+	</Stage>
+	<Stage name="Babylon">
+		<x value="10"/>
+		<x value="52"/>
+		<x value="86"/>
+		<x value="120"/>
+		<x value="155"/>
+		<x value="178"/>
+		<x value="210"/>
+		<x value="245"/>
+	</Stage>
+	<Stage name="Egypt">
+		<x value="40"/>
+		<x value="80"/>
+		<x value="113"/>
+		<x value="149"/>
+		<x value="183"/>
+		<x value="210"/>
+	</Stage>
+	<Stage name="Carthage">
+		<x value="3"/>
+		<x value="40"/>
+		<x value="73"/>
+		<x value="100"/>
+		<x value="125"/>
+		<x value="158"/>
+		<x value="190"/>
+		<x value="224"/>
+		<x value="252"/>
+	</Stage>
+	<Stage name="Rome">
+		<x value="47"/>
+		<x value="91"/>
+		<x value="125"/>
+		<x value="175"/>
+		<x value="209"/>
+	</Stage>
+	<Stage name="Greece">
+		<x value="26"/>
+		<x value="68"/>
+		<x value="97"/>
+		<x value="129"/>
+		<x value="161"/>
+		<x value="193"/>
+		<x value="224"/>
+	</Stage>
+	<Stage name="Troy">
+		<x value="66"/>
+		<x value="100"/>
+		<x value="126"/>
+		<x value="154"/>
+		<x value="184"/>
+	</Stage>
+</LevelNameMap>
+

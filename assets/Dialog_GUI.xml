@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Dialog">
+		<Controls>
+			<Dialog name="Dialog"/>
+		</Controls>
+		<Script>DialogFunc</Script>
+	</Layer>
+</GUI>

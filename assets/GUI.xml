@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<Layer name="CompleteLevel">
+		<Controls>
+			<Text name="CompleteText">
+				<text>Level completed!</text>
+				<font name="text"/>
+				<position x="300" y="350"/>
+			</Text>
+<!--
+			<Button name="RestartBtn">
+				<text>Restart level</text>
+				<textPosition>
+				<position x="45" y="3"/>
+				</textPosition>
+				<position x="50" y="190"/>
+				<state normal="#button_texture"/>
+				<state active="#buttonactive_texture"/>
+				<state pressed="#buttondown_texture"/>
+				<font normal = "text"/>
+				<font pressed = "text"/>
+				<font active = "text"/>
+			</Button>
+			<Button name="ExitBtn">
+				<text>Exit from game</text>
+				<textPosition>
+				<position x="45" y="3"/>
+				</textPosition>
+				<position x="500" y="190"/>
+				<state normal="#button_texture"/>
+				<state active="#buttonactive_texture"/>
+				<state pressed="#buttondown_texture"/>
+				<font normal = "text"/>
+				<font pressed = "text"/>
+				<font active = "text"/>
+			</Button>
+-->
+		</Controls>
+		<Background>
+			<texture name="#level_comp_texture"/>
+		</Background>
+	</Layer>
+</GUI>

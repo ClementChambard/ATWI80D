@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<HelpData>
+	<Lists>
+		<List texture="#HelpList1" title="#HelpList1Title">
+			<Position x="2" y="43"/>
+			<Texts>
+			</Texts>
+		</List>
+		<List texture="#HelpList2" title="#HelpList2Title">
+			<Position x="54" y="57"/>
+			<Texts>
+			</Texts>
+		</List>
+		<List texture="#HelpList3" title="#HelpList3Title">
+			<Position x="54" y="60"/>
+			<Texts>
+			</Texts>
+		</List>
+	</Lists>
+	<Caption font="Interface22" text="#HelpCaption">
+		<Position x="320" y="415"/>
+	</Caption>
+	<ListTitle font="Interface18Y">
+		<Position x="320" y="360"/>
+	</ListTitle>
+	<InitPos x="125" y="90"/>
+	<Buttons>
+		<Ok>
+			<Position x="320" y="33"/>
+		</Ok>
+		<Left>
+			<Position x="165" y="375"/>
+		</Left>
+		<Right>
+			<Position x="480" y="375"/>
+		</Right>
+	</Buttons>
+</HelpData>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Options">
+		<Controls>
+			<Panel name="Options">
+				<texture name="#OPTIONS_PANEL"/>
+				<position x="275" y="500"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#OptionsCaption</text>
+						<position x="139" y="40"/>
+						<font name="Interface22"/>
+						<align>Center</align>
+					</Text>
+					<Text name="Text0">
+						<text>#MusicVolume</text>
+						<position x="75" y="91"/>
+						<font name="Interface18"/>
+					</Text>
+					<Text name="Text1">
+						<text>#SoundsVolume</text>
+						<position x="64" y="143"/>
+						<font name="Interface18"/>
+					</Text>
+					<Text name="Text2">
+						<text>#EnvironmentVolume</text>
+						<position x="42" y="198"/>
+						<font name="Interface18"/>
+					</Text>
+					<Slider name="Music">
+						<position x="37" y="114"/>
+						<state inactive="#SLIDER" active="#SLIDER_GRADIENT" manipulator="#SLIDER_MANIPULATOR"/>
+						<manipulatorOffset>
+							<position x="-8" y="-1"/>
+						</manipulatorOffset>
+					</Slider>
+					<Slider name="Sound">
+						<position x="37" y="166"/>
+						<state inactive="#SLIDER" active="#SLIDER_GRADIENT" manipulator="#SLIDER_MANIPULATOR"/>
+						<manipulatorOffset>
+							<position x="-8" y="-1"/>
+						</manipulatorOffset>
+					</Slider>
+					<Slider name="SEnvironment">
+						<position x="37" y="221"/>
+						<state inactive="#SLIDER" active="#SLIDER_GRADIENT" manipulator="#SLIDER_MANIPULATOR"/>
+						<manipulatorOffset>
+							<position x="-8" y="-1"/>
+						</manipulatorOffset>
+					</Slider>
+					<CheckBox name="Fullscreen" startupState="false">
+						<position x="60" y="255"/>
+						<text>#Fullscreen</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="33" y="0"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					<CheckBox name="ATips" startupState="false">
+						<position x="60" y="283"/>
+						<text>#ShowTips</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="33" y="0"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					<CheckBox name="CustomCursor" startupState="false">
+						<position x="60" y="312"/>
+						<text>#CustomCursor</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="33" y="0"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					<Button name="Ok">
+						<position x="34" y="412"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+					<Button name="Cancel">
+						<position x="138" y="412"/>
+						<state normal="#CancelNormal" active="#CancelActive" pressed="#CancelPressed"/>
+					</Button>
+					<Button name="Credits">
+						<position x="89" y="358"/>
+						<state normal="#OptionsCreditsNormal" active="#OptionsCreditsActive" pressed="#OptionsCreditsPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>OptionsFunc</Script>
+	</Layer>
+</GUI>

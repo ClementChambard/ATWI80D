@@ -1,0 +1,609 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Resources>
+	<Fonts>
+	</Fonts>
+	<Textures/>
+	<Textures2D>
+		<texture2D id="NewSunRay" path="textures\Particles\sun_ray.jpg" upload="false" group="Game"/>
+		<texture2D id="NewSunGlow" path="textures\Particles\sun_glow.jpg" upload="false" group="Game"/>
+		
+		<texture2D id="RainDrop" path="textures\Fields\RainDrop.png" upload="false" group="Game"/>
+		<texture2D id="NotifyLineSmall" path="textures\Fields\NotifyLine.png" upload="true" group="Game"/>
+
+		<texture2D id="BagCenter" path="textures\Fields\BagCenter.png" upload="false" group="Game"/>
+
+		<texture2D id="BonusGlow" path="textures\Chips\BonusGlow.jpg" upload="false" group="Game"/>
+
+		<texture2D id="Level1" path="textures\Local\Level1.png" upload="false" group="Game"/>
+		<texture2D id="Complete1" path="textures\Local\Complete1.png" upload="false" group="Game"/>
+		<texture2D id="LevelComplete" path="textures\Local\Level.png" upload="false" group="Game"/>
+
+		<texture2D id="YesNormal" path="textures\Local\YesNormal.png" upload="true" group="Common"/>
+		<texture2D id="YesActive" path="textures\Local\YesActive.png" upload="true" group="Common"/>
+		<texture2D id="YesPressed" path="textures\Local\YesPressed.png" upload="true" group="Common"/>
+
+		<texture2D id="NoNormal" path="textures\Local\NoNormal.png" upload="true" group="Common"/>
+		<texture2D id="NoActive" path="textures\Local\NoActive.png" upload="true" group="Common"/>
+		<texture2D id="NoPressed" path="textures\Local\NoPressed.png" upload="true" group="Common"/>
+
+		<texture2D id="CountryIcons" path="textures\Menu\CountryIcons.png"/>
+
+		<texture2D id="Help" path="textures\Help\Help.png" upload="false" group="Help"/>
+		<texture2D id="HelpList1" path="textures\Local\Help\HelpList1.png" upload="false" group="Help"/>
+		<texture2D id="HelpList2" path="textures\Local\Help\HelpList2.png" upload="false" group="Help"/>
+		<texture2D id="HelpList3" path="textures\Local\Help\HelpList3.png" upload="false" group="Help"/>
+		<texture2D id="HelpRightNormal" path="textures\Local\HelpRightNormal.png" upload="false" group="Help"/>
+		<texture2D id="HelpRightActive" path="textures\Local\HelpRightActive.png" upload="false" group="Help"/>
+		<texture2D id="HelpRightPressed" path="textures\Local\HelpRightPressed.png" upload="false" group="Help"/>
+		<texture2D id="HelpLeftNormal" path="textures\Local\HelpLeftNormal.png" upload="false" group="Help"/>
+		<texture2D id="HelpLeftActive" path="textures\Local\HelpLeftActive.png" upload="false" group="Help"/>
+		<texture2D id="HelpLeftPressed" path="textures\Local\HelpLeftPressed.png" upload="false" group="Help"/>
+
+		<texture2D id="DotJpg" path="textures\particles\dot.jpg"/>
+
+		<texture2D id="ToolTip_Ramka" path="textures\tooltip_ramka.png"/>
+		<texture2D id="ToolTip_Ramka2" path="textures\tooltip_ramka2.png"/>		
+
+		<texture2D id="BlackCircle" path="textures\Fields\BlackCircle.png"/>
+
+		<texture2D id="MenuInGame" path="textures\GUI\MenuInGame.png"/>
+
+		<texture2D id="MigMainMenuNormal" path="textures\Local\MigMainMenuNormal.png"/>
+		<texture2D id="MigMainMenuActive" path="textures\Local\MigMainMenuActive.png"/>
+		<texture2D id="MigMainMenuPressed" path="textures\Local\MigMainMenuPressed.png"/>
+
+		<texture2D id="MigOptionsNormal" path="textures\Local\MigOptionsNormal.png"/>
+		<texture2D id="MigOptionsActive" path="textures\Local\MigOptionsActive.png"/>
+		<texture2D id="MigOptionsPressed" path="textures\Local\MigOptionsPressed.png"/>
+
+<!--
+		<texture2D id="MigRestartNormal" path="textures\Local\MigRestartNormal.png"/>
+		<texture2D id="MigRestartActive" path="textures\Local\MigRestartActive.png"/>
+		<texture2D id="MigRestartPressed" path="textures\Local\MigRestartPressed.png"/>
+-->
+
+		<texture2D id="MigHelpNormal" path="textures\Local\MigHelpNormal.png"/>
+		<texture2D id="MigHelpActive" path="textures\Local\MigHelpActive.png"/>
+		<texture2D id="MigHelpPressed" path="textures\Local\MigHelpPressed.png"/>
+
+		<texture2D id="MigResumeNormal" path="textures\Local\MigResumeNormal.png"/>
+		<texture2D id="MigResumeActive" path="textures\Local\MigResumeActive.png"/>
+		<texture2D id="MigResumePressed" path="textures\Local\MigResumePressed.png"/>
+
+
+		<texture2D id="IntroMainMenu" path="JuleBook\MainMenu.jpg" upload="false" group="IntroMenu"/>
+		<texture2D id="JuleBook" path="JuleBook\book_01.jpg" upload="false" group="Intro"/>
+		<texture2D id="JuleBookPage" path="JuleBook\page_01a.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookLeftIntroPage" path="JuleBook\LeftIntroPage.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookImage1" path="JuleBook\image1.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookImage2" path="JuleBook\image2.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookImage3" path="JuleBook\image3.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookImage4" path="JuleBook\image4.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookImage5" path="JuleBook\image5.png" upload="false" group="Intro"/>
+		<texture2D id="JuleBookRamka" path="JuleBook\ramka.png" upload="false" group="Intro"/>
+
+		<texture2D id="SimpleShadow" path="textures\shadow.png"/>
+
+		<texture2D id="WINDOW_STAT" path="textures\Fields\stat.png"/>
+
+		<texture2D id="HintWinShadow" path="textures\Fields\HintWinShadow.png"/>
+		<texture2D id="HintWindow" path="textures\Local\HintWindow.png"/>
+		<texture2D id="ShowHintActive" path="textures\Fields\ShowHintActive.png"/>
+		<texture2D id="ShowHintPassive" path="textures\Fields\ShowHintPassive.png"/>
+		
+		<texture2D id="GameMenuNormal" path="textures\Local\MenuNormal.png" upload="false" group="Game"/>
+		<texture2D id="GameMenuActive" path="textures\Local\MenuActive.png" upload="false" group="Game"/>
+		<texture2D id="GameMenuPressed" path="textures\Local\MenuPressed.png" upload="false" group="Game"/>
+
+		<texture2D id="EyeNormal" path="textures\Fields\EyeNormal.png" upload="false" group="Game"/>
+		<texture2D id="EyeActive" path="textures\Fields\EyeActive.png" upload="false" group="Game"/>
+		<texture2D id="EyePressed" path="textures\Fields\EyePressed.png" upload="false" group="Game"/>
+
+		<texture2D id="SucBGGame" path="textures\Suc\SucBGGame.jpg" upload="false" group="Game"/>
+
+		<texture2D id="ClockArrowBig" path="textures\fields\ArrowBig.png" upload="false" group="Game"/>
+		<texture2D id="ClockArrowSmall" path="textures\fields\ArrowSmall.png" upload="false" group="Game"/>
+		<texture2D id="ClockGlass" path="textures\fields\TimeGlass.png" upload="false" group="Game"/>
+
+		<texture2D id="SmallArtsPack" path="textures\artefact\smallPack.png"/>
+
+		<texture2D id="GameLine" path="textures\fields\Line.png" upload="false" group="Game"/>
+
+		<texture2D id="GameKoleso1" path="textures\fields\Koleso1.png" upload="false" group="Game"/>
+		<texture2D id="GameKoleso2" path="textures\fields\Koleso2.png" upload="false" group="Game"/>
+		<texture2D id="GameKoleso3" path="textures\fields\Koleso3.png" upload="false" group="Game"/>
+		<texture2D id="GameKoleso4" path="textures\fields\Koleso4.png" upload="false" group="Game"/>
+		<texture2D id="GameKoleso5" path="textures\fields\Koleso5.png" upload="false" group="Game"/>
+		<texture2D id="GameKoleso6" path="textures\fields\Koleso6.png" upload="false" group="Game"/>
+
+		<texture2D id="GamePanelMenu" path="textures\fields\PanelMenu.png" upload="false" group="Game"/>
+		<texture2D id="GamePanelBag" path="textures\fields\PanelBag.png" upload="false" group="Game"/>
+
+		<texture2D id="TimeIce" path="textures\fields\TimeIce.png" upload="false" group="Game"/>
+
+		<texture2D id="SmallBackgrounds" path="textures\fields\smallBackgrounds.png" upload="false" group="MainMenu"/>
+		<texture2D id="SmallBackgroundsActive" path="textures\fields\smallBackgroundsActive.png" upload="false" group="MainMenu"/>
+
+		<texture2D id="SucBtn" path="textures\fields\suc.png" upload="false" group="Game"/>
+		<texture2D id="SucBtnActive" path="textures\fields\sucActive.png" upload="false" group="Game"/>
+		<texture2D id="BonusCircle" path="textures\fields\BonusCircleActive.png" upload="false" group="Game"/>
+		<texture2D id="BonusCircleActive" path="textures\fields\BonusCircle.png" upload="false" group="Game"/>
+		<texture2D id="SoftLine" path="textures\fields\SoftLine.png" upload="false" group="Game"/>
+		<texture2D id="FirstEmptyBonus" path="textures\bonus\1\empty.png" upload="false" group="Game"/>
+
+		<texture2D id="BombBoom" path="textures\particles\bomb_boom.png" upload="false" group="Game"/>
+
+		<texture2D id="RiverWater" path="textures\water.png" upload="false" group="Game"/>
+		<texture2D id="LondonRiverWater" path="textures\london_water.png" upload="false" group="Game"/>
+		<texture2D id="JapanRiverWater" path="textures\fields\japan\japan_water.png" upload="false" group="Game"/>
+		<texture2D id="Lightings" path="textures\Fields\lightings.png" upload="false" group="Game"/>
+		<texture2D id="Volna21" path="textures\Fields\London\volna2.png" upload="false" group="Game"/>
+		<texture2D id="Light" path="textures\particles\adot.png"/>
+		<texture2D id="LeftPanel" path="textures\fields\LeftPanel.png" upload="false" group="Game"/>
+		<texture2D id="RamkaUp" path="textures\fields\RamkaUp.png"/>
+		<texture2D id="RamkaDown" path="textures\fields\RamkaDown.png"/>
+		<texture2D id="RamkaRight" path="textures\fields\RamkaRight.png"/>
+		<texture2D id="RamkaLeft" path="textures\fields\RamkaLeft.png"/>
+		<texture2D id="ClockFill" path="textures\fields\ClockFill.png" upload="false" group="Game"/>
+		<texture2D id="ClockFillLight" path="textures\fields\ClockFillLight.png" upload="false" group="Game"/>
+
+		<texture2D id="SunWay" path="textures\Fields\Paris\sun_way.png" upload="false" group="Game"/>
+
+		<texture2D id="Proj1" path="textures\Projector.jpg" upload="false" group="Game"/>
+		<texture2D id="Proj2" path="textures\Projector2.jpg" upload="false" group="Game"/>
+		<texture2D id="ParisProjector" path="textures\Fields\Paris\Projector.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisEifelLight" path="textures\Fields\Paris\EifelLight.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisEifelAddLight" path="textures\Fields\Paris\EifelAddLight.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLights1" path="textures\Fields\Paris\Lights1.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLights2" path="textures\Fields\Paris\Lights2.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLights3" path="textures\Fields\Paris\Lights3.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLights4" path="textures\Fields\Paris\Lights4.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLights5" path="textures\Fields\Paris\Lights5.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="Paris" path="textures\Fields\Paris\paris_day.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisNight" path="textures\Fields\Paris\paris_night.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisLight" path="textures\Fields\Paris\paris_night_light.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisRiver" path="textures\Fields\Paris\day_river.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisRiverNight" path="textures\Fields\Paris\river.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="Volna0" path="textures\Fields\Paris\volna0.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="Volna1" path="textures\Fields\Paris\volna1.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="Volna2" path="textures\Fields\Paris\volna2.png" upload="false" group="StageLayer_2"/>
+		
+		<texture2D id="ParisKaruselGirl" path="textures\Fields\Paris\KaruselGirl.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisKaruselLight" path="textures\Fields\Paris\KaruselLight.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisKarusel1" path="textures\Fields\Paris\Karusel1.png" upload="false" group="StageLayer_2"/>
+
+		<texture2D id="ParisTree1Day" path="textures\Fields\Paris\Tree1Day.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree2Day" path="textures\Fields\Paris\Tree2Day.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree3Day" path="textures\Fields\Paris\Tree3Day.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree4Day" path="textures\Fields\Paris\Tree4Day.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree1Night" path="textures\Fields\Paris\Tree1Night.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree2Night" path="textures\Fields\Paris\Tree2Night.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree3Night" path="textures\Fields\Paris\Tree3Night.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ParisTree4Night" path="textures\Fields\Paris\Tree4Night.png" upload="false" group="StageLayer_2"/>
+
+		<texture2D id="LondonCloudKuch" path="textures\fields\London\CloudKuch.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonCloudKuchLight" path="textures\fields\London\CloudKuchLight.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonCloudPer" path="textures\fields\London\CloudPer.png" upload="false" group="Clouds"/>
+		<texture2D id="LondonCloudMiddleDown" path="textures\fields\London\CloudMiddleDown.png" upload="false" group="Clouds"/>
+		<texture2D id="LondonCloudMiddleUp" path="textures\fields\London\CloudMiddleUp.png" upload="false" group="Clouds"/>
+
+		<texture2D id="Boat1" path="textures\fields\London\Boats\Boat1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat1Mirror" path="textures\fields\London\Boats\Boat1Mirror.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat1Light" path="textures\fields\London\Boats\Boat1Light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat1LightMirror" path="textures\fields\London\Boats\Boat1LightMirror.png" upload="false" group="StageLayer_1"/>
+
+		<texture2D id="Boat2" path="textures\fields\London\Boats\Boat2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat2Mirror" path="textures\fields\London\Boats\Boat2Mirror.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat2Light" path="textures\fields\London\Boats\Boat2Light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="Boat2LightMirror" path="textures\fields\London\Boats\Boat2LightMirror.png" upload="false" group="StageLayer_1"/>
+
+		<texture2D id="StarSky" path="textures\fields\London\StarSky.png" upload="false" group="Game"/>
+
+		<texture2D id="TheEnd" path="textures\Local\TheEnd.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonGirlyanda3Light" path="textures\fields\London\Girlyanda3Light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonGirlyanda2Light" path="textures\fields\London\Girlyanda2Light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonGirlyanda2" path="textures\fields\London\Girlyanda2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonGirlyanda1Light" path="textures\fields\London\Girlyanda1Light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonGirlyanda1" path="textures\fields\London\Girlyanda1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonBigLights" path="textures\fields\London\BigLights.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonWindows1" path="textures\fields\London\Windows1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonWindows2" path="textures\fields\London\Windows2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonFonarySmall" path="textures\fields\London\LondonFonarySmall.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonFonaryBig" path="textures\fields\London\LondonFonaryBig.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonBigFonarDay" path="textures\fields\London\BigFonarDay.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonBigFonarNight" path="textures\fields\London\BigFonarNight.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonRainFog" path="textures\fields\London\RainFog.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonDay" path="textures\fields\London\london_day.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonNight" path="textures\fields\London\london_night.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonRiverDay" path="textures\fields\London\river_day.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonRiverNight" path="textures\fields\London\river_night.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonLight" path="textures\fields\London\London_night_light.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeDay1" path="textures\fields\London\TreeDay1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeDay2" path="textures\fields\London\TreeDay2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeDay3" path="textures\fields\London\TreeDay3.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeNight1" path="textures\fields\London\TreeNight1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeNight2" path="textures\fields\London\TreeNight2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTreeNight3" path="textures\fields\London\TreeNight3.png" upload="false" group="StageLayer_1"/>
+
+		<texture2D id="LondonTree1" path="textures\fields\LondonTree1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTree2" path="textures\fields\LondonTree2.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="LondonTree3" path="textures\fields\LondonTree3.png" upload="false" group="StageLayer_1"/>
+		
+		<texture2D id="ChinaDay" path="textures\fields\China\china_day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaNight" path="textures\fields\China\china_night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaLeftLight" path="textures\fields\China\LeftLight.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree1Night" path="textures\fields\China\Tree1Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree1Day" path="textures\fields\China\Tree1Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree2Night" path="textures\fields\China\Tree2Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree2Day" path="textures\fields\China\Tree2Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree3Night" path="textures\fields\China\Tree3Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree3Day" path="textures\fields\China\Tree3Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree4Night" path="textures\fields\China\Tree4Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree4Day" path="textures\fields\China\Tree4Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree5Night" path="textures\fields\China\Tree5Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree5Day" path="textures\fields\China\Tree5Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree6Night" path="textures\fields\China\Tree6Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree6Day" path="textures\fields\China\Tree6Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree7Night" path="textures\fields\China\Tree7Night.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaTree7Day" path="textures\fields\China\Tree7Day.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaLights" path="textures\fields\China\FarLights.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaMask1" path="textures\fields\China\Mask1.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaMask2" path="textures\fields\China\Mask2.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaMask3" path="textures\fields\China\Mask3.png" upload="false" group="StageLayer_5"/>
+
+		<texture2D id="ChinaRightLight" path="textures\fields\China\RightLight.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaCenterLight" path="textures\fields\China\CenterLight.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaFlag" path="textures\fields\China\flag.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaWallPieceNight" path="textures\fields\China\WallPieceNight.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ChinaWallPieceDay" path="textures\fields\China\WallPieceDay.png" upload="false" group="StageLayer_5"/>
+
+		<texture2D id="EgyptFireCupDay" path="textures\fields\Egypt\FireCupDay.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptFireCupNight" path="textures\fields\Egypt\FireCupNight.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptDay" path="textures\fields\Egypt\egypt_day.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptNight" path="textures\fields\Egypt\egypt_night.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList1D" path="textures\fields\Egypt\list1d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList2D" path="textures\fields\Egypt\list2d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList3D" path="textures\fields\Egypt\list3d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList4D" path="textures\fields\Egypt\list4d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList5D" path="textures\fields\Egypt\list5d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList6D" path="textures\fields\Egypt\list6d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList7D" path="textures\fields\Egypt\list7d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList7D" path="textures\fields\Egypt\list7d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptStvolD" path="textures\fields\Egypt\stvol_d.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList1N" path="textures\fields\Egypt\list1n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList2N" path="textures\fields\Egypt\list2n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList3N" path="textures\fields\Egypt\list3n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList4N" path="textures\fields\Egypt\list4n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList5N" path="textures\fields\Egypt\list5n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList6N" path="textures\fields\Egypt\list6n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList7N" path="textures\fields\Egypt\list7n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptList7N" path="textures\fields\Egypt\list7n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptStvolN" path="textures\fields\Egypt\stvol_n.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptLeftTrava1" path="textures\fields\Egypt\LeftTrava1D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptLeftTrava2" path="textures\fields\Egypt\LeftTrava2D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptLeftTrava3" path="textures\fields\Egypt\LeftTrava3D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptRightTrava1" path="textures\fields\Egypt\RightTrava1D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptRightTrava2" path="textures\fields\Egypt\RightTrava2D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptRightTrava3" path="textures\fields\Egypt\RightTrava3D.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="EgyptRightTrava4" path="textures\fields\Egypt\RightTrava4D.png" upload="false" group="StageLayer_3"/>
+
+		<texture2D id="IndiaLeaf1Day" path="textures\fields\India\Leaf1Day.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaLeaf1Night" path="textures\fields\India\Leaf1Night.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaBudda" path="textures\fields\India\Budda.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaBesedka1" path="textures\fields\India\Besedka1.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaBesedka2" path="textures\fields\India\Besedka2.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaFort" path="textures\fields\India\Fort.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaWindows" path="textures\fields\India\Window.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaDay" path="textures\fields\India\india_day.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaNight" path="textures\fields\India\india_night.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaWaterDay" path="textures\fields\India\water_day.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaWaterNight" path="textures\fields\India\water_night.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="IndiaFlame" path="textures\fields\India\FlameMask.png" upload="false" group="StageLayer_4"/>
+
+		<texture2D id="JapanDay" path="textures\fields\Japan\japan_day.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanNight" path="textures\fields\Japan\japan_night.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLeftLight" path="textures\fields\Japan\left_light.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanRightLight" path="textures\fields\Japan\right_light.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLight" path="textures\fields\Japan\light.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanWaterDay" path="textures\fields\Japan\water_day.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanWaterNight" path="textures\fields\Japan\water_night.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="SakuraLeaves" path="textures\fields\Japan\SakuraLeaves.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanRing" path="textures\fields\Japan\Ring.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanTree1Day" path="textures\fields\Japan\Tree1Day.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanTree1Night" path="textures\fields\Japan\Tree1Night.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanTree2Day" path="textures\fields\Japan\Tree2Day.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanTree2Night" path="textures\fields\Japan\Tree2Night.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanGoraDay" path="textures\fields\Japan\GoraDay.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanGoraNight" path="textures\fields\Japan\GoraNight.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLightMask1" path="textures\fields\Japan\LightMask1.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLightMask2" path="textures\fields\Japan\LightMask2.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLightMask3" path="textures\fields\Japan\LightMask3.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanLightMask4" path="textures\fields\Japan\LightMask4.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanWaterShadowNight" path="textures\fields\Japan\WaterShadowNight.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="JapanWaterShadowDay" path="textures\fields\Japan\WaterShadowDay.png" upload="false" group="StageLayer_6"/>
+
+		<texture2D id="AmericaDay" path="textures\fields\America\day.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaNight" path="textures\fields\America\night.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight" path="textures\fields\America\light.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaCenterLight" path="textures\fields\America\CenterLight.jpg" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLeftLight" path="textures\fields\America\LeftLight.jpg" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaRightLight" path="textures\fields\America\RightLight.jpg" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaWaterDay" path="textures\fields\America\water_day2.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaWaterNight" path="textures\fields\America\water_night2.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaWindows1" path="textures\fields\America\Window1.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaWindows2" path="textures\fields\America\Window2.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight1" path="textures\fields\America\Light1.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight2" path="textures\fields\America\Light2.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight3" path="textures\fields\America\Light3.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight4" path="textures\fields\America\Light4.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaLight5" path="textures\fields\America\Light5.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="AmericaPena" path="textures\fields\America\Pena.png" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="ArtMarka1" path="textures\fields\Marki\England.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="ArtMarka2" path="textures\fields\Marki\France.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="ArtMarka3" path="textures\fields\Marki\Egypt.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="ArtMarka4" path="textures\fields\Marki\India.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="ArtMarka5" path="textures\fields\Marki\China.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="ArtMarka6" path="textures\fields\Marki\Japan.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="ArtMarka7" path="textures\fields\Marki\USA.png" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="CountryName1" path="textures\Local\EnglandName.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="CountryName2" path="textures\Local\FranceName.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="CountryName3" path="textures\Local\EgyptName.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="CountryName4" path="textures\Local\IndiaName.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="CountryName5" path="textures\Local\ChinaName.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="CountryName6" path="textures\Local\JapanName.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="CountryName7" path="textures\Local\USAName.png" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="CountrySymb1" path="textures\Fields\EnglandSymb.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="CountrySymb2" path="textures\Fields\FranceSymb.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="CountrySymb3" path="textures\Fields\EgyptSymb.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="CountrySymb4" path="textures\Fields\IndiaSymb.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="CountrySymb5" path="textures\Fields\ChinaSymb.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="CountrySymb6" path="textures\Fields\JapanSymb.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="CountrySymb7" path="textures\Fields\USASymb.png" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="Day09" path="textures\Local\Day09.png" upload="false" group="Game"/>
+
+		<texture2D id="StatOkNormal" path="textures\Local\StatOkNormal.png" upload="false" group="Game"/>
+		<texture2D id="StatOkActive" path="textures\Local\StatOkActive.png" upload="false" group="Game"/>
+		<texture2D id="StatOkPressed" path="textures\Local\StatOkPressed.png" upload="false" group="Game"/>
+
+		<texture2D id="Chain1Tex" path="textures\Local\chain1.png" upload="false" group="Game"/>
+		<texture2D id="Chain2Tex" path="textures\Local\chain2.png" upload="false" group="Game"/>
+		<texture2D id="Chain3Tex" path="textures\Local\chain3.png" upload="false" group="Game"/>
+		<texture2D id="squares_texture" path="textures\Chips\chips.png" upload="false" group="Game"/>
+		<texture2D id="menu_button" path="textures\Fields\butt_menu_p1.png" upload="false" group="Game"/>
+		<texture2D id="menu_button_active" path="textures\Fields\butt_menu_p2.png" upload="false" group="Game"/>
+		<texture2D id="menu_button_press" path="textures\Fields\butt_menu_p3.png" upload="false" group="Game"/>
+		<texture2D id="scope_tex1" path="textures\Fields\scope1.png" upload="false" group="StageLayer_1"/>
+		<texture2D id="scope_tex2" path="textures\Fields\scope2.png" upload="false" group="StageLayer_2"/>
+		<texture2D id="scope_tex3" path="textures\Fields\scope3.png" upload="false" group="StageLayer_3"/>
+		<texture2D id="scope_tex4" path="textures\Fields\scope4.png" upload="false" group="StageLayer_4"/>
+		<texture2D id="scope_tex5" path="textures\Fields\scope5.png" upload="false" group="StageLayer_5"/>
+		<texture2D id="scope_tex6" path="textures\Fields\scope6.png" upload="false" group="StageLayer_6"/>
+		<texture2D id="scope_tex7" path="textures\Fields\scope7.png" upload="false" group="StageLayer_7"/>
+		<texture2D id="squarePieces" path="textures\Chips\pieces.png" upload="false" group="Game"/>
+		<texture2D id="Rain" path="textures\Fields\Rain.png" upload="false" group="Game"/>
+		<texture2D id="lives" path="textures\Fields\lives.tga" upload="false" group="Game"/>
+		<texture2D id="flash" path="textures\Fields\flash.jpg" upload="false" group="Game"/>
+		<texture2D id="flash_ball" path="textures\Fields\ps.jpg" upload="false" group="Game"/>
+		<texture2D id="ARROW" path="textures\Fields\strela.png"/>
+		<texture2D id="ARROW_SMALL" path="textures\Fields\strela_small.tga" upload="false" group="Game"/>
+
+		<texture2D id="Sumka" path="sumka\sumka_01.jpg"/>
+		<texture2D id="FieldBG_1" path="textures\Fields\Substrates\Substr_1.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="FieldBG_2" path="textures\Fields\Substrates\Substr_2.jpg" upload="false" group="StageLayer_2"/>
+		<texture2D id="FieldBG_3" path="textures\Fields\Substrates\Substr_3.jpg" upload="false" group="StageLayer_3"/>
+		<texture2D id="FieldBG_4" path="textures\Fields\Substrates\Substr_4.jpg" upload="false" group="StageLayer_4"/>
+		<texture2D id="FieldBG_5" path="textures\Fields\Substrates\Substr_5.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="FieldBG_6" path="textures\Fields\Substrates\Substr_6.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="FieldBG_7" path="textures\Fields\Substrates\Substr_7.jpg" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="FieldBG_1b" path="textures\Fields\Substrates\Substr_1b.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="FieldBG_2b" path="textures\Fields\Substrates\Substr_2b.jpg" upload="false" group="StageLayer_2"/>
+		<texture2D id="FieldBG_3b" path="textures\Fields\Substrates\Substr_3b.jpg" upload="false" group="StageLayer_3"/>
+		<texture2D id="FieldBG_4b" path="textures\Fields\Substrates\Substr_4b.jpg" upload="false" group="StageLayer_4"/>
+		<texture2D id="FieldBG_5b" path="textures\Fields\Substrates\Substr_5b.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="FieldBG_6b" path="textures\Fields\Substrates\Substr_6b.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="FieldBG_7b" path="textures\Fields\Substrates\Substr_7b.jpg" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="FieldBG_1m" path="textures\Fields\Substrates\Substr_1m.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="FieldBG_2m" path="textures\Fields\Substrates\Substr_2m.jpg" upload="false" group="StageLayer_2"/>
+		<texture2D id="FieldBG_3m" path="textures\Fields\Substrates\Substr_3m.jpg" upload="false" group="StageLayer_3"/>
+		<texture2D id="FieldBG_4m" path="textures\Fields\Substrates\Substr_4m.jpg" upload="false" group="StageLayer_4"/>
+		<texture2D id="FieldBG_5m" path="textures\Fields\Substrates\Substr_5m.jpg" upload="false" group="StageLayer_5"/>
+		<texture2D id="FieldBG_6m" path="textures\Fields\Substrates\Substr_6m.jpg" upload="false" group="StageLayer_6"/>
+		<texture2D id="FieldBG_7m" path="textures\Fields\Substrates\Substr_7m.jpg" upload="false" group="StageLayer_7"/>
+
+		<texture2D id="Marka_1" path="textures\Marki\London.png"/>
+		<texture2D id="Marka_2" path="textures\Marki\France.png"/>
+		<texture2D id="Marka_3" path="textures\Marki\Egypt.png"/>
+		<texture2D id="Marka_4" path="textures\Marki\India.png"/>
+		<texture2D id="Marka_5" path="textures\Marki\China.png"/>
+		<texture2D id="Marka_6" path="textures\Marki\Japan.png"/>
+		<texture2D id="Marka_7" path="textures\Marki\USA.png"/>
+
+		<texture2D id="FonPieces" path="textures\Fields\FonPieces.png" upload="false" group="Game"/>
+		
+		<texture2D id="FramePiece" path="textures\Fields\FramePiece.png" upload="false" group="Game"/>
+
+		<texture2D id="Combo" path="textures\Local\combo.png" upload="false" group="Game"/>
+		<texture2D id="Country" path="textures\Local\country.png" upload="false" group="Game"/>
+		<texture2D id="GoText" path="textures\Local\go.png" upload="false" group="Game"/>
+		<texture2D id="Energy" path="textures\Fields\energy.png" upload="false" group="Game"/>
+		<texture2D id="Energy2" path="textures\Fields\energy2.png" upload="false" group="Game"/>
+
+		<texture2D id="Bonus_1_0" path="textures\Bonus\1\anime0000.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_1" path="textures\Bonus\1\anime0002.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_2" path="textures\Bonus\1\anime0004.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_3" path="textures\Bonus\1\anime0006.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_4" path="textures\Bonus\1\anime0008.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_5" path="textures\Bonus\1\anime0010.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_6" path="textures\Bonus\1\anime0012.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_7" path="textures\Bonus\1\anime0014.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_8" path="textures\Bonus\1\anime0016.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_9" path="textures\Bonus\1\anime0018.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_10" path="textures\Bonus\1\anime0020.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_11" path="textures\Bonus\1\anime0022.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_12" path="textures\Bonus\1\anime0024.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_13" path="textures\Bonus\1\anime0026.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_14" path="textures\Bonus\1\anime0028.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_15" path="textures\Bonus\1\anime0030.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_16" path="textures\Bonus\1\anime0032.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_17" path="textures\Bonus\1\anime0034.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_18" path="textures\Bonus\1\anime0036.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_19" path="textures\Bonus\1\anime0038.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_20" path="textures\Bonus\1\anime0040.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_21" path="textures\Bonus\1\anime0042.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_22" path="textures\Bonus\1\anime0044.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_23" path="textures\Bonus\1\anime0046.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_24" path="textures\Bonus\1\anime0048.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_25" path="textures\Bonus\1\anime0050.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_26" path="textures\Bonus\1\anime0052.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_27" path="textures\Bonus\1\anime0054.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_28" path="textures\Bonus\1\anime0056.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_29" path="textures\Bonus\1\anime0058.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_30" path="textures\Bonus\1\anime0060.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_1_31" path="textures\Bonus\1\anime0062.png" upload="false" group="Bonus"/>
+
+		<texture2D id="Bonus_2_0" path="textures\Bonus\2\anime0000.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_1" path="textures\Bonus\2\anime0002.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_2" path="textures\Bonus\2\anime0004.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_3" path="textures\Bonus\2\anime0006.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_4" path="textures\Bonus\2\anime0008.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_5" path="textures\Bonus\2\anime0010.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_6" path="textures\Bonus\2\anime0012.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_7" path="textures\Bonus\2\anime0014.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_8" path="textures\Bonus\2\anime0016.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_9" path="textures\Bonus\2\anime0018.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_10" path="textures\Bonus\2\anime0020.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_11" path="textures\Bonus\2\anime0022.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_12" path="textures\Bonus\2\anime0024.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_13" path="textures\Bonus\2\anime0026.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_14" path="textures\Bonus\2\anime0028.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_15" path="textures\Bonus\2\anime0030.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_16" path="textures\Bonus\2\anime0032.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_17" path="textures\Bonus\2\anime0034.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_18" path="textures\Bonus\2\anime0036.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_19" path="textures\Bonus\2\anime0038.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_20" path="textures\Bonus\2\anime0040.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_21" path="textures\Bonus\2\anime0042.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_22" path="textures\Bonus\2\anime0044.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_23" path="textures\Bonus\2\anime0046.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_24" path="textures\Bonus\2\anime0048.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_25" path="textures\Bonus\2\anime0050.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_26" path="textures\Bonus\2\anime0052.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_27" path="textures\Bonus\2\anime0054.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_28" path="textures\Bonus\2\anime0056.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_29" path="textures\Bonus\2\anime0058.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_30" path="textures\Bonus\2\anime0060.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_2_31" path="textures\Bonus\2\anime0062.png" upload="false" group="Bonus"/>
+
+		<texture2D id="Bonus_3_0" path="textures\Bonus\3\anime0000.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_1" path="textures\Bonus\3\anime0002.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_2" path="textures\Bonus\3\anime0004.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_3" path="textures\Bonus\3\anime0006.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_4" path="textures\Bonus\3\anime0008.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_5" path="textures\Bonus\3\anime0010.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_6" path="textures\Bonus\3\anime0012.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_7" path="textures\Bonus\3\anime0014.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_8" path="textures\Bonus\3\anime0016.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_9" path="textures\Bonus\3\anime0018.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_10" path="textures\Bonus\3\anime0020.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_11" path="textures\Bonus\3\anime0022.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_12" path="textures\Bonus\3\anime0024.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_13" path="textures\Bonus\3\anime0026.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_14" path="textures\Bonus\3\anime0028.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_15" path="textures\Bonus\3\anime0030.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_16" path="textures\Bonus\3\anime0032.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_17" path="textures\Bonus\3\anime0034.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_18" path="textures\Bonus\3\anime0036.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_19" path="textures\Bonus\3\anime0038.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_20" path="textures\Bonus\3\anime0040.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_21" path="textures\Bonus\3\anime0042.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_22" path="textures\Bonus\3\anime0044.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_23" path="textures\Bonus\3\anime0046.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_24" path="textures\Bonus\3\anime0048.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_25" path="textures\Bonus\3\anime0050.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_26" path="textures\Bonus\3\anime0052.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_27" path="textures\Bonus\3\anime0054.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_28" path="textures\Bonus\3\anime0056.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_29" path="textures\Bonus\3\anime0058.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_30" path="textures\Bonus\3\anime0060.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_3_31" path="textures\Bonus\3\anime0062.png" upload="false" group="Bonus"/>
+
+		<texture2D id="Bonus_4_0" path="textures\Bonus\4\anime0000.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_1" path="textures\Bonus\4\anime0002.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_2" path="textures\Bonus\4\anime0004.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_3" path="textures\Bonus\4\anime0006.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_4" path="textures\Bonus\4\anime0008.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_5" path="textures\Bonus\4\anime0010.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_6" path="textures\Bonus\4\anime0012.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_7" path="textures\Bonus\4\anime0014.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_8" path="textures\Bonus\4\anime0016.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_9" path="textures\Bonus\4\anime0018.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_10" path="textures\Bonus\4\anime0020.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_11" path="textures\Bonus\4\anime0022.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_12" path="textures\Bonus\4\anime0024.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_13" path="textures\Bonus\4\anime0026.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_14" path="textures\Bonus\4\anime0028.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_15" path="textures\Bonus\4\anime0030.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_16" path="textures\Bonus\4\anime0032.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_17" path="textures\Bonus\4\anime0034.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_18" path="textures\Bonus\4\anime0036.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_19" path="textures\Bonus\4\anime0038.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_20" path="textures\Bonus\4\anime0040.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_21" path="textures\Bonus\4\anime0042.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_22" path="textures\Bonus\4\anime0044.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_23" path="textures\Bonus\4\anime0046.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_24" path="textures\Bonus\4\anime0048.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_25" path="textures\Bonus\4\anime0050.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_26" path="textures\Bonus\4\anime0052.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_27" path="textures\Bonus\4\anime0054.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_28" path="textures\Bonus\4\anime0056.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_29" path="textures\Bonus\4\anime0058.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_30" path="textures\Bonus\4\anime0060.png" upload="false" group="Bonus"/>
+		<texture2D id="Bonus_4_31" path="textures\Bonus\4\anime0062.png" upload="false" group="Bonus"/>
+
+		<texture2D id="Caustics_0" path="textures\fields\London\water\caustics_001.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_1" path="textures\fields\London\water\caustics_002.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_2" path="textures\fields\London\water\caustics_003.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_3" path="textures\fields\London\water\caustics_004.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_4" path="textures\fields\London\water\caustics_005.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_5" path="textures\fields\London\water\caustics_006.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_6" path="textures\fields\London\water\caustics_007.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_7" path="textures\fields\London\water\caustics_008.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_8" path="textures\fields\London\water\caustics_009.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_9" path="textures\fields\London\water\caustics_010.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_10" path="textures\fields\London\water\caustics_011.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_11" path="textures\fields\London\water\caustics_012.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_12" path="textures\fields\London\water\caustics_013.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_13" path="textures\fields\London\water\caustics_014.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_14" path="textures\fields\London\water\caustics_015.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_15" path="textures\fields\London\water\caustics_016.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_16" path="textures\fields\London\water\caustics_017.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_17" path="textures\fields\London\water\caustics_018.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_18" path="textures\fields\London\water\caustics_019.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_19" path="textures\fields\London\water\caustics_020.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_20" path="textures\fields\London\water\caustics_021.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_21" path="textures\fields\London\water\caustics_022.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_22" path="textures\fields\London\water\caustics_023.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_23" path="textures\fields\London\water\caustics_024.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_24" path="textures\fields\London\water\caustics_025.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_25" path="textures\fields\London\water\caustics_026.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_26" path="textures\fields\London\water\caustics_027.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_27" path="textures\fields\London\water\caustics_028.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_28" path="textures\fields\London\water\caustics_029.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_29" path="textures\fields\London\water\caustics_030.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_30" path="textures\fields\London\water\caustics_031.jpg" upload="false" group="StageLayer_1"/>
+		<texture2D id="Caustics_31" path="textures\fields\London\water\caustics_032.jpg" upload="false" group="StageLayer_1"/>
+
+	</Textures2D>
+	<Animations>
+	</Animations>
+	<VertexBuffers/>
+	<Sounds>
+	</Sounds>
+</Resources>

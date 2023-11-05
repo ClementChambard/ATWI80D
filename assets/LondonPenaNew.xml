@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<Effects>
+    <Effect name="LondonPena">
+        <ParticleSystem name="LondonPena" numOfParticles="31" lifeInitial="8.00" lifeVariation="0.50" startTime="8.00" deadCountTime="0.00" bornTime="0.00" additive="false" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" texture="adot.png" emitterType="point" emitterAngle="0" emitterRange="360" emitterOrientation="0" lineLength="100.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="50.00" ellipseRVert="30.00" ellipseThickness="1.00">
+            <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="20.00" d2="0.00" d2Variation="0.00">
+                <spline>
+                    <key time="0.00" initial="0.00" variation="0.00" />
+                    <key time="1.00" initial="33.19" variation="7.49" />
+                </spline>
+            </Param>
+            <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="20.00" d2="0.00" d2Variation="0.00">
+                <spline>
+                    <key time="0.00" initial="0.00" variation="1.52" />
+                    <key time="0.38" initial="0.44" variation="0.87" />
+                    <key time="0.59" initial="0.20" variation="0.47" />
+                    <key time="1.00" initial="-0.26" variation="4.57" />
+                </spline>
+            </Param>
+            <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+                <spline>
+                    <key time="0.00" initial="0.00" variation="0.00" />
+                    <key time="0.18" initial="2.29" variation="0.00" />
+                    <key time="0.35" initial="3.85" variation="0.20" />
+                    <key time="0.52" initial="3.85" variation="0.10" />
+                    <key time="0.67" initial="3.07" variation="0.29" />
+                    <key time="0.82" initial="1.61" variation="0.03" />
+                    <key time="1.00" initial="0.00" variation="0.00" />
+                </spline>
+            </Param>
+            <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="90.00" d2="0.00" d2Variation="0.00" />
+            <Param name="v" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+            <Param name="spin" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+            <Param name="red">
+                <spline>
+                    <key time="0.00" initial="255.00" variation="0.00" />
+                    <key time="0.16" initial="255.00" variation="0.00" />
+                    <key time="0.33" initial="255.00" variation="0.00" />
+                    <key time="0.49" initial="255.00" variation="0.00" />
+                    <key time="0.70" initial="255.00" variation="0.00" />
+                    <key time="1.00" initial="255.00" variation="0.00" />
+                </spline>
+            </Param>
+            <Param name="green">
+                <spline>
+                    <key time="0.00" initial="255.00" variation="0.00" />
+                    <key time="0.16" initial="255.00" variation="0.00" />
+                    <key time="0.33" initial="255.00" variation="0.00" />
+                    <key time="0.49" initial="255.00" variation="0.00" />
+                    <key time="0.70" initial="255.00" variation="0.00" />
+                    <key time="1.00" initial="255.00" variation="0.00" />
+                </spline>
+            </Param>
+            <Param name="blue">
+                <spline>
+                    <key time="0.00" initial="255.00" variation="0.00" />
+                    <key time="0.16" initial="255.00" variation="0.00" />
+                    <key time="0.33" initial="255.00" variation="0.00" />
+                    <key time="0.49" initial="255.00" variation="0.00" />
+                    <key time="0.70" initial="255.00" variation="0.00" />
+                    <key time="1.00" initial="255.00" variation="0.00" />
+                </spline>
+            </Param>
+            <Param name="alpha">
+                <spline>
+                    <key time="0.00" initial="0.00" variation="0.00" />
+                    <key time="0.16" initial="33.00" variation="0.00" />
+                    <key time="0.33" initial="77.00" variation="0.00" />
+                    <key time="0.49" initial="72.00" variation="53.00" />
+                    <key time="0.70" initial="59.00" variation="0.00" />
+                    <key time="1.00" initial="0.00" variation="0.00" />
+                </spline>
+            </Param>
+        </ParticleSystem>
+    </Effect>
+</Effects>

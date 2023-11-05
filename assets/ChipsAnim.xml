@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Fonts>
+	</Fonts>
+	<Textures>
+	</Textures>
+	<Textures2D>
+		<texture2D id="Chip0" path="textures\Chips\c1.png" upload="false" group="Game"/>
+		<texture2D id="Chip1" path="textures\Chips\c2.png" upload="false" group="Game"/>
+		<texture2D id="Chip2" path="textures\Chips\c3.png" upload="false" group="Game"/>
+		<texture2D id="Chip3" path="textures\Chips\c4.png" upload="false" group="Game"/>
+		<texture2D id="Chip4" path="textures\Chips\c5.png" upload="false" group="Game"/>
+		<texture2D id="Chip5" path="textures\Chips\c6.png" upload="false" group="Game"/>
+		<texture2D id="Chip6" path="textures\Chips\c7.png" upload="false" group="Game"/>
+		<texture2D id="Chip7" path="textures\Chips\c8.png" upload="false" group="Game"/>
+		<texture2D id="Chip8" path="textures\Chips\c9.png" upload="false" group="Game"/>
+		<texture2D id="Chip9" path="textures\Chips\c10.png" upload="false" group="Game"/>
+		<texture2D id="Chip10" path="textures\Chips\c11.png" upload="false" group="Game"/>
+		<texture2D id="Chip11" path="textures\Chips\c12.png" upload="false" group="Game"/>
+	</Textures2D>
+	<Animations>
+		<animation id="ChipAnim0" texture="#Chip0">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="1"/>
+		</animation>
+		<animation id="ChipAnim1" texture="#Chip1">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim2" texture="#Chip2">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim3" texture="#Chip3">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim4" texture="#Chip4">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim5" texture="#Chip5">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim6" texture="#Chip6">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim7" texture="#Chip7">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim8" texture="#Chip8">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim9" texture="#Chip9">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim10" texture="#Chip10">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+		<animation id="ChipAnim11" texture="#Chip11">
+			<frames width="42" height="42" count="72" first="0" last="35"/>
+			<playback fps="50" play="1" loop="1" forward="0" pingpong="0"/>
+		</animation>
+	</Animations>
+	<VertexBuffers/>
+	<Sounds>
+	</Sounds>
+</Resources>

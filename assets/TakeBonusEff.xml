@@ -1,0 +1,578 @@
+<?xml version="1.0" ?>
+<Effects>
+    <ParticleSystem name="TakeBonus1_Bonus1Orig" numOfParticles="1" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="false" linkedParticles="false" orientParticles="false" texture="bonus_1.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="180.10" variation="43.43" />
+                <key time="1.00" initial="64.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.17" initial="0.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus1_Bonus1Flame" numOfParticles="4" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="bonus_1.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="128.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="173.58" variation="52.71" />
+                <key time="1.00" initial="63.38" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="0.00" variation="23.91" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.51" initial="49.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus1_Bonus1Circle" numOfParticles="4" lifeInitial="1.00" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="Bomb_ring.JPG">
+        <Param name="x" initial="-1.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="4.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="44.94" variation="0.76" />
+                <key time="0.21" initial="58.05" variation="0.00" />
+                <key time="1.00" initial="62.15" variation="31.44" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="50.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus2_Bonus2Orig" numOfParticles="1" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="false" linkedParticles="false" orientParticles="false" texture="bonus2.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="180.10" variation="43.43" />
+                <key time="1.00" initial="64.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.17" initial="0.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus2_Bonus2Flame" numOfParticles="4" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="bonus2.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="128.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="173.58" variation="52.71" />
+                <key time="1.00" initial="63.38" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="0.00" variation="23.91" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.51" initial="49.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus2_Bonus2Circle" numOfParticles="4" lifeInitial="1.00" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="Bomb_ring.JPG">
+        <Param name="x" initial="-1.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="4.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="44.94" variation="0.76" />
+                <key time="0.21" initial="58.05" variation="0.00" />
+                <key time="1.00" initial="62.15" variation="31.44" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="50.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus3_Bonus3Orig" numOfParticles="1" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="false" linkedParticles="false" orientParticles="false" texture="bonus3.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="180.10" variation="43.43" />
+                <key time="1.00" initial="64.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.17" initial="0.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus3_Bonus3Flame" numOfParticles="4" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="bonus3.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="128.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="173.58" variation="52.71" />
+                <key time="1.00" initial="63.38" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="0.00" variation="23.91" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.51" initial="49.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus3_Bonus3Circle" numOfParticles="4" lifeInitial="1.00" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="Bomb_ring.JPG">
+        <Param name="x" initial="-1.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="4.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="44.94" variation="0.76" />
+                <key time="0.21" initial="58.05" variation="0.00" />
+                <key time="1.00" initial="62.15" variation="31.44" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="50.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus4_Bonus4Orig" numOfParticles="1" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="false" linkedParticles="false" orientParticles="false" texture="bonus4.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="180.10" variation="43.43" />
+                <key time="1.00" initial="64.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.17" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.17" initial="0.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus4_Bonus4Flame" numOfParticles="4" lifeInitial="0.80" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="bonus4.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="128.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="173.58" variation="52.71" />
+                <key time="1.00" initial="63.38" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="0.00" variation="23.91" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.51" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.51" initial="49.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonus4_Bonus4Circle" numOfParticles="4" lifeInitial="1.00" lifeVariation="0.00" startTime="0.00" additive="true" linkedParticles="false" orientParticles="false" texture="Bomb_ring.JPG">
+        <Param name="x" initial="-1.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="4.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="44.94" variation="0.76" />
+                <key time="0.21" initial="58.05" variation="0.00" />
+                <key time="1.00" initial="62.15" variation="31.44" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="50.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.05" initial="255.00" variation="0.00" />
+                <key time="0.33" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <ParticleSystem name="TakeBonusBlik_TakeBonusBlik" numOfParticles="40" lifeInitial="0.90" lifeVariation="0.10" startTime="0.90" additive="true" linkedParticles="false" orientParticles="false" texture="adot.png">
+        <Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="5.00" d2="0.00" d2Variation="0.00" />
+        <Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="5.00" d2="0.00" d2Variation="0.00" />
+        <Param name="size" initial="5.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+            <spline>
+                <key time="0.00" initial="2.89" variation="0.00" />
+                <key time="0.49" initial="6.63" variation="0.00" />
+                <key time="1.00" initial="1.95" variation="1.25" />
+            </spline>
+        </Param>
+        <Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00" />
+        <Param name="red">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.20" initial="255.00" variation="0.00" />
+                <key time="0.68" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="green">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.20" initial="255.00" variation="0.00" />
+                <key time="0.68" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="blue">
+            <spline>
+                <key time="0.00" initial="255.00" variation="0.00" />
+                <key time="0.20" initial="255.00" variation="0.00" />
+                <key time="0.68" initial="255.00" variation="0.00" />
+                <key time="1.00" initial="255.00" variation="0.00" />
+            </spline>
+        </Param>
+        <Param name="alpha">
+            <spline>
+                <key time="0.00" initial="0.00" variation="0.00" />
+                <key time="0.20" initial="121.00" variation="0.00" />
+                <key time="0.68" initial="149.00" variation="0.00" />
+                <key time="1.00" initial="0.00" variation="0.00" />
+            </spline>
+        </Param>
+    </ParticleSystem>
+    <Effect name="TakeBonus1">
+        <ParticleSystem name="TakeBonus1_Bonus1Orig" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus1_Bonus1Flame" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus1_Bonus1Circle" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.75" />
+    </Effect>
+    <Effect name="TakeBonus2">
+        <ParticleSystem name="TakeBonus2_Bonus2Orig" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus2_Bonus2Flame" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus2_Bonus2Circle" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.75" />
+    </Effect>
+    <Effect name="TakeBonus3">
+        <ParticleSystem name="TakeBonus3_Bonus3Orig" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus3_Bonus3Flame" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus3_Bonus3Circle" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.75" />
+    </Effect>
+    <Effect name="TakeBonus4">
+        <ParticleSystem name="TakeBonus4_Bonus4Orig" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus4_Bonus4Flame" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00" />
+        <ParticleSystem name="TakeBonus4_Bonus4Circle" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.75" />
+    </Effect>
+    <Effect name="TakeBonusBlik">
+        <ParticleSystem name="TakeBonusBlik_TakeBonusBlik" needStartDeadCounter="false" deadCountTime="0.00" bornTime="0.00" />
+    </Effect>
+</Effects>

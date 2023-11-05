@@ -1,0 +1,832 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Effects version="1.0">
+	<Effect name="ArtefactFlame1">
+		<ParticleSystem name="Flame" numOfParticles="40" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.11" initial="219.00" variation="7.00"/>
+					<key time="0.87" initial="133.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.11" initial="242.00" variation="2.00"/>
+					<key time="0.87" initial="242.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.11" initial="13.00" variation="43.00"/>
+					<key time="0.87" initial="60.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.11" initial="255.00" variation="0.00"/>
+					<key time="0.87" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame2" numOfParticles="10" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="6.76"/>
+					<key time="1.00" initial="0.00" variation="10.68"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="31.43"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="360.00" d="0.00" dVariation="200.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.35" initial="7.00" variation="7.00"/>
+					<key time="0.89" initial="253.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.35" initial="134.00" variation="2.00"/>
+					<key time="0.89" initial="253.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.35" initial="248.00" variation="43.00"/>
+					<key time="0.89" initial="17.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.35" initial="255.00" variation="0.00"/>
+					<key time="0.89" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame2">
+		<ParticleSystem name="Flame" numOfParticles="30" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="dot.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="7.71" variation="0.00"/>
+					<key time="0.27" initial="16.04" variation="4.49"/>
+					<key time="1.00" initial="11.85" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.16" initial="1.00" variation="7.00"/>
+					<key time="0.87" initial="198.00" variation="0.00"/>
+					<key time="1.00" initial="250.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.16" initial="159.00" variation="2.00"/>
+					<key time="0.87" initial="253.00" variation="0.00"/>
+					<key time="1.00" initial="247.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.16" initial="254.00" variation="43.00"/>
+					<key time="0.87" initial="242.00" variation="0.00"/>
+					<key time="1.00" initial="133.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.16" initial="255.00" variation="0.00"/>
+					<key time="0.87" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame2" numOfParticles="20" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="19.69"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="19.34"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="10.00" variation="5.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.17" initial="247.00" variation="7.00"/>
+					<key time="0.76" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="250.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.17" initial="217.00" variation="2.00"/>
+					<key time="0.76" initial="128.00" variation="0.00"/>
+					<key time="1.00" initial="247.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.17" initial="9.00" variation="43.00"/>
+					<key time="0.76" initial="64.00" variation="0.00"/>
+					<key time="1.00" initial="133.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.17" initial="255.00" variation="0.00"/>
+					<key time="0.76" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame3">
+		<ParticleSystem name="Flame" numOfParticles="50" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star8.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="300.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="255.00" variation="41.00"/>
+					<key time="0.17" initial="244.00" variation="7.00"/>
+					<key time="0.87" initial="241.00" variation="0.00"/>
+					<key time="1.00" initial="235.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="77.00" variation="86.00"/>
+					<key time="0.17" initial="182.00" variation="2.00"/>
+					<key time="0.87" initial="146.00" variation="0.00"/>
+					<key time="1.00" initial="126.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="77.00" variation="220.00"/>
+					<key time="0.17" initial="17.00" variation="43.00"/>
+					<key time="0.87" initial="67.00" variation="0.00"/>
+					<key time="1.00" initial="7.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.17" initial="255.00" variation="0.00"/>
+					<key time="0.87" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame4">
+		<ParticleSystem name="Flame" numOfParticles="50" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star8.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="6.57"/>
+					<key time="1.00" initial="0.00" variation="3.98"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="5.10"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="10.83" variation="3.32"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.16" initial="254.00" variation="7.00"/>
+					<key time="0.88" initial="206.00" variation="0.00"/>
+					<key time="1.00" initial="136.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.16" initial="248.00" variation="2.00"/>
+					<key time="0.88" initial="31.00" variation="0.00"/>
+					<key time="1.00" initial="15.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.16" initial="1.00" variation="43.00"/>
+					<key time="0.88" initial="237.00" variation="0.00"/>
+					<key time="1.00" initial="130.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.16" initial="255.00" variation="0.00"/>
+					<key time="0.88" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame5">
+		<ParticleSystem name="Flame" numOfParticles="60" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="fire.JPG" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="5.48"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="4.24"/>
+					<key time="1.00" initial="0.00" variation="2.09"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="11.61" variation="4.66"/>
+					<key time="1.00" initial="14.17" variation="2.96"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="360.00" d="0.00" dVariation="200.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.17" initial="248.00" variation="7.00"/>
+					<key time="0.78" initial="97.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.17" initial="142.00" variation="2.00"/>
+					<key time="0.78" initial="97.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.17" initial="14.00" variation="43.00"/>
+					<key time="0.78" initial="97.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.17" initial="255.00" variation="0.00"/>
+					<key time="0.78" initial="255.00" variation="88.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame6">
+		<ParticleSystem name="Flame" numOfParticles="20" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="false" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="sakura1.png" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.32" initial="4.63" variation="5.33"/>
+					<key time="0.68" initial="-6.53" variation="5.45"/>
+					<key time="1.00" initial="0.00" variation="3.74"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="8.53"/>
+					<key time="0.49" initial="-0.30" variation="2.15"/>
+					<key time="1.00" initial="-22.91" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="18.00" variation="5.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.12" initial="25.49" variation="6.98"/>
+					<key time="0.25" initial="-12.61" variation="10.20"/>
+					<key time="0.44" initial="26.56" variation="10.20"/>
+					<key time="0.64" initial="-24.95" variation="10.20"/>
+					<key time="0.84" initial="31.93" variation="10.73"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="255.00" variation="41.00"/>
+					<key time="0.14" initial="255.00" variation="7.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="255.00" variation="86.00"/>
+					<key time="0.14" initial="255.00" variation="2.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="255.00" variation="220.00"/>
+					<key time="0.14" initial="255.00" variation="43.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.14" initial="255.00" variation="0.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame2" numOfParticles="20" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="false" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="sakura2.png" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.32" initial="4.63" variation="5.33"/>
+					<key time="0.68" initial="-6.53" variation="5.45"/>
+					<key time="1.00" initial="0.00" variation="3.74"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="8.53"/>
+					<key time="0.49" initial="-0.30" variation="2.15"/>
+					<key time="1.00" initial="-22.91" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="15.00" variation="5.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="9.53" variation="14.44"/>
+					<key time="0.12" initial="25.49" variation="6.98"/>
+					<key time="0.25" initial="-12.61" variation="10.20"/>
+					<key time="0.44" initial="26.56" variation="10.20"/>
+					<key time="0.64" initial="-24.95" variation="10.20"/>
+					<key time="0.84" initial="31.93" variation="10.73"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="255.00" variation="41.00"/>
+					<key time="0.14" initial="255.00" variation="7.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="255.00" variation="86.00"/>
+					<key time="0.14" initial="255.00" variation="2.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="255.00" variation="220.00"/>
+					<key time="0.14" initial="255.00" variation="43.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.14" initial="255.00" variation="0.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame3" numOfParticles="20" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="6.76"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="24.10"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.25" initial="249.00" variation="7.00"/>
+					<key time="0.86" initial="248.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.25" initial="172.00" variation="2.00"/>
+					<key time="0.86" initial="7.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.25" initial="79.00" variation="43.00"/>
+					<key time="0.86" initial="98.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.25" initial="255.00" variation="0.00"/>
+					<key time="0.86" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="ArtefactFlame7">
+		<ParticleSystem name="Flame" numOfParticles="25" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="astar.png" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="45.00" d="0.00" dVariation="190.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.17" initial="248.00" variation="7.00"/>
+					<key time="0.81" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.17" initial="139.00" variation="2.00"/>
+					<key time="0.81" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.17" initial="7.00" variation="43.00"/>
+					<key time="0.81" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.17" initial="255.00" variation="0.00"/>
+					<key time="0.81" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame2" numOfParticles="25" lifeInitial="1.00" lifeVariation="0.40" startTime="1.00" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="astar.png" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="45.00" d="0.00" dVariation="190.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.17" initial="0.00" variation="7.00"/>
+					<key time="0.81" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.17" initial="128.00" variation="2.00"/>
+					<key time="0.81" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.17" initial="255.00" variation="43.00"/>
+					<key time="0.81" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.17" initial="255.00" variation="0.00"/>
+					<key time="0.81" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+	<Effect name="HeartFlame">
+		<ParticleSystem name="Flame" numOfParticles="80" lifeInitial="3.5" lifeVariation="0.40" startTime="2.0" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.46" initial="1.00" variation="9.87"/>
+					<key time="1.00" initial="0.00" variation="7.88"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.19" initial="0.00" variation="7.54"/>
+					<key time="1.00" initial="0.00" variation="5.00"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.11" initial="219.00" variation="7.00"/>
+					<key time="0.87" initial="133.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.11" initial="242.00" variation="2.00"/>
+					<key time="0.87" initial="242.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.11" initial="13.00" variation="43.00"/>
+					<key time="0.87" initial="60.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.11" initial="255.00" variation="0.00"/>
+					<key time="0.87" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+		<ParticleSystem name="Flame2" numOfParticles="20" lifeInitial="3.5" lifeVariation="0.40" startTime="2.0" deadCountTime="0.00" bornTime="0.00" additive="true" linkedParticles="false" needStartDeadCounter="false" orientParticles="false" isVelocity="false" isEqual="false" texture="star.jpg" emitterType="point" emitterAngle="81" emitterRange="25" emitterOrientation="0" lineLength="200.00" rectWidth="100.00" rectHeight="100.00" ellipseRHor="70.00" ellipseRVert="70.00" ellipseThickness="1.00">
+			<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="170.00" d2="0.00" d2Variation="30.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="6.76"/>
+					<key time="1.00" initial="0.00" variation="10.68"/>
+				</spline>
+			</Param>
+			<Param name="y" initial="0.00" variation="0.00" d="150.00" dVariation="170.00" d2="-360.00" d2Variation="70.00">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="31.43"/>
+				</spline>
+			</Param>
+			<Param name="size" initial="5.00" variation="1.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+				<spline>
+					<key time="0.00" initial="5.42" variation="0.00"/>
+					<key time="0.27" initial="10.27" variation="3.58"/>
+					<key time="1.00" initial="7.67" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="angle" initial="-90.00" variation="360.00" d="0.00" dVariation="200.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="v" initial="290.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="spin" initial="0.00" variation="0.00" d="-70.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+			<Param name="red">
+				<spline>
+					<key time="0.00" initial="166.00" variation="41.00"/>
+					<key time="0.35" initial="7.00" variation="7.00"/>
+					<key time="0.89" initial="253.00" variation="0.00"/>
+					<key time="1.00" initial="128.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="green">
+				<spline>
+					<key time="0.00" initial="166.00" variation="86.00"/>
+					<key time="0.35" initial="134.00" variation="2.00"/>
+					<key time="0.89" initial="253.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="blue">
+				<spline>
+					<key time="0.00" initial="166.00" variation="220.00"/>
+					<key time="0.35" initial="248.00" variation="43.00"/>
+					<key time="0.89" initial="17.00" variation="0.00"/>
+					<key time="1.00" initial="255.00" variation="0.00"/>
+				</spline>
+			</Param>
+			<Param name="alpha">
+				<spline>
+					<key time="0.00" initial="0.00" variation="0.00"/>
+					<key time="0.35" initial="255.00" variation="0.00"/>
+					<key time="0.89" initial="255.00" variation="0.00"/>
+					<key time="1.00" initial="0.00" variation="0.00"/>
+				</spline>
+			</Param>
+		</ParticleSystem>
+	</Effect>
+</Effects>

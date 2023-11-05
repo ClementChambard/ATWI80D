@@ -1,0 +1,1933 @@
+<Splines>
+    <Artefact>
+        <Spline startTime="0.12" endTime="0.846">
+            <Key x="-1" y="46" />
+            <Key x="44" y="72" />
+            <Key x="68.5" y="61.5" />
+            <Key x="118.5" y="84.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.095" endTime="0.782">
+            <Key x="44.7398" y="0" />
+            <Key x="49.5" y="50.5" />
+            <Key x="30.8898" y="77.5188" />
+            <Key x="47.5" y="119.5" />
+        </Spline>
+        <Spline startTime="0.199" endTime="0.897">
+            <Key x="94.5" y="-2" />
+            <Key x="87.5" y="58.5" />
+            <Key x="68.5" y="77" />
+            <Key x="64" y="118.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.105" endTime="0.782">
+            <Key x="85.5" y="-2.5" />
+            <Key x="67" y="39" />
+            <Key x="46" y="38" />
+            <Key x="-3.5" y="89.5" />
+        </Spline>
+        <Spline startTime="0.315" endTime="0.792">
+            <Key x="99" y="-3" />
+            <Key x="93.5" y="49.5" />
+            <Key x="71.3447" y="84.3886" />
+            <Key x="-3.5" y="100.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.147" endTime="0.938">
+            <Key x="-2" y="104.5" />
+            <Key x="43.5" y="52.5" />
+            <Key x="76.5" y="48.5" />
+            <Key x="119" y="71" />
+        </Spline>
+        <Spline startTime="0.145" endTime="0.811">
+            <Key x="8.5" y="119.5" />
+            <Key x="59.5" y="71.5" />
+            <Key x="85.3868" y="91.3355" />
+            <Key x="115" y="88.5119" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.017" endTime="0.634">
+            <Key x="44.0559" y="0" />
+            <Key x="43" y="19.5" />
+            <Key x="36.2134" y="33.0972" />
+            <Key x="37.7402" y="41.0918" />
+            <Key x="39.3016" y="50.4081" />
+            <Key x="33" y="61" />
+            <Key x="41.5" y="94.5" />
+            <Key x="43.5" y="101.5" />
+            <Key x="42.277" y="107.564" />
+            <Key x="36.692" y="115" />
+        </Spline>
+        <Spline startTime="0.354" endTime="0.74">
+            <Key x="133.5" y="-22.5" />
+            <Key x="78" y="-11" />
+            <Key x="75.5" y="0" />
+            <Key x="97.5" y="25.5" />
+            <Key x="68.5" y="51.5" />
+            <Key x="68.5" y="62" />
+            <Key x="68.5" y="76.5" />
+            <Key x="59" y="92" />
+            <Key x="58" y="104.5" />
+            <Key x="69.5" y="127" />
+        </Spline>
+        <Spline startTime="0.155" endTime="0.646">
+            <Key x="0" y="42.2232" />
+            <Key x="5.16905" y="46.0458" />
+            <Key x="19.5818" y="45.4299" />
+            <Key x="37.7402" y="41.0918" />
+            <Key x="62" y="38" />
+            <Key x="60" y="27.5" />
+            <Key x="97.5" y="25.5" />
+            <Key x="104" y="30.5" />
+            <Key x="110" y="44.5" />
+            <Key x="138" y="22" />
+        </Spline>
+        <Spline startTime="0.368" endTime="0.753">
+            <Key x="0" y="81.2471" />
+            <Key x="13.0673" y="74.1403" />
+            <Key x="15" y="85" />
+            <Key x="41.5" y="94.5" />
+            <Key x="48.5" y="65.5" />
+            <Key x="58.5" y="65" />
+            <Key x="68.5" y="76.5" />
+            <Key x="88.1066" y="75.308" />
+            <Key x="102.086" y="74.3683" />
+            <Key x="115" y="79.3445" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.072" endTime="0.626">
+            <Key x="49" y="-3" />
+            <Key x="59.2635" y="18.8084" />
+            <Key x="60.5804" y="26.3179" />
+            <Key x="55.1691" y="32.0971" />
+            <Key x="58.5229" y="48.1515" />
+            <Key x="57.8156" y="73.8623" />
+            <Key x="57.6606" y="82.7546" />
+            <Key x="49.2212" y="94.9766" />
+            <Key x="62.1996" y="94.6345" />
+            <Key x="53.6788" y="115" />
+        </Spline>
+        <Spline startTime="0.201" endTime="0.836">
+            <Key x="0" y="35.8545" />
+            <Key x="17" y="56.5" />
+            <Key x="32" y="43.5" />
+            <Key x="55.1691" y="32.0971" />
+            <Key x="76" y="51" />
+            <Key x="89.5" y="40.5" />
+            <Key x="121.5" y="21.5" />
+        </Spline>
+        <Spline startTime="0.547" endTime="0.693">
+            <Key x="0" y="69.9604" />
+            <Key x="18.7481" y="80.3262" />
+            <Key x="33.0027" y="87.4373" />
+            <Key x="57.6606" y="82.7546" />
+            <Key x="82.5" y="75" />
+            <Key x="94" y="68" />
+            <Key x="115" y="76.6184" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.176" endTime="0.858">
+            <Key x="-3" y="66" />
+            <Key x="19.5" y="63.5" />
+            <Key x="40" y="51.5" />
+            <Key x="88.5" y="-13" />
+        </Spline>
+        <Spline startTime="0.207" endTime="0.607">
+            <Key x="-4" y="90.5" />
+            <Key x="52.1611" y="71.7278" />
+            <Key x="78" y="52" />
+            <Key x="117.5" y="33.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.587" endTime="0.735">
+            <Key x="-0.5" y="66" />
+            <Key x="35.5" y="27.5" />
+            <Key x="56.5" y="40" />
+            <Key x="121" y="50.5" />
+        </Spline>
+        <Spline startTime="0.467" endTime="0.666">
+            <Key x="0" y="84.7184" />
+            <Key x="37.5" y="68" />
+            <Key x="66.9911" y="76.3936" />
+            <Key x="115" y="87.4712" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.033" endTime="0.965">
+            <Key x="0" y="33.8122" />
+            <Key x="59" y="44.5" />
+            <Key x="68" y="32" />
+            <Key x="115" y="48.5261" />
+        </Spline>
+        <Spline startTime="0.046" endTime="0.961">
+            <Key x="0" y="69.1817" />
+            <Key x="35" y="68.5" />
+            <Key x="47.5" y="79.5" />
+            <Key x="117.5" y="66.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.187" endTime="0.777">
+            <Key x="13.5" y="-4" />
+            <Key x="38" y="42.5" />
+            <Key x="36.5" y="73" />
+            <Key x="4" y="119" />
+        </Spline>
+        <Spline startTime="0.215" endTime="0.784">
+            <Key x="104" y="-5" />
+            <Key x="70.5" y="41.5" />
+            <Key x="69.5" y="73.5" />
+            <Key x="96.5" y="116" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.022" endTime="0.985">
+            <Key x="64.3342" y="0" />
+            <Key x="68.3719" y="30.4655" />
+            <Key x="64.6868" y="43.1809" />
+            <Key x="55.2888" y="49.4025" />
+            <Key x="66.1282" y="87.0691" />
+            <Key x="49.2665" y="92.2259" />
+            <Key x="61.5362" y="115" />
+        </Spline>
+        <Spline startTime="0.15" endTime="0.798">
+            <Key x="0" y="64.577" />
+            <Key x="26.5191" y="65.7176" />
+            <Key x="46.4646" y="57.4064" />
+            <Key x="55.2888" y="49.4025" />
+            <Key x="79.439" y="67.1591" />
+            <Key x="96.5858" y="55.7178" />
+            <Key x="115" y="66.039" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.207" endTime="0.681">
+            <Key x="0" y="60.2126" />
+            <Key x="51.5" y="32.5" />
+            <Key x="73.5" y="48.5" />
+            <Key x="115" y="19.5882" />
+        </Spline>
+        <Spline startTime="0.314" endTime="0.606">
+            <Key x="0" y="91.698" />
+            <Key x="37.5" y="80" />
+            <Key x="83.5" y="80.5" />
+            <Key x="115" y="69.3375" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.016" endTime="1">
+            <Key x="50.7916" y="0" />
+            <Key x="52.1658" y="21.5758" />
+            <Key x="66.3151" y="33.3036" />
+            <Key x="61.8385" y="50.7901" />
+            <Key x="50.6967" y="81.2636" />
+            <Key x="56.5" y="98" />
+            <Key x="51.5045" y="115" />
+        </Spline>
+        <Spline startTime="0.123" endTime="0.731">
+            <Key x="0" y="65.1321" />
+            <Key x="25.125" y="61.2905" />
+            <Key x="28.1727" y="54.7415" />
+            <Key x="61.8385" y="50.7901" />
+            <Key x="86.2111" y="66.6153" />
+            <Key x="104.293" y="65.5151" />
+            <Key x="115" y="58.7027" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.027" endTime="0.953">
+            <Key x="64.7179" y="0" />
+            <Key x="54.522" y="29.8807" />
+            <Key x="62.3178" y="36.6262" />
+            <Key x="54.8378" y="62.4119" />
+            <Key x="68.5956" y="73.7885" />
+            <Key x="52.5304" y="99.6181" />
+            <Key x="56.6637" y="115" />
+        </Spline>
+        <Spline startTime="0.029" endTime="0.969">
+            <Key x="0" y="47.9971" />
+            <Key x="23.326" y="50.097" />
+            <Key x="40.2972" y="68.8696" />
+            <Key x="54.8378" y="62.4119" />
+            <Key x="75.4771" y="60.7276" />
+            <Key x="98.1009" y="65.9498" />
+            <Key x="115" y="47.4038" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.378" endTime="0.513">
+            <Key x="33.6155" y="0" />
+            <Key x="41" y="27.5" />
+            <Key x="24.5" y="87" />
+            <Key x="39.2133" y="115" />
+        </Spline>
+        <Spline startTime="0.388" endTime="0.696">
+            <Key x="75.5" y="-19.5" />
+            <Key x="76.5" y="25.5" />
+            <Key x="56" y="72" />
+            <Key x="82.7598" y="115" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.029" endTime="0.894">
+            <Key x="60.5" y="-1" />
+            <Key x="59" y="22.5" />
+            <Key x="61" y="45" />
+            <Key x="62" y="59" />
+            <Key x="60.5" y="78.5" />
+            <Key x="59.5" y="107.5" />
+            <Key x="61" y="122.5" />
+        </Spline>
+        <Spline startTime="0.06" endTime="0.944">
+            <Key x="-3.5" y="61" />
+            <Key x="14.5" y="58" />
+            <Key x="31" y="57.5" />
+            <Key x="62" y="59" />
+            <Key x="76" y="58" />
+            <Key x="94.5" y="58.5" />
+            <Key x="118" y="62.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.205" endTime="0.886">
+            <Key x="55.0424" y="0" />
+            <Key x="60.5754" y="11.0217" />
+            <Key x="52.5" y="25.5" />
+            <Key x="63.5" y="42" />
+            <Key x="61.7337" y="65.638" />
+            <Key x="39" y="95" />
+            <Key x="21" y="119" />
+        </Spline>
+        <Spline startTime="0.085" endTime="0.938">
+            <Key x="0" y="48.5019" />
+            <Key x="21" y="54" />
+            <Key x="37" y="40" />
+            <Key x="63.5" y="42" />
+            <Key x="88.0603" y="57.5884" />
+            <Key x="99.3236" y="53.385" />
+            <Key x="115" y="58.5293" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.14" endTime="0.859">
+            <Key x="37.8587" y="0" />
+            <Key x="44.6558" y="22.1517" />
+            <Key x="43.7794" y="44.2126" />
+            <Key x="40.7813" y="51.3464" />
+            <Key x="43.6184" y="79.6395" />
+            <Key x="39.6443" y="89.9488" />
+            <Key x="42.1198" y="115" />
+        </Spline>
+        <Spline startTime="0.241" endTime="0.844">
+            <Key x="75.7517" y="0" />
+            <Key x="76.0377" y="14.5692" />
+            <Key x="71.5477" y="36.7977" />
+            <Key x="79.0419" y="58.0142" />
+            <Key x="69.4506" y="75.9362" />
+            <Key x="83.2091" y="93.7285" />
+            <Key x="82.4874" y="115" />
+        </Spline>
+        <Spline startTime="0.177" endTime="0.929">
+            <Key x="0" y="51.531" />
+            <Key x="6.79458" y="61.9983" />
+            <Key x="20.3936" y="52.8818" />
+            <Key x="40.7813" y="51.3464" />
+            <Key x="47.326" y="62.1578" />
+            <Key x="57.6461" y="61.9662" />
+            <Key x="79.0419" y="58.0142" />
+            <Key x="96.5689" y="52.3838" />
+            <Key x="99.2036" y="62.0974" />
+            <Key x="115" y="53.688" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.065" endTime="0.959">
+            <Key x="45.6055" y="0" />
+            <Key x="33.937" y="19.5161" />
+            <Key x="36" y="30.5" />
+            <Key x="41" y="37.5" />
+            <Key x="43.4055" y="44.731" />
+            <Key x="38.4799" y="71.5703" />
+            <Key x="41.5888" y="72.6115" />
+            <Key x="39.3375" y="91.141" />
+            <Key x="40.4495" y="107.666" />
+            <Key x="37.9371" y="115" />
+        </Spline>
+        <Spline startTime="0.013" endTime="0.993">
+            <Key x="78.915" y="0" />
+            <Key x="78.13" y="16.9886" />
+            <Key x="74.6208" y="19.0994" />
+            <Key x="73.1982" y="40.7945" />
+            <Key x="71.9031" y="48.4644" />
+            <Key x="82.2005" y="64.1133" />
+            <Key x="70.9091" y="70.4206" />
+            <Key x="78.0956" y="95.9737" />
+            <Key x="82.9844" y="98.0307" />
+            <Key x="73.7212" y="115" />
+        </Spline>
+        <Spline startTime="0.146" endTime="0.836">
+            <Key x="0" y="32.6107" />
+            <Key x="8.78354" y="41.2084" />
+            <Key x="27.4121" y="34.6204" />
+            <Key x="41" y="37.5" />
+            <Key x="47.1348" y="32.9944" />
+            <Key x="64.8246" y="37.1002" />
+            <Key x="73.1982" y="40.7945" />
+            <Key x="86.8888" y="39.463" />
+            <Key x="102.169" y="37.6067" />
+            <Key x="115" y="41.1414" />
+        </Spline>
+        <Spline startTime="0.23" endTime="0.855">
+            <Key x="0" y="77.9049" />
+            <Key x="12.8285" y="83.6924" />
+            <Key x="20.0089" y="73.5088" />
+            <Key x="41.5888" y="72.6115" />
+            <Key x="53.0536" y="77.4074" />
+            <Key x="62.4679" y="80.2818" />
+            <Key x="70.9091" y="70.4206" />
+            <Key x="96.9724" y="78.7724" />
+            <Key x="105.003" y="71.5194" />
+            <Key x="115" y="70.0708" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.039" endTime="0.999">
+            <Key x="77" y="-1.5" />
+            <Key x="68.5418" y="14.11" />
+            <Key x="67.8331" y="34.2749" />
+            <Key x="59" y="56" />
+            <Key x="60.1159" y="67.6877" />
+            <Key x="46.5" y="88" />
+            <Key x="46.3425" y="115" />
+        </Spline>
+        <Spline startTime="0.253" endTime="0.65">
+            <Key x="0" y="65.1562" />
+            <Key x="20" y="44" />
+            <Key x="36" y="51.5" />
+            <Key x="59" y="56" />
+            <Key x="93.5" y="66.5" />
+            <Key x="106.371" y="58.4726" />
+            <Key x="115" y="53.7708" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.048" endTime="0.646">
+            <Key x="68" y="-5.5" />
+            <Key x="62" y="13" />
+            <Key x="67" y="18.5" />
+            <Key x="63.5" y="38" />
+            <Key x="63.5" y="44" />
+            <Key x="63" y="60" />
+            <Key x="51" y="70" />
+            <Key x="45" y="98.5" />
+            <Key x="47.5" y="108.5" />
+            <Key x="58.5" y="122" />
+        </Spline>
+        <Spline startTime="0.362" endTime="0.858">
+            <Key x="0" y="39.9481" />
+            <Key x="17" y="33" />
+            <Key x="33.5" y="25.5" />
+            <Key x="63.5" y="38" />
+            <Key x="78.5" y="37" />
+            <Key x="92.1049" y="35.2343" />
+            <Key x="115" y="46.4808" />
+        </Spline>
+        <Spline startTime="0.218" endTime="0.891">
+            <Key x="0" y="75.4219" />
+            <Key x="22.5" y="57.5" />
+            <Key x="42" y="61.5" />
+            <Key x="51" y="70" />
+            <Key x="74.7719" y="73.2844" />
+            <Key x="90" y="70" />
+            <Key x="126" y="86" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.102" endTime="0.412">
+            <Key x="94.5" y="-3.5" />
+            <Key x="84" y="11.5" />
+            <Key x="71" y="21.5" />
+            <Key x="53.9946" y="57.7413" />
+            <Key x="49" y="79" />
+            <Key x="43.5" y="98" />
+            <Key x="27.5" y="125.5" />
+        </Spline>
+        <Spline startTime="0.111" endTime="0.906">
+            <Key x="-6" y="24.5" />
+            <Key x="21" y="33.5" />
+            <Key x="33.6292" y="60.3184" />
+            <Key x="53.9946" y="57.7413" />
+            <Key x="83" y="70.5" />
+            <Key x="99.5" y="58.5" />
+            <Key x="130" y="70.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.089" endTime="0.921">
+            <Key x="40.5236" y="0" />
+            <Key x="41.5" y="26.5" />
+            <Key x="33.5929" y="39.4644" />
+            <Key x="37.5" y="58.5" />
+            <Key x="47" y="78.5" />
+            <Key x="40" y="91" />
+            <Key x="50.5" y="117" />
+        </Spline>
+        <Spline startTime="0.078" endTime="0.905">
+            <Key x="78.2131" y="0" />
+            <Key x="73.5" y="29.5" />
+            <Key x="86.5" y="43.5" />
+            <Key x="80" y="59.5" />
+            <Key x="72" y="79" />
+            <Key x="77.5" y="94" />
+            <Key x="62" y="118.5" />
+        </Spline>
+        <Spline startTime="0.02" endTime="0.999">
+            <Key x="0" y="62.9045" />
+            <Key x="11.6783" y="51.8802" />
+            <Key x="26.2562" y="64.2723" />
+            <Key x="37.5" y="58.5" />
+            <Key x="51.5" y="49" />
+            <Key x="67.5" y="49" />
+            <Key x="80" y="59.5" />
+            <Key x="95.5" y="54" />
+            <Key x="106.333" y="61.9907" />
+            <Key x="115" y="60.0518" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.009" endTime="0.427">
+            <Key x="42.379" y="0" />
+            <Key x="50" y="19.5" />
+            <Key x="41.5" y="36" />
+            <Key x="24.5" y="61.5" />
+            <Key x="32.5" y="72.5" />
+            <Key x="44.7568" y="91.3114" />
+            <Key x="32.3497" y="115" />
+        </Spline>
+        <Spline startTime="0" endTime="0.847">
+            <Key x="70.6297" y="0" />
+            <Key x="73.7396" y="15.2645" />
+            <Key x="57.5" y="35.5" />
+            <Key x="62.5" y="48" />
+            <Key x="66" y="73.5" />
+            <Key x="54.5" y="88.5" />
+            <Key x="52.5" y="116" />
+        </Spline>
+        <Spline startTime="0.39" endTime="0.743">
+            <Key x="0" y="58.2535" />
+            <Key x="9.04125" y="56.6955" />
+            <Key x="16" y="57" />
+            <Key x="24.5" y="61.5" />
+            <Key x="44.5" y="56.5" />
+            <Key x="47.5" y="46" />
+            <Key x="62.5" y="48" />
+            <Key x="89.8279" y="60.5563" />
+            <Key x="103.566" y="62.8842" />
+            <Key x="115" y="52.7133" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.288" endTime="0.723">
+            <Key x="64.5664" y="0" />
+            <Key x="79" y="12.5" />
+            <Key x="69" y="35.5" />
+            <Key x="54.0915" y="57.4114" />
+            <Key x="49" y="78.5" />
+            <Key x="50.9133" y="105.839" />
+            <Key x="51.1725" y="115" />
+        </Spline>
+        <Spline startTime="0.078" endTime="0.956">
+            <Key x="-3" y="46.5" />
+            <Key x="33" y="36.5" />
+            <Key x="46.2861" y="59.0702" />
+            <Key x="54.0915" y="57.4114" />
+            <Key x="74.5" y="66" />
+            <Key x="86.5" y="63" />
+            <Key x="121" y="80" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.072" endTime="0.778">
+            <Key x="90" y="-5.5" />
+            <Key x="73.5" y="9" />
+            <Key x="72.5" y="21" />
+            <Key x="73.5" y="37" />
+            <Key x="63" y="45.5" />
+            <Key x="65.04" y="53.4245" />
+            <Key x="56.5" y="75" />
+            <Key x="55.0601" y="94.8824" />
+            <Key x="49.0648" y="104.122" />
+            <Key x="47.0611" y="115" />
+        </Spline>
+        <Spline startTime="0.421" endTime="0.666">
+            <Key x="0" y="34.7281" />
+            <Key x="29.3143" y="27.7578" />
+            <Key x="27.3812" y="30.2931" />
+            <Key x="73.5" y="37" />
+            <Key x="84" y="38" />
+            <Key x="106.501" y="28.7079" />
+            <Key x="115" y="34.5249" />
+        </Spline>
+        <Spline startTime="0.241" endTime="0.781">
+            <Key x="0" y="78.7771" />
+            <Key x="19" y="54" />
+            <Key x="45" y="66" />
+            <Key x="56.5" y="75" />
+            <Key x="70.5" y="72.5" />
+            <Key x="97" y="75.5" />
+            <Key x="115" y="86.3619" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.062" endTime="0.582">
+            <Key x="49.2772" y="0" />
+            <Key x="69" y="11.5" />
+            <Key x="61" y="28.5" />
+            <Key x="60" y="41" />
+            <Key x="67.106" y="48.5367" />
+            <Key x="56.5" y="62" />
+            <Key x="48.5" y="77.5" />
+            <Key x="55.6697" y="94.4548" />
+            <Key x="50.5" y="106.5" />
+            <Key x="47.8265" y="115" />
+        </Spline>
+        <Spline startTime="0.339" endTime="0.81">
+            <Key x="-3" y="32.5" />
+            <Key x="15.5" y="36" />
+            <Key x="29.3062" y="35.2902" />
+            <Key x="60" y="41" />
+            <Key x="77.5" y="32.5" />
+            <Key x="91.3402" y="49.1132" />
+            <Key x="115" y="37.9841" />
+        </Spline>
+        <Spline startTime="0.548" endTime="0.877">
+            <Key x="0" y="75.0502" />
+            <Key x="11" y="79" />
+            <Key x="34" y="83" />
+            <Key x="48.5" y="77.5" />
+            <Key x="73" y="71" />
+            <Key x="90" y="70" />
+            <Key x="115" y="80.5952" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.177" endTime="0.803">
+            <Key x="59" y="-5" />
+            <Key x="52.5" y="5.5" />
+            <Key x="52.2812" y="28.3131" />
+            <Key x="54.9751" y="41.6509" />
+            <Key x="53.5" y="56" />
+            <Key x="61" y="63.5" />
+            <Key x="61" y="72.5" />
+            <Key x="53.0671" y="92.5255" />
+            <Key x="49" y="105" />
+            <Key x="38.5" y="116.5" />
+        </Spline>
+        <Spline startTime="0.13" endTime="0.871">
+            <Key x="-1" y="42" />
+            <Key x="29" y="51" />
+            <Key x="49.5337" y="42.647" />
+            <Key x="54.9751" y="41.6509" />
+            <Key x="73.5" y="47" />
+            <Key x="87" y="44.5" />
+            <Key x="118.5" y="18.5" />
+        </Spline>
+        <Spline startTime="0.2" endTime="0.917">
+            <Key x="-2" y="87" />
+            <Key x="21.6509" y="82.8792" />
+            <Key x="43" y="70" />
+            <Key x="61" y="72.5" />
+            <Key x="77.068" y="78.6857" />
+            <Key x="89.7508" y="73.1244" />
+            <Key x="115" y="82.5762" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.371" endTime="0.638">
+            <Key x="103.5" y="-1" />
+            <Key x="67" y="12" />
+            <Key x="62" y="28.5" />
+            <Key x="60.5" y="46" />
+            <Key x="70" y="80" />
+            <Key x="60.0437" y="96.6828" />
+            <Key x="66.466" y="115" />
+        </Spline>
+        <Spline startTime="0.384" endTime="0.734">
+            <Key x="0" y="67.1803" />
+            <Key x="15" y="64" />
+            <Key x="29.6524" y="52.9609" />
+            <Key x="60.5" y="46" />
+            <Key x="88.2019" y="56.8499" />
+            <Key x="100.092" y="67.1506" />
+            <Key x="115" y="61.1234" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.348" endTime="0.813">
+            <Key x="127" y="7.5" />
+            <Key x="87" y="22.5" />
+            <Key x="72.5" y="45.5" />
+            <Key x="54.5" y="57" />
+            <Key x="51.5" y="86" />
+            <Key x="39" y="100" />
+            <Key x="17" y="131" />
+        </Spline>
+        <Spline startTime="0.33" endTime="0.682">
+            <Key x="0" y="52.6132" />
+            <Key x="9" y="55.5" />
+            <Key x="40.5" y="59.5" />
+            <Key x="54.5" y="57" />
+            <Key x="69" y="84.5" />
+            <Key x="94.5" y="110" />
+            <Key x="55.5" y="151" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.036" endTime="0.649">
+            <Key x="66.5" y="-0.5" />
+            <Key x="54" y="16.5" />
+            <Key x="59.5" y="29.5" />
+            <Key x="53" y="43.5" />
+            <Key x="65.2333" y="50.4851" />
+            <Key x="77" y="60" />
+            <Key x="64.5" y="88" />
+            <Key x="70" y="105" />
+            <Key x="68.5" y="115" />
+            <Key x="61.5" y="125.5" />
+        </Spline>
+        <Spline startTime="0.108" endTime="0.943">
+            <Key x="0" y="27.1772" />
+            <Key x="14.6891" y="27.8428" />
+            <Key x="35.7773" y="27.1935" />
+            <Key x="53" y="43.5" />
+            <Key x="80.5" y="28.5" />
+            <Key x="90" y="43.5" />
+            <Key x="120" y="34.5" />
+        </Spline>
+        <Spline startTime="0.068" endTime="0.472">
+            <Key x="-2" y="54" />
+            <Key x="37" y="69" />
+            <Key x="51.5" y="61.5" />
+            <Key x="64.5" y="88" />
+            <Key x="84.5" y="83" />
+            <Key x="106.5" y="88.5" />
+            <Key x="115" y="70.7746" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.171" endTime="0.881">
+            <Key x="47.4165" y="0" />
+            <Key x="59.5" y="9.5" />
+            <Key x="58.5" y="19.5" />
+            <Key x="61" y="42" />
+            <Key x="49" y="55.5" />
+            <Key x="55" y="62" />
+            <Key x="56" y="76" />
+            <Key x="51.5" y="86.5" />
+            <Key x="58.2829" y="104.007" />
+            <Key x="49.3005" y="115" />
+        </Spline>
+        <Spline startTime="0.167" endTime="0.803">
+            <Key x="0" y="27.7897" />
+            <Key x="17.5" y="34" />
+            <Key x="35" y="49" />
+            <Key x="61" y="42" />
+            <Key x="83" y="44.5" />
+            <Key x="102" y="34" />
+            <Key x="132" y="18" />
+        </Spline>
+        <Spline startTime="0.176" endTime="0.898">
+            <Key x="0" y="81.8491" />
+            <Key x="15.8361" y="86.3371" />
+            <Key x="38.1264" y="72.4539" />
+            <Key x="56" y="76" />
+            <Key x="70.342" y="67.4512" />
+            <Key x="90.5905" y="75.6024" />
+            <Key x="115" y="87.6547" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.445" endTime="0.916">
+            <Key x="30.5" y="-5.5" />
+            <Key x="29" y="16" />
+            <Key x="32.5" y="25.5" />
+            <Key x="36.0779" y="34.291" />
+            <Key x="38" y="47" />
+            <Key x="48" y="60.5" />
+            <Key x="41" y="75" />
+            <Key x="43.0265" y="90.189" />
+            <Key x="42.2289" y="95.0727" />
+            <Key x="36.1322" y="115" />
+        </Spline>
+        <Spline startTime="0.25" endTime="0.645">
+            <Key x="70.9435" y="0" />
+            <Key x="73.6207" y="17.3421" />
+            <Key x="74.5" y="27" />
+            <Key x="73.5" y="46" />
+            <Key x="69" y="62.5" />
+            <Key x="77.6831" y="69.729" />
+            <Key x="78" y="88" />
+            <Key x="75.1117" y="94.8154" />
+            <Key x="79.1193" y="105.456" />
+            <Key x="80.6613" y="115" />
+        </Spline>
+        <Spline startTime="0.377" endTime="0.963">
+            <Key x="0" y="44.0021" />
+            <Key x="16.2221" y="40.8648" />
+            <Key x="21.9908" y="39.6249" />
+            <Key x="36.0779" y="34.291" />
+            <Key x="54" y="45.5" />
+            <Key x="66" y="44.5" />
+            <Key x="73.5" y="46" />
+            <Key x="87.6992" y="38.123" />
+            <Key x="97.5" y="51" />
+            <Key x="115" y="44.8649" />
+        </Spline>
+        <Spline startTime="0.063" endTime="0.648">
+            <Key x="-5.5" y="66" />
+            <Key x="20" y="76.5" />
+            <Key x="30.5" y="71" />
+            <Key x="41" y="75" />
+            <Key x="53" y="69.5" />
+            <Key x="57.7065" y="75.4581" />
+            <Key x="78" y="88" />
+            <Key x="90" y="89" />
+            <Key x="99.2541" y="82.6224" />
+            <Key x="115" y="82.7536" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.137" endTime="0.647">
+            <Key x="63.149" y="0" />
+            <Key x="68.3252" y="7.11576" />
+            <Key x="53.3687" y="23.0456" />
+            <Key x="53" y="38" />
+            <Key x="50" y="59.5" />
+            <Key x="39.5" y="58.5" />
+            <Key x="33" y="93" />
+            <Key x="51.5" y="103" />
+            <Key x="54" y="112" />
+            <Key x="46.5924" y="115" />
+        </Spline>
+        <Spline startTime="0.143" endTime="0.798">
+            <Key x="0" y="36.8145" />
+            <Key x="12.9531" y="29.7664" />
+            <Key x="27.7316" y="33.3425" />
+            <Key x="53" y="38" />
+            <Key x="66.7829" y="47.7135" />
+            <Key x="103.345" y="37.1268" />
+            <Key x="115" y="27.5688" />
+        </Spline>
+        <Spline startTime="0.52" endTime="0.777">
+            <Key x="0" y="85.7863" />
+            <Key x="9.5" y="73.5" />
+            <Key x="14.5" y="80.5" />
+            <Key x="33" y="93" />
+            <Key x="76" y="69.5" />
+            <Key x="106" y="69" />
+            <Key x="115" y="86.0333" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.106" endTime="0.722">
+            <Key x="45" y="-3.5" />
+            <Key x="41" y="12" />
+            <Key x="39.5" y="32" />
+            <Key x="53.5" y="51" />
+            <Key x="54.5" y="68.5" />
+            <Key x="62" y="98" />
+            <Key x="65.7254" y="115" />
+        </Spline>
+        <Spline startTime="0.135" endTime="0.657">
+            <Key x="0" y="55.7277" />
+            <Key x="8.5" y="47" />
+            <Key x="31" y="46.5" />
+            <Key x="53.5" y="51" />
+            <Key x="74" y="45.5" />
+            <Key x="90" y="48.5" />
+            <Key x="115" y="58.9066" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.136" endTime="0.878">
+            <Key x="112" y="-3" />
+            <Key x="82.5" y="39.5" />
+            <Key x="68.8009" y="39.0221" />
+            <Key x="62.2456" y="57.5947" />
+            <Key x="51.5" y="70" />
+            <Key x="50.5" y="84" />
+            <Key x="18.5" y="123" />
+        </Spline>
+        <Spline startTime="0.063" endTime="0.911">
+            <Key x="-0.5" y="12.5" />
+            <Key x="35" y="31" />
+            <Key x="45.5" y="50" />
+            <Key x="62.2456" y="57.5947" />
+            <Key x="75.5" y="76" />
+            <Key x="90" y="82" />
+            <Key x="110" y="123.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.035" endTime="0.869">
+            <Key x="43.7227" y="0" />
+            <Key x="52" y="28" />
+            <Key x="39.4644" y="39.3186" />
+            <Key x="43.9162" y="55.2578" />
+            <Key x="54.5" y="81.5" />
+            <Key x="36.7132" y="98.404" />
+            <Key x="34.3806" y="115" />
+        </Spline>
+        <Spline startTime="0.116" endTime="0.865">
+            <Key x="76.5621" y="0" />
+            <Key x="70.1761" y="13.3831" />
+            <Key x="79.402" y="32.6701" />
+            <Key x="75.3481" y="52.4995" />
+            <Key x="69.5" y="80.5" />
+            <Key x="76.3629" y="99.7699" />
+            <Key x="69.3751" y="115" />
+        </Spline>
+        <Spline startTime="0.118" endTime="0.944">
+            <Key x="0" y="52.7534" />
+            <Key x="6.09037" y="64.9737" />
+            <Key x="28.526" y="49.9295" />
+            <Key x="43.9162" y="55.2578" />
+            <Key x="57.3727" y="50.3005" />
+            <Key x="61.641" y="62.4023" />
+            <Key x="75.3481" y="52.4995" />
+            <Key x="97.063" y="58.7397" />
+            <Key x="100.348" y="62.4651" />
+            <Key x="115" y="51.5107" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.109" endTime="0.899">
+            <Key x="50.8284" y="0" />
+            <Key x="54.5" y="23.5" />
+            <Key x="51" y="37.5" />
+            <Key x="63.4456" y="61.0299" />
+            <Key x="63.5" y="78.5" />
+            <Key x="54.1871" y="88.7596" />
+            <Key x="64.8284" y="115" />
+        </Spline>
+        <Spline startTime="0.007" endTime="0.952">
+            <Key x="0" y="46.9209" />
+            <Key x="27" y="59" />
+            <Key x="40.7489" y="52.129" />
+            <Key x="63.4456" y="61.0299" />
+            <Key x="72.7612" y="59.6373" />
+            <Key x="99.8171" y="59.0249" />
+            <Key x="115" y="48.703" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.688" endTime="0.953">
+            <Key x="21.5" y="-16" />
+            <Key x="40" y="2.5" />
+            <Key x="38" y="17.5" />
+            <Key x="33.5" y="23.5" />
+            <Key x="17.5" y="59" />
+            <Key x="61" y="77.5" />
+            <Key x="55.9012" y="115" />
+        </Spline>
+        <Spline startTime="0.684" endTime="0.962">
+            <Key x="-20" y="47" />
+            <Key x="-12.5" y="30.5" />
+            <Key x="5" y="30" />
+            <Key x="33.5" y="23.5" />
+            <Key x="69" y="17.5" />
+            <Key x="77.5" y="60.5" />
+            <Key x="115" y="62.9203" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.357" endTime="0.972">
+            <Key x="25" y="-11.5" />
+            <Key x="29" y="1.5" />
+            <Key x="26.5" y="11.5" />
+            <Key x="25.5" y="38.5" />
+            <Key x="48.8318" y="51.8487" />
+            <Key x="59.8476" y="55.0189" />
+            <Key x="70.5" y="60.5" />
+            <Key x="61.9921" y="86.0983" />
+            <Key x="50.805" y="92.0842" />
+            <Key x="67.1994" y="115" />
+        </Spline>
+        <Spline startTime="0.529" endTime="0.861">
+            <Key x="0" y="48.9319" />
+            <Key x="7" y="40.5" />
+            <Key x="15" y="37.5" />
+            <Key x="25.5" y="38.5" />
+            <Key x="59.5" y="33" />
+            <Key x="85" y="12" />
+            <Key x="87.5" y="-13.5" />
+        </Spline>
+        <Spline startTime="0.086" endTime="0.764">
+            <Key x="0" y="84.5395" />
+            <Key x="30.6404" y="83.144" />
+            <Key x="40.7574" y="70.4588" />
+            <Key x="70.5" y="60.5" />
+            <Key x="85.5" y="54" />
+            <Key x="101.5" y="54" />
+            <Key x="115" y="84.0184" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.182" endTime="0.907">
+            <Key x="58.7813" y="0" />
+            <Key x="54.0519" y="20.8601" />
+            <Key x="61.2933" y="46.9099" />
+            <Key x="47.9192" y="60.2872" />
+            <Key x="66.4688" y="81.905" />
+            <Key x="47.8753" y="95.8042" />
+            <Key x="67.1329" y="115" />
+        </Spline>
+        <Spline startTime="0.078" endTime="0.98">
+            <Key x="0" y="47.8293" />
+            <Key x="19.1297" y="68.4958" />
+            <Key x="32.5219" y="62.5344" />
+            <Key x="47.9192" y="60.2872" />
+            <Key x="78.4379" y="57.4191" />
+            <Key x="89.464" y="61.7457" />
+            <Key x="115" y="57.102" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.357" endTime="0.747">
+            <Key x="46.3786" y="0" />
+            <Key x="45" y="7.5" />
+            <Key x="36.5" y="13.5" />
+            <Key x="36.5" y="20" />
+            <Key x="54.5" y="43" />
+            <Key x="64" y="53" />
+            <Key x="54.5" y="62" />
+            <Key x="32.5" y="75" />
+            <Key x="46.5457" y="106.522" />
+            <Key x="56.9179" y="115" />
+        </Spline>
+        <Spline startTime="0.524" endTime="0.774">
+            <Key x="0" y="27.4293" />
+            <Key x="14.5" y="35" />
+            <Key x="16" y="22" />
+            <Key x="36.5" y="20" />
+            <Key x="87" y="41" />
+            <Key x="105.616" y="39.3364" />
+            <Key x="115" y="43.8223" />
+        </Spline>
+        <Spline startTime="0.085" endTime="0.786">
+            <Key x="-1.5" y="38" />
+            <Key x="26.5" y="46.5" />
+            <Key x="33.5" y="41.5" />
+            <Key x="54.5" y="62" />
+            <Key x="78.5" y="58.5" />
+            <Key x="88" y="76" />
+            <Key x="119" y="87" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.145" endTime="0.753">
+            <Key x="49.799" y="0" />
+            <Key x="50" y="43" />
+            <Key x="43.5" y="52" />
+            <Key x="52.5" y="65" />
+            <Key x="50.5" y="79.5" />
+            <Key x="73.5" y="100" />
+            <Key x="50.7547" y="115" />
+        </Spline>
+        <Spline startTime="0.09" endTime="0.833">
+            <Key x="-2" y="83" />
+            <Key x="26" y="65" />
+            <Key x="40" y="65" />
+            <Key x="52.5" y="65" />
+            <Key x="82.8735" y="61.0299" />
+            <Key x="92" y="51" />
+            <Key x="118" y="41" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.085" endTime="0.311">
+            <Key x="45.5" y="-5.5" />
+            <Key x="48" y="11.5" />
+            <Key x="40" y="19.5" />
+            <Key x="56.5" y="42.5" />
+            <Key x="59" y="62" />
+            <Key x="57.5" y="66.5" />
+            <Key x="67.8473" y="86.3137" />
+            <Key x="72" y="95" />
+            <Key x="73.5" y="108.5" />
+            <Key x="77" y="130.5" />
+        </Spline>
+        <Spline startTime="0.094" endTime="0.961">
+            <Key x="-5.5" y="67" />
+            <Key x="18" y="58" />
+            <Key x="51" y="62.5" />
+            <Key x="56.5" y="42.5" />
+            <Key x="70.5" y="27.5" />
+            <Key x="82.5" y="42" />
+            <Key x="115" y="31.8373" />
+        </Spline>
+        <Spline startTime="0.08" endTime="0.44">
+            <Key x="-2" y="95" />
+            <Key x="25.5" y="90.5" />
+            <Key x="38.5" y="76.5" />
+            <Key x="67.8473" y="86.3137" />
+            <Key x="84.5" y="80.5" />
+            <Key x="94" y="76.5" />
+            <Key x="115" y="74.5446" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.254" endTime="0.554">
+            <Key x="62.4268" y="0" />
+            <Key x="62.5" y="20" />
+            <Key x="57.1572" y="34.1666" />
+            <Key x="52.5" y="57" />
+            <Key x="67" y="70" />
+            <Key x="77.5" y="98.5" />
+            <Key x="78" y="128" />
+        </Spline>
+        <Spline startTime="0.082" endTime="0.927">
+            <Key x="0" y="54.4441" />
+            <Key x="26" y="64.5" />
+            <Key x="31" y="58.5" />
+            <Key x="52.5" y="57" />
+            <Key x="78.5" y="42" />
+            <Key x="89.5" y="44" />
+            <Key x="122.5" y="38" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.012" endTime="0.962">
+            <Key x="47.311" y="0" />
+            <Key x="63.5384" y="27.7999" />
+            <Key x="52.4016" y="31.4097" />
+            <Key x="54.5107" y="56.3345" />
+            <Key x="64.1664" y="77.7802" />
+            <Key x="68.2869" y="85.6295" />
+            <Key x="66.9566" y="115" />
+        </Spline>
+        <Spline startTime="0.074" endTime="0.915">
+            <Key x="0" y="60.8855" />
+            <Key x="16.3742" y="67.8763" />
+            <Key x="36.4733" y="64.2124" />
+            <Key x="54.5107" y="56.3345" />
+            <Key x="80.8558" y="57.029" />
+            <Key x="105.24" y="53.4508" />
+            <Key x="115" y="64.6953" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.388" endTime="0.834">
+            <Key x="32.5" y="-14" />
+            <Key x="44.5" y="5" />
+            <Key x="41" y="13" />
+            <Key x="32" y="22" />
+            <Key x="43" y="52" />
+            <Key x="54.5" y="55" />
+            <Key x="46.5" y="70.5" />
+            <Key x="49.5" y="95.5" />
+            <Key x="46.5" y="111.5" />
+            <Key x="65.8139" y="115" />
+        </Spline>
+        <Spline startTime="0.809" endTime="0.953">
+            <Key x="-10.5" y="26.5" />
+            <Key x="17.6139" y="28.1061" />
+            <Key x="24" y="31.5" />
+            <Key x="32" y="22" />
+            <Key x="54" y="19" />
+            <Key x="74" y="43" />
+            <Key x="119.5" y="33.5" />
+        </Spline>
+        <Spline startTime="0.228" endTime="0.661">
+            <Key x="0" y="85.4549" />
+            <Key x="22" y="75.5" />
+            <Key x="36" y="67.5" />
+            <Key x="46.5" y="70.5" />
+            <Key x="82" y="68.5" />
+            <Key x="105.727" y="80.7807" />
+            <Key x="115" y="85.2659" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.07" endTime="0.981">
+            <Key x="30.9601" y="0" />
+            <Key x="43.3442" y="9.31783" />
+            <Key x="37.34" y="28.1739" />
+            <Key x="39.0906" y="38.646" />
+            <Key x="34.0417" y="49.9852" />
+            <Key x="36.5" y="65.5" />
+            <Key x="40.5" y="77" />
+            <Key x="39" y="89.5" />
+            <Key x="49.5" y="98" />
+            <Key x="36.9133" y="115" />
+        </Spline>
+        <Spline startTime="0.085" endTime="0.963">
+            <Key x="88.5" y="-1" />
+            <Key x="77.4282" y="11.9171" />
+            <Key x="65.5" y="22" />
+            <Key x="71" y="36" />
+            <Key x="83.9567" y="58.3814" />
+            <Key x="74.4811" y="66.2283" />
+            <Key x="69.8603" y="76.5125" />
+            <Key x="71.8129" y="93.6897" />
+            <Key x="77.7586" y="97.9693" />
+            <Key x="75.9763" y="115" />
+        </Spline>
+        <Spline startTime="0.006" endTime="0.885">
+            <Key x="0" y="44.5463" />
+            <Key x="20" y="45.5" />
+            <Key x="26.5" y="33.5" />
+            <Key x="39.0906" y="38.646" />
+            <Key x="45.0599" y="37.2078" />
+            <Key x="60" y="43.5" />
+            <Key x="71" y="36" />
+            <Key x="82.4049" y="42.9496" />
+            <Key x="108.568" y="39.5045" />
+            <Key x="115" y="41.9164" />
+        </Spline>
+        <Spline startTime="0.052" endTime="0.908">
+            <Key x="0" y="82.5974" />
+            <Key x="11" y="75" />
+            <Key x="23" y="66.5" />
+            <Key x="40.5" y="77" />
+            <Key x="50.4132" y="74.3924" />
+            <Key x="57" y="81" />
+            <Key x="69.8603" y="76.5125" />
+            <Key x="94.847" y="72.1098" />
+            <Key x="104.171" y="79.9486" />
+            <Key x="115" y="72.7418" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.132" endTime="0.975">
+            <Key x="38.5" y="-6.5" />
+            <Key x="44.5" y="2.5" />
+            <Key x="42.5" y="18" />
+            <Key x="53" y="34" />
+            <Key x="49.5" y="47" />
+            <Key x="48.584" y="60.4174" />
+            <Key x="57" y="72" />
+            <Key x="54.173" y="91.7757" />
+            <Key x="57.5" y="101.5" />
+            <Key x="65.091" y="115" />
+        </Spline>
+        <Spline startTime="0.241" endTime="0.719">
+            <Key x="0" y="39.718" />
+            <Key x="16.5" y="38" />
+            <Key x="38" y="44.5" />
+            <Key x="53" y="34" />
+            <Key x="71.5" y="40" />
+            <Key x="92.7937" y="29.5044" />
+            <Key x="115" y="45.981" />
+        </Spline>
+        <Spline startTime="0.182" endTime="0.754">
+            <Key x="0" y="67.43" />
+            <Key x="30.2148" y="82.2739" />
+            <Key x="43.5" y="75.5" />
+            <Key x="57" y="72" />
+            <Key x="69.5" y="79" />
+            <Key x="94.0894" y="68.1514" />
+            <Key x="115" y="85.2468" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.137" endTime="0.849">
+            <Key x="65.0783" y="0" />
+            <Key x="49.971" y="16.4506" />
+            <Key x="64.3476" y="39.8526" />
+            <Key x="55.2017" y="56.4102" />
+            <Key x="48.8863" y="78.6093" />
+            <Key x="53.7453" y="96.2693" />
+            <Key x="63.0314" y="115" />
+        </Spline>
+        <Spline startTime="0.037" endTime="0.955">
+            <Key x="0" y="65.2836" />
+            <Key x="29.4941" y="62.3171" />
+            <Key x="34.8385" y="68.4115" />
+            <Key x="55.2017" y="56.4102" />
+            <Key x="70.6046" y="65.981" />
+            <Key x="95.7185" y="67.1024" />
+            <Key x="115" y="58.782" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.04" endTime="0.884">
+            <Key x="65.5" y="-7.5" />
+            <Key x="50.5" y="20" />
+            <Key x="52" y="30" />
+            <Key x="39" y="50.5" />
+            <Key x="37.5" y="58" />
+            <Key x="40.5" y="64" />
+            <Key x="41" y="69" />
+            <Key x="64" y="74.5" />
+            <Key x="71.5" y="84" />
+            <Key x="75.5" y="126" />
+        </Spline>
+        <Spline startTime="0.553" endTime="0.857">
+            <Key x="0" y="45.0486" />
+            <Key x="18" y="49" />
+            <Key x="29" y="51" />
+            <Key x="39" y="50.5" />
+            <Key x="75.5" y="39" />
+            <Key x="97" y="32.5" />
+            <Key x="117" y="19" />
+        </Spline>
+        <Spline startTime="0.55" endTime="0.753">
+            <Key x="0" y="76.0293" />
+            <Key x="12.5" y="82.5" />
+            <Key x="23.5" y="78.5" />
+            <Key x="41" y="69" />
+            <Key x="70.5" y="55" />
+            <Key x="98.5" y="79" />
+            <Key x="115" y="78.3147" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.039" endTime="0.636">
+            <Key x="70" y="-6.5" />
+            <Key x="61.5" y="9" />
+            <Key x="67" y="20" />
+            <Key x="61.5" y="37" />
+            <Key x="55.5" y="48" />
+            <Key x="66.5" y="53" />
+            <Key x="81" y="71.5" />
+            <Key x="78.5" y="104.5" />
+            <Key x="73" y="113" />
+            <Key x="78" y="125" />
+        </Spline>
+        <Spline startTime="0.154" endTime="0.898">
+            <Key x="0" y="34.0038" />
+            <Key x="31" y="25.5" />
+            <Key x="47.5" y="35.5" />
+            <Key x="61.5" y="37" />
+            <Key x="79.5" y="34" />
+            <Key x="89" y="47" />
+            <Key x="115" y="43.9696" />
+        </Spline>
+        <Spline startTime="0.156" endTime="0.437">
+            <Key x="0" y="74.4519" />
+            <Key x="37" y="58.5" />
+            <Key x="56" y="67.5" />
+            <Key x="81" y="71.5" />
+            <Key x="91" y="78.5" />
+            <Key x="103.547" y="73.6611" />
+            <Key x="115" y="85.6921" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.107" endTime="0.927">
+            <Key x="62.4905" y="0" />
+            <Key x="53" y="9.5" />
+            <Key x="58.5" y="27" />
+            <Key x="58.5" y="41.5" />
+            <Key x="56.3607" y="49.8755" />
+            <Key x="59.5" y="59" />
+            <Key x="58.5" y="80" />
+            <Key x="61" y="94.5" />
+            <Key x="59.0355" y="108.646" />
+            <Key x="55" y="128" />
+        </Spline>
+        <Spline startTime="0.212" endTime="0.792">
+            <Key x="0" y="33.0749" />
+            <Key x="9" y="24.5" />
+            <Key x="35.5" y="38" />
+            <Key x="58.5" y="41.5" />
+            <Key x="76" y="37" />
+            <Key x="105" y="24.5" />
+            <Key x="115" y="39.7301" />
+        </Spline>
+        <Spline startTime="0.122" endTime="0.807">
+            <Key x="0" y="87.0946" />
+            <Key x="18.5" y="71.5" />
+            <Key x="30" y="68.5" />
+            <Key x="58.5" y="80" />
+            <Key x="86" y="69" />
+            <Key x="103.223" y="69.389" />
+            <Key x="115" y="72.1028" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.097" endTime="0.931">
+            <Key x="76" y="-5" />
+            <Key x="67.1081" y="9.8004" />
+            <Key x="61" y="33" />
+            <Key x="59" y="48" />
+            <Key x="48.5" y="78" />
+            <Key x="53" y="91.5" />
+            <Key x="31.5" y="121" />
+        </Spline>
+        <Spline startTime="0.09" endTime="0.929">
+            <Key x="-2.5" y="42" />
+            <Key x="29.5" y="41.5" />
+            <Key x="41" y="53.5" />
+            <Key x="59" y="48" />
+            <Key x="73" y="61.5" />
+            <Key x="86" y="57.5" />
+            <Key x="115" y="61.2622" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.345" endTime="0.778">
+            <Key x="88" y="-4.5" />
+            <Key x="53.5" y="38" />
+            <Key x="29.5" y="57.5" />
+            <Key x="-15.5" y="77.5" />
+        </Spline>
+        <Spline startTime="0.398" endTime="0.802">
+            <Key x="123.5" y="7.5" />
+            <Key x="84.5" y="59.5" />
+            <Key x="56.5" y="89" />
+            <Key x="56.5" y="124.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.081" endTime="0.946">
+            <Key x="61.2728" y="0" />
+            <Key x="53.1428" y="14.6757" />
+            <Key x="60.5" y="31" />
+            <Key x="59.5" y="49" />
+            <Key x="58" y="74.5" />
+            <Key x="55.5" y="97" />
+            <Key x="50" y="119" />
+        </Spline>
+        <Spline startTime="0.199" endTime="0.857">
+            <Key x="-4.5" y="73" />
+            <Key x="7" y="60" />
+            <Key x="39.5" y="61" />
+            <Key x="59.5" y="49" />
+            <Key x="75.5" y="55" />
+            <Key x="97.2697" y="65.057" />
+            <Key x="115" y="66.1828" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.252" endTime="0.971">
+            <Key x="49.5" y="-6" />
+            <Key x="53" y="45.5" />
+            <Key x="34.1692" y="80.1922" />
+            <Key x="40.7992" y="115" />
+        </Spline>
+        <Spline startTime="0.191" endTime="0.863">
+            <Key x="71.442" y="0" />
+            <Key x="75.6299" y="43.0784" />
+            <Key x="67.5" y="80.5" />
+            <Key x="82.293" y="115" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.039" endTime="0.781">
+            <Key x="69" y="-6.5" />
+            <Key x="54.5" y="28" />
+            <Key x="45.5" y="38.5" />
+            <Key x="34.5" y="41" />
+            <Key x="44.6303" y="73.5404" />
+            <Key x="50" y="91.5" />
+            <Key x="40.6826" y="115" />
+        </Spline>
+        <Spline startTime="0.557" endTime="0.642">
+            <Key x="97" y="-4.5" />
+            <Key x="89" y="22.5" />
+            <Key x="85.5" y="34.5" />
+            <Key x="78" y="49.5" />
+            <Key x="71" y="85" />
+            <Key x="56" y="95.5" />
+            <Key x="47" y="121" />
+        </Spline>
+        <Spline startTime="0.359" endTime="0.508">
+            <Key x="-7" y="48.5" />
+            <Key x="5.5" y="45" />
+            <Key x="20" y="49.5" />
+            <Key x="34.5" y="41" />
+            <Key x="51" y="50.5" />
+            <Key x="71.5" y="38.5" />
+            <Key x="78" y="49.5" />
+            <Key x="91" y="46.5" />
+            <Key x="106.5" y="42" />
+            <Key x="123" y="52" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.526" endTime="0.934">
+            <Key x="31" y="-4.5" />
+            <Key x="27" y="22" />
+            <Key x="24" y="33" />
+            <Key x="18.5" y="57" />
+            <Key x="23.5" y="82" />
+            <Key x="45.5" y="87" />
+            <Key x="34.5935" y="115" />
+        </Spline>
+        <Spline startTime="0.142" endTime="0.828">
+            <Key x="71.1814" y="0" />
+            <Key x="76.1208" y="17.5626" />
+            <Key x="72" y="33" />
+            <Key x="74" y="46" />
+            <Key x="72.5" y="84" />
+            <Key x="81.593" y="89.4225" />
+            <Key x="83.0571" y="115" />
+        </Spline>
+        <Spline startTime="0.347" endTime="0.92">
+            <Key x="-11.5" y="65" />
+            <Key x="-2.5" y="60.5" />
+            <Key x="4.5" y="51" />
+            <Key x="18.5" y="57" />
+            <Key x="35.5" y="66.5" />
+            <Key x="53" y="64" />
+            <Key x="74" y="46" />
+            <Key x="86" y="49" />
+            <Key x="99.8276" y="57.5247" />
+            <Key x="115" y="64.2704" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.065" endTime="0.85">
+            <Key x="81.5" y="-0.5" />
+            <Key x="72" y="20" />
+            <Key x="63.9752" y="26.9585" />
+            <Key x="56.5" y="55.5" />
+            <Key x="38.5" y="83" />
+            <Key x="31" y="100.5" />
+            <Key x="19.5" y="124.5" />
+        </Spline>
+        <Spline startTime="0.103" endTime="0.923">
+            <Key x="-7" y="17" />
+            <Key x="21.5" y="43.5" />
+            <Key x="30.5" y="45.5" />
+            <Key x="56.5" y="55.5" />
+            <Key x="74" y="67" />
+            <Key x="93.5" y="72.5" />
+            <Key x="121" y="88.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.08" endTime="0.891">
+            <Key x="88.5" y="-9.5" />
+            <Key x="57" y="28.5" />
+            <Key x="60.5" y="42.5" />
+            <Key x="57" y="59.5" />
+            <Key x="53" y="87.5" />
+            <Key x="56.6198" y="107.42" />
+            <Key x="50.6415" y="115" />
+        </Spline>
+        <Spline startTime="0.044" endTime="0.932">
+            <Key x="0" y="52.592" />
+            <Key x="29.5791" y="63.7274" />
+            <Key x="47.8027" y="60.106" />
+            <Key x="57" y="59.5" />
+            <Key x="71.2156" y="68.2296" />
+            <Key x="96.8697" y="59.4284" />
+            <Key x="115" y="54.8137" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.008" endTime="0.955">
+            <Key x="61.7323" y="0" />
+            <Key x="58.5" y="22.5" />
+            <Key x="56" y="35.5" />
+            <Key x="51.4047" y="53.0246" />
+            <Key x="65.3997" y="77.5126" />
+            <Key x="57.1572" y="90.1083" />
+            <Key x="55.9677" y="115" />
+        </Spline>
+        <Spline startTime="0.07" endTime="0.968">
+            <Key x="0" y="58.7615" />
+            <Key x="13.5252" y="51.4181" />
+            <Key x="39.3272" y="61.8696" />
+            <Key x="51.4047" y="53.0246" />
+            <Key x="66.7892" y="53.208" />
+            <Key x="93.4628" y="65.1498" />
+            <Key x="115" y="63.4782" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.384" endTime="0.703">
+            <Key x="46.5195" y="0" />
+            <Key x="68.6374" y="3.76976" />
+            <Key x="68" y="15.5" />
+            <Key x="64" y="31.5" />
+            <Key x="61.5" y="47" />
+            <Key x="66.5" y="55" />
+            <Key x="64" y="70" />
+            <Key x="52.5609" y="97.9028" />
+            <Key x="64.0163" y="94.6812" />
+            <Key x="64.3639" y="115" />
+        </Spline>
+        <Spline startTime="0.196" endTime="0.469">
+            <Key x="-4.5" y="18" />
+            <Key x="4.5" y="43" />
+            <Key x="31.5" y="46" />
+            <Key x="64" y="31.5" />
+            <Key x="80.5" y="22" />
+            <Key x="103" y="19.5" />
+            <Key x="128.5" y="22.5" />
+        </Spline>
+        <Spline startTime="0.118" endTime="0.902">
+            <Key x="0" y="66.1081" />
+            <Key x="10" y="60.5" />
+            <Key x="21" y="67.5" />
+            <Key x="64" y="70" />
+            <Key x="78" y="57" />
+            <Key x="103.5" y="61.5" />
+            <Key x="123" y="35.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.293" endTime="0.414">
+            <Key x="93" y="-8.5" />
+            <Key x="56.5" y="37.5" />
+            <Key x="53.5" y="60.5" />
+            <Key x="43.4197" y="115" />
+        </Spline>
+        <Spline startTime="0.435" endTime="0.612">
+            <Key x="139.5" y="74.5" />
+            <Key x="110" y="48.5" />
+            <Key x="64" y="94" />
+            <Key x="59.5" y="120" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.12" endTime="0.835">
+            <Key x="57.0128" y="0" />
+            <Key x="55.8538" y="14.2969" />
+            <Key x="49.8563" y="46.3838" />
+            <Key x="59" y="63.5" />
+            <Key x="48.5" y="85" />
+            <Key x="60.4515" y="104.794" />
+            <Key x="66.233" y="115" />
+        </Spline>
+        <Spline startTime="0.041" endTime="0.979">
+            <Key x="0" y="48.6732" />
+            <Key x="19.6798" y="55.7978" />
+            <Key x="31.7807" y="67.9478" />
+            <Key x="59" y="63.5" />
+            <Key x="70.3689" y="52.2699" />
+            <Key x="89.9356" y="47.8102" />
+            <Key x="115" y="68.7202" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.386" endTime="0.885">
+            <Key x="34.9272" y="0" />
+            <Key x="33.8345" y="8.35167" />
+            <Key x="41.031" y="30.3413" />
+            <Key x="38.8169" y="37.6105" />
+            <Key x="38.6399" y="43.9498" />
+            <Key x="43.5" y="61.5" />
+            <Key x="49.5" y="69" />
+            <Key x="33.0279" y="96.3088" />
+            <Key x="36.8251" y="109.258" />
+            <Key x="43.802" y="115" />
+        </Spline>
+        <Spline startTime="0.015" endTime="0.901">
+            <Key x="70.1166" y="0" />
+            <Key x="81.8786" y="15.4622" />
+            <Key x="72" y="28" />
+            <Key x="64" y="41.5" />
+            <Key x="66" y="58" />
+            <Key x="80.4362" y="62.6581" />
+            <Key x="73.4843" y="72.3104" />
+            <Key x="69" y="94" />
+            <Key x="70.5" y="112" />
+            <Key x="71.5" y="128.5" />
+        </Spline>
+        <Spline startTime="0.605" endTime="0.708">
+            <Key x="0" y="41.7031" />
+            <Key x="13.3746" y="41.0626" />
+            <Key x="24.5" y="41" />
+            <Key x="38.8169" y="37.6105" />
+            <Key x="47.5" y="36" />
+            <Key x="57.5" y="34" />
+            <Key x="64" y="41.5" />
+            <Key x="96" y="42" />
+            <Key x="107.928" y="35.469" />
+            <Key x="115" y="38.8173" />
+        </Spline>
+        <Spline startTime="0.17" endTime="0.771">
+            <Key x="0" y="70.1378" />
+            <Key x="10.2982" y="81.8068" />
+            <Key x="26.4747" y="69.6446" />
+            <Key x="49.5" y="69" />
+            <Key x="57.5" y="78.5" />
+            <Key x="63.8329" y="71.5137" />
+            <Key x="73.4843" y="72.3104" />
+            <Key x="97.0054" y="72.8055" />
+            <Key x="105.84" y="79.4261" />
+            <Key x="115" y="82.5068" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.152" endTime="0.463">
+            <Key x="67.9351" y="0" />
+            <Key x="39" y="3" />
+            <Key x="38.5" y="20" />
+            <Key x="37.5" y="39.5" />
+            <Key x="55.5" y="47.5" />
+            <Key x="54" y="65" />
+            <Key x="54.5" y="74.5" />
+            <Key x="53.9082" y="80.5412" />
+            <Key x="53.8558" y="108.11" />
+            <Key x="60.2186" y="115" />
+        </Spline>
+        <Spline startTime="0.107" endTime="0.66">
+            <Key x="0" y="35.1783" />
+            <Key x="11.2214" y="36.9675" />
+            <Key x="24.5" y="28.5" />
+            <Key x="37.5" y="39.5" />
+            <Key x="70" y="28" />
+            <Key x="89.4994" y="33.8785" />
+            <Key x="115" y="26.7631" />
+        </Spline>
+        <Spline startTime="0.588" endTime="0.71">
+            <Key x="0" y="77.4602" />
+            <Key x="17.3958" y="85.5519" />
+            <Key x="32.8221" y="69.2736" />
+            <Key x="54.5" y="74.5" />
+            <Key x="75" y="64.5" />
+            <Key x="85.5552" y="70.0042" />
+            <Key x="115" y="72.0787" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.362" endTime="0.803">
+            <Key x="59.5" y="-8.5" />
+            <Key x="57" y="4" />
+            <Key x="67.5" y="11" />
+            <Key x="66.5" y="22.5" />
+            <Key x="75" y="51.5" />
+            <Key x="65.5" y="59.5" />
+            <Key x="69.5" y="72.5" />
+            <Key x="62" y="87" />
+            <Key x="67.2363" y="109.966" />
+            <Key x="68.6714" y="115" />
+        </Spline>
+        <Spline startTime="0.138" endTime="0.464">
+            <Key x="22.5" y="-4" />
+            <Key x="32.5" y="40" />
+            <Key x="54.5" y="47.5" />
+            <Key x="66.5" y="22.5" />
+            <Key x="78.5" y="20" />
+            <Key x="99" y="26" />
+            <Key x="115" y="38.5562" />
+        </Spline>
+        <Spline startTime="0.269" endTime="0.778">
+            <Key x="0" y="72.0157" />
+            <Key x="22.5" y="69" />
+            <Key x="33" y="62.5" />
+            <Key x="69.5" y="72.5" />
+            <Key x="82.9875" y="76.2955" />
+            <Key x="104.5" y="63" />
+            <Key x="120.5" y="63.5" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.124" endTime="0.843">
+            <Key x="61.4349" y="0" />
+            <Key x="61.5248" y="25.6157" />
+            <Key x="53.5" y="36.5" />
+            <Key x="58.5" y="56" />
+            <Key x="50.6832" y="67.333" />
+            <Key x="63.6587" y="100.599" />
+            <Key x="60.8692" y="115" />
+        </Spline>
+        <Spline startTime="0.091" endTime="0.874">
+            <Key x="-5" y="55.5" />
+            <Key x="21.5" y="58" />
+            <Key x="38" y="60.5" />
+            <Key x="58.5" y="56" />
+            <Key x="83" y="60.5" />
+            <Key x="103.548" y="59.8518" />
+            <Key x="115" y="55.3136" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.364" endTime="0.859">
+            <Key x="67.356" y="0" />
+            <Key x="87.654" y="19.8414" />
+            <Key x="103" y="24" />
+            <Key x="97.5" y="34.5" />
+            <Key x="87" y="69.5" />
+            <Key x="100.5" y="78.5" />
+            <Key x="71" y="97.5" />
+            <Key x="97" y="116" />
+            <Key x="80.5631" y="136.777" />
+            <Key x="73.6304" y="160" />
+        </Spline>
+        <Spline startTime="0.196" endTime="0.462">
+            <Key x="-13" y="112.5" />
+            <Key x="13.5" y="87" />
+            <Key x="49" y="74.5" />
+            <Key x="97.5" y="34.5" />
+            <Key x="120" y="41" />
+            <Key x="151" y="43.5" />
+            <Key x="160" y="65.6216" />
+        </Spline>
+        <Spline startTime="0.13" endTime="0.855">
+            <Key x="0" y="120.996" />
+            <Key x="30.8744" y="120.14" />
+            <Key x="46" y="104.5" />
+            <Key x="71" y="97.5" />
+            <Key x="118.5" y="101" />
+            <Key x="141.35" y="91.5523" />
+            <Key x="160" y="105.709" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.132" endTime="0.863">
+            <Key x="43.3966" y="0" />
+            <Key x="41.1447" y="16.907" />
+            <Key x="36.2535" y="39.0307" />
+            <Key x="45.5705" y="57.4993" />
+            <Key x="45.2458" y="78.8673" />
+            <Key x="37.5722" y="100.959" />
+            <Key x="35.268" y="115" />
+        </Spline>
+        <Spline startTime="0.147" endTime="0.904">
+            <Key x="83.9549" y="0" />
+            <Key x="73.412" y="18.2087" />
+            <Key x="73.7953" y="35.5974" />
+            <Key x="70.0954" y="63.8645" />
+            <Key x="74.2399" y="70.0331" />
+            <Key x="81.0498" y="96.8337" />
+            <Key x="71.1814" y="115" />
+        </Spline>
+        <Spline startTime="0.117" endTime="0.955">
+            <Key x="0" y="58.4371" />
+            <Key x="6.26218" y="57.2987" />
+            <Key x="30.0326" y="54.521" />
+            <Key x="45.5705" y="57.4993" />
+            <Key x="55.4338" y="63.4152" />
+            <Key x="59" y="56" />
+            <Key x="70.0954" y="63.8645" />
+            <Key x="92.6249" y="59.5" />
+            <Key x="98.8298" y="55.5589" />
+            <Key x="115" y="52.7444" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.073" endTime="0.612">
+            <Key x="28.5" y="-5" />
+            <Key x="41.8536" y="9.11913" />
+            <Key x="35.798" y="25.7856" />
+            <Key x="50.5" y="32.5" />
+            <Key x="42.4795" y="55.3205" />
+            <Key x="31.5" y="65" />
+            <Key x="15.5" y="85" />
+            <Key x="28" y="98.5" />
+            <Key x="26" y="119" />
+            <Key x="31" y="146" />
+        </Spline>
+        <Spline startTime="0.38" endTime="0.949">
+            <Key x="85.5" y="-18.5" />
+            <Key x="90.5" y="4" />
+            <Key x="90.5" y="13" />
+            <Key x="98" y="23.5" />
+            <Key x="79.5323" y="51.168" />
+            <Key x="69" y="53.5" />
+            <Key x="65" y="68" />
+            <Key x="76.5999" y="89.5287" />
+            <Key x="80.5896" y="101.988" />
+            <Key x="75.7314" y="115" />
+        </Spline>
+        <Spline startTime="0.056" endTime="0.609">
+            <Key x="0" y="33.8676" />
+            <Key x="17.3586" y="38.022" />
+            <Key x="29.2533" y="37.1592" />
+            <Key x="50.5" y="32.5" />
+            <Key x="68" y="28" />
+            <Key x="78" y="33" />
+            <Key x="98" y="23.5" />
+            <Key x="104" y="32.5" />
+            <Key x="107.5" y="39" />
+            <Key x="134.5" y="36.5" />
+        </Spline>
+        <Spline startTime="0.376" endTime="0.922">
+            <Key x="-24.5" y="73.5" />
+            <Key x="-6.5" y="89.5" />
+            <Key x="11.5" y="77.5" />
+            <Key x="15.5" y="85" />
+            <Key x="47.747" y="79.4719" />
+            <Key x="52" y="91.5" />
+            <Key x="65" y="68" />
+            <Key x="96.5283" y="68.9739" />
+            <Key x="102.717" y="70.0104" />
+            <Key x="115" y="82.1608" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.048" endTime="0.919">
+            <Key x="51.256" y="0" />
+            <Key x="53.9924" y="15.2797" />
+            <Key x="61.6112" y="22.6427" />
+            <Key x="54.5" y="42" />
+            <Key x="59.5" y="50.5" />
+            <Key x="63" y="63" />
+            <Key x="58.2319" y="73.7269" />
+            <Key x="56.2148" y="97.946" />
+            <Key x="67.1938" y="105.48" />
+            <Key x="65.8372" y="115" />
+        </Spline>
+        <Spline startTime="0.203" endTime="0.881">
+            <Key x="0" y="34.2063" />
+            <Key x="12.4342" y="29.0223" />
+            <Key x="42.0212" y="37.953" />
+            <Key x="54.5" y="42" />
+            <Key x="78.981" y="30.5169" />
+            <Key x="99.1027" y="32.7131" />
+            <Key x="115" y="33.0529" />
+        </Spline>
+        <Spline startTime="0.123" endTime="0.772">
+            <Key x="0" y="84.7639" />
+            <Key x="28.1128" y="83.0682" />
+            <Key x="37.5" y="73.5" />
+            <Key x="58.2319" y="73.7269" />
+            <Key x="83.5" y="69.5" />
+            <Key x="103.461" y="78.3487" />
+            <Key x="115" y="76.2446" />
+        </Spline>
+    </Artefact>
+    <Artefact>
+        <Spline startTime="0.227" endTime="0.755">
+            <Key x="32.0169" y="0" />
+            <Key x="38.5" y="31.5" />
+            <Key x="31" y="55" />
+            <Key x="37" y="66.5" />
+            <Key x="38" y="75.5" />
+            <Key x="35.5" y="93.5" />
+            <Key x="32.5" y="120.5" />
+        </Spline>
+        <Spline startTime="0.261" endTime="0.731">
+            <Key x="81.9399" y="0" />
+            <Key x="77.5" y="17.5" />
+            <Key x="71.5" y="35" />
+            <Key x="74.5" y="57.5" />
+            <Key x="75" y="73" />
+            <Key x="69" y="97" />
+            <Key x="75.9995" y="115" />
+        </Spline>
+        <Spline startTime="0.075" endTime="0.943">
+            <Key x="-1" y="71.5" />
+            <Key x="10" y="60" />
+            <Key x="26.5" y="62.5" />
+            <Key x="37" y="66.5" />
+            <Key x="50" y="62" />
+            <Key x="61" y="52" />
+            <Key x="74.5" y="57.5" />
+            <Key x="87.5" y="58.5" />
+            <Key x="101" y="46" />
+            <Key x="120" y="46.5" />
+        </Spline>
+    </Artefact>
+    <Artefact />
+    <Artefact />
+    <Artefact />
+    <Artefact />
+    <Artefact />
+    <Artefact />
+    <Artefact />
+</Splines>

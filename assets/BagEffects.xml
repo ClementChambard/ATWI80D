@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Effects>
+	<ParticleSystem name="BagArt1" texture="textures\Particles\adot.png" numOfParticles="30" lifeInitial="1.5" lifeVariation="0.2" startTime="1.25">
+		<Param name="x" initial="0" variation="0" d="" dVariation="15">
+			<spline>
+				<key initial="0" variation="110"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="-5" variation="0" d="-100" dVariation="30">
+			<spline>
+				<key initial="0" variation="190"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="5" d="0" dVariation="0">
+			<spline>
+				<key initial="8" variation="2"/>
+				<key initial="8" variation="2"/>
+				<key initial="8" variation="2"/>
+				<key initial="12" variation="2"/>
+				<key initial="24" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="0"/>
+		<Param name="red" initial="206" variation="0" d="0" dVariation="0"/>
+		<Param name="green" initial="182" variation="0" d="0" dVariation="0"/>
+		<Param name="blue" initial="106" variation="0" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="192" variation="0"/>
+				<key initial="128" variation="0"/>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<Effect name="BagArt1">
+		<ParticleSystem name="BagArt1" needStartDeadCounter="true" deadCountTime="0" bornTime="0"/>
+	</Effect>
+</Effects>

@@ -1,0 +1,600 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Root>
+	<TakeArtefact>
+		<Spline name="x">
+			<key value="1560"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="600"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="y">
+			<key value="-1212"/>
+			<key value="-1050"/>
+			<key value="-500"/>
+			<key value="-500"/>
+			<key value="-500"/>
+			<key value="-500"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="size">
+			<key value="22.1"/>
+			<key value="65"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="130"/>
+			<key value="350"/>
+		</Spline>
+		<Spline name="angleOpen">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="50"/>
+			<key value="50"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="10"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleY">
+			<key value="15"/>
+			<key value="-25"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="65"/>
+			<key value="180"/>
+		</Spline>
+		<Spline name="angleZ">
+			<key value="3"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="alpha">
+			<key value="255"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="screenAngle">
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-80"/>
+			<key value="-60"/>
+			<key value="-40"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="screenHeight">
+			<key value="0"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="300"/>
+			<key value="450"/>
+			<key value="600"/>
+		</Spline>
+		<Spline name="screenAlpha">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="artX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artY">
+			<key value="0"/>
+			<key value="10"/>
+			<key value="50"/>
+			<key value="85"/>
+			<key value="50"/>
+			<key value="-40"/>
+			<key value="-160"/>
+			<key value="-160"/>
+			<key value="-160"/>
+			<key value="-160"/>
+			<key value="-160"/>
+		</Spline>
+		<Spline name="artAlpha">
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artScale">
+			<key value="1"/>
+			<key value="0.5"/>
+		</Spline>
+		<Spline name="artAngle">
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+	</TakeArtefact>
+	<LookBag>
+		<Spline name="x">
+			<key value="1560"/>
+			<key value="0"/>
+			<key value="300"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="y">
+			<key value="-1212"/>
+			<key value="-1050"/>
+			<key value="-500"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="size">
+			<key value="22.1"/>
+			<key value="65"/>
+			<key value="100"/>
+			<key value="130"/>
+			<key value="350"/>
+		</Spline>
+		<Spline name="angleOpen">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleY">
+			<key value="15"/>
+			<key value="-25"/>
+			<key value="65"/>
+			<key value="180"/>
+		</Spline>
+		<Spline name="angleZ">
+			<key value="3"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="alpha">
+			<key value="255"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="screenAngle">
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-80"/>
+			<key value="-60"/>
+			<key value="-40"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="screenHeight">
+			<key value="0"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="300"/>
+			<key value="450"/>
+			<key value="600"/>
+		</Spline>
+		<Spline name="screenAlpha">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="artX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artY">
+			<key value="0"/>
+			<key value="10"/>
+			<key value="40"/>
+			<key value="80"/>
+			<key value="80"/>
+			<key value="30"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+		</Spline>
+		<Spline name="artAlpha">
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artScale">
+			<key value="1"/>
+			<key value="0.5"/>
+		</Spline>
+		<Spline name="artAngle">
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+	</LookBag>
+	<TakeMarka>
+		<Spline name="x">
+			<key value="1560"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="1604"/>
+		</Spline>
+		<Spline name="y">
+			<key value="-1212"/>
+			<key value="-300"/>
+			<key value="-300"/>
+			<key value="-300"/>
+			<key value="-300"/>
+			<key value="-300"/>
+			<key value="-1258"/>
+		</Spline>
+		<Spline name="size">
+			<key value="22.1"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="100"/>
+			<key value="22.1"/>
+		</Spline>
+		<Spline name="angleOpen">
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="angleX">
+			<key value="0"/>
+			<key value="10"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="angleY">
+			<key value="15"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="15"/>
+		</Spline>
+		<Spline name="angleZ">
+			<key value="3"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="3"/>
+		</Spline>
+		<Spline name="alpha">
+			<key value="255"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="screenAngle">
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-80"/>
+			<key value="-60"/>
+			<key value="-40"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="screenHeight">
+			<key value="0"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="300"/>
+			<key value="450"/>
+			<key value="600"/>
+		</Spline>
+		<Spline name="screenAlpha">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artY">
+			<key value="0"/>
+			<key value="10"/>
+			<key value="40"/>
+			<key value="80"/>
+			<key value="80"/>
+			<key value="30"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+		</Spline>
+		<Spline name="artAlpha">
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artScale">
+			<key value="1"/>
+			<key value="0.5"/>
+		</Spline>
+		<Spline name="artAngle">
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+	</TakeMarka>
+	<FromMap>
+		<Spline name="x">
+			<key value="990"/>
+			<key value="0"/>
+			<key value="300"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="y">
+			<key value="-260"/>
+			<key value="-500"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="size">
+			<key value="22.1"/>
+			<key value="65"/>
+			<key value="100"/>
+			<key value="130"/>
+			<key value="350"/>
+		</Spline>
+		<Spline name="angleOpen">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="30"/>
+			<key value="80"/>
+		</Spline>
+		<Spline name="angleY">
+			<key value="15"/>
+			<key value="-25"/>
+			<key value="65"/>
+			<key value="180"/>
+		</Spline>
+		<Spline name="angleZ">
+			<key value="3"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="alpha">
+			<key value="255"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="screenAngle">
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-180"/>
+			<key value="-80"/>
+			<key value="-60"/>
+			<key value="-40"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="screenHeight">
+			<key value="0"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="200"/>
+			<key value="300"/>
+			<key value="450"/>
+			<key value="600"/>
+		</Spline>
+		<Spline name="screenAlpha">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="255"/>
+		</Spline>
+		<Spline name="artX">
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artY">
+			<key value="0"/>
+			<key value="10"/>
+			<key value="40"/>
+			<key value="80"/>
+			<key value="80"/>
+			<key value="30"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+			<key value="-60"/>
+		</Spline>
+		<Spline name="artAlpha">
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="255"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+		<Spline name="artScale">
+			<key value="1"/>
+			<key value="0.5"/>
+		</Spline>
+		<Spline name="artAngle">
+			<key value="0"/>
+			<key value="0"/>
+		</Spline>
+	</FromMap>
+</Root>

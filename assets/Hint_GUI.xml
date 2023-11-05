@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	
+	<Layer name="Hint">
+		<Controls>
+			<HintWidget name="Hint"/>
+		</Controls>
+
+		<Script>HintFunc</Script>
+	</Layer>
+
+</GUI>

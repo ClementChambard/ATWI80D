@@ -1,0 +1,38 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Paths>
+	<Path tScale="0.5">
+		<Key x="393" y="322"/>
+		<Key x="401" y="305"/>
+		<Key x="420" y="298"/>
+	</Path>
+	<Path tScale="0.7">
+		<Key x="420" y="298"/>
+		<Key x="443" y="298"/>
+		<Key x="466" y="259"/>
+	</Path>
+	<Path tScale="0.7">
+		<Key x="466" y="259"/>
+		<Key x="500" y="253"/>
+		<Key x="573" y="253"/>
+	</Path>
+	<Path tScale="0.7">
+		<Key x="573" y="253"/>
+		<Key x="600" y="253"/>
+		<Key x="661" y="267"/>
+	</Path>
+	<Path tScale="0.7">
+		<Key x="661" y="267"/>
+		<Key x="700" y="271"/>
+		<Key x="710" y="285"/>
+	</Path>
+	<Path tScale="0.7">
+		<Key x="710" y="285"/>
+		<Key x="800" y="285"/>
+		<Key x="969" y="302"/>
+	</Path>
+	<Path tScale="0.3">
+		<Key x="169" y="302"/>
+		<Key x="275" y="310"/>
+		<Key x="392" y="324"/>
+	</Path>
+</Paths>

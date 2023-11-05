@@ -1,0 +1,10 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Marki>
+	<Marka texture="#MapMarka1" x="199" y="44" z="0" scale="0.21" dxWin="2" dyWin="0" textID="MapText1"/>
+	<Marka texture="#MapMarka2" x="266" y="44" z="1" scale="0.21" dxWin="6" dyWin="-1" textID="MapText2"/>
+	<Marka texture="#MapMarka3" x="333" y="44" z="2" scale="0.21" dxWin="1" dyWin="-1" textID="MapText1"/>
+	<Marka texture="#MapMarka4" x="400" y="44" z="4" scale="0.21" dxWin="1" dyWin="0" textID="MapText1"/>
+	<Marka texture="#MapMarka5" x="467" y="44" z="3" scale="0.21" dxWin="0" dyWin="-1" textID="MapText1"/>
+	<Marka texture="#MapMarka6" x="534" y="44" z="5" scale="0.21" dxWin="2" dyWin="-2" textID="MapText1"/>
+	<Marka texture="#MapMarka7" x="600" y="44" z="6" scale="0.21" dxWin="1" dyWin="0" textID="MapText1"/>
+</Marki>

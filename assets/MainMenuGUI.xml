@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="MainMenu">
+		<Controls>
+			<MainMenu name="MainMenu"/>
+			<Button name="start">
+				<position x="36" y="334"/>
+				<state normal="#MenuStartNormal" active="#MenuStartActive" pressed="#MenuStartPressed"/>
+			</Button>
+
+			<Button name="options">
+				<position x="36" y="376"/>
+				<state normal="#MenuOptionsNormal" active="#MenuOptionsActive" pressed="#MenuOptionsPressed"/>
+			</Button>
+
+			<Button name="help">
+				<position x="36" y="418"/>
+				<state normal="#MenuHelpNormal" active="#MenuHelpActive" pressed="#MenuHelpPressed"/>
+			</Button>
+
+			<Button name="hiscores">
+				<position x="36" y="460"/>
+				<state normal="#MenuHighscoresNormal" active="#MenuHighscoresActive" pressed="#MenuHighscoresPressed"/>
+			</Button>
+
+			<Button name="exit">
+				<position x="51" y="504"/>
+				<state normal="#MenuExitNormal" active="#MenuExitActive" pressed="#MenuExitPressed"/>
+			</Button>
+
+			<Button name="profileButton">
+				<position x="300" y="595"/>
+				<state normal="#ChangeUserNormal" active="#ChangeUserActive" pressed="#ChangeUserActive"/>
+			</Button>
+		</Controls>
+		<Script>MainMenuFunc</Script>
+	</Layer>
+
+	<Layer name="LoadScreen">
+		<Controls>
+			<LoadScreenWidget name="LoadScreen"/>
+		</Controls>
+		<Script>LoadScreenFunc</Script>
+	</Layer>
+
+	<Layer name="SSOptions">
+		<Controls>
+			<Panel name="SSOptions" static="false">
+				<texture name="#SSOPTIONS_PANEL"/>
+				<position x="195" y="545"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#ScreensaverOptionsCaption</text>
+						<position x="202" y="36"/>
+						<font name="Interface22"/>
+						<align>Center</align>
+					</Text>
+					
+					<Text name="Text0">
+						<text>#MusicVolume</text>
+						<position x="45" y="216"/>
+						<font name="Interface18"/>
+					</Text>
+
+					<Text name="Text1">
+						<text>#EnvironmentVolume1</text>
+						<position x="50" y="258"/>
+						<font name="Interface18"/>
+					</Text>
+
+					<Text name="Text2">
+						<text>#EnvironmentVolume2</text>
+						<position x="73" y="274"/>
+						<font name="Interface18"/>
+					</Text>
+
+					<Slider name="Music">
+						<position x="186" y="212"/>
+						<state inactive="#SliderSmallNormal" active="#SliderSmallActive" manipulator="#SLIDER_MANIPULATOR"/>
+						<manipulatorOffset>
+							<position x="-8" y="-8"/>
+						</manipulatorOffset>
+					</Slider>
+
+					<Slider name="Environment">
+						<position x="186" y="259"/>
+						<state inactive="#SliderSmallNormal" active="#SliderSmallActive" manipulator="#SLIDER_MANIPULATOR"/>
+						<manipulatorOffset>
+							<position x="-8" y="-8"/>
+						</manipulatorOffset>
+					</Slider>
+
+					<CheckBox name="EnableScreensaver" startupState="false">
+						<position x="74" y="104"/>
+						<text></text>
+						<font name="Interface20Y"/>
+						<textPosition>
+							<position x="45" y="2"/>
+						</textPosition>
+						<state on="#CheckButtonBigOn" off="#CheckButtonBig"/>
+					</CheckBox>
+					
+					<Text name="Text3">
+						<text>#EnableScreensaver1</text>
+						<position x="125" y="90"/>
+						<font name="Interface18Y"/>
+					</Text>
+
+					<Text name="Text4">
+						<text>#EnableScreensaver2</text>
+						<position x="125" y="110"/>
+						<font name="Interface18Y"/>
+					</Text>
+
+<!--					<CheckBox name="RandomBackground" startupState="false">
+						<position x="96" y="207"/>
+						<text>Random Background</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="35" y="-2"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					-->
+					
+					<ImageList name="ZCountries">
+						<position x="54" y="166"/>
+					</ImageList>
+
+					<CheckBox name="RealTime" startupState="true">
+						<position x="52" y="327"/>
+						<text>#RealTime</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="35" y="-2"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					
+					<CheckBox name="EnableRain" startupState="true">
+						<position x="210" y="327"/>
+						<text>#EnableRain</text>
+						<font name="Interface18"/>
+						<textPosition>
+							<position x="35" y="-2"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					
+					<Button name="Preview">
+						<position x="149" y="393"/>
+						<state normal="#SSOptionsPreviewNormal" active="#SSOptionsPreviewActive" pressed="#SSOptionsPreviewPressed"/>
+					</Button>
+
+					<Button name="Ok">
+						<position x="98" y="431"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+
+					<Button name="Cancel">
+						<position x="200" y="431"/>
+						<state normal="#CancelNormal" active="#CancelActive" pressed="#CancelPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>SSOptionsFunc</Script>
+	</Layer>
+
+	<Layer name="Credits">
+		<Controls>
+			<London name="Background"/>
+			<Credits name="Credits" width="800" height="592" from="-250" to="3350" time="60">
+				<Logo x="120" y="35" tex="textures\credits\playrix_logo.png"/>
+				<Logo x="218" y="-400" tex="textures\credits\logo1.png"/>
+				<position x="0" y="588"/>
+				<textPosition x="400" y="0"/>
+			</Credits>
+			<GameFrame name="gameFrame"/>
+		</Controls>
+		<Script>CreditsFunc</Script>
+	</Layer>
+
+	<Layer name="FinalCredits">
+		<Controls>
+			<Credits name="Credits" width="800" height="592" from="-250" to="3350" time="80">
+				<Logo x="266" y="516" tex="textures\Local\TheEnd.png"/>
+				<Logo x="120" y="35" tex="textures\credits\playrix_logo.png"/>
+				<Logo x="218" y="-400" tex="textures\credits\logo1.png"/>
+				<position x="0" y="588"/>
+				<textPosition x="400" y="0"/>
+			</Credits>
+		</Controls>
+		<Script>CreditsFunc</Script>
+	</Layer>
+
+	<Layer name="HiScores">
+		<Controls>
+			<HiScores name="HiScores"/>
+		</Controls>
+		<Script>HiScoresFunc</Script>
+	</Layer>
+</GUI>

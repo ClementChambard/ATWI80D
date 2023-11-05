@@ -1,0 +1,31 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Countries>
+	<Country name="England">
+		<TextPosition x="-30" y="20"/>
+		<Position x="393" y="322"/>
+	</Country>
+	<Country name="#Country2">
+		<TextPosition x="25" y="18"/>
+		<Position x="420" y="298"/>
+	</Country>
+	<Country name="#Country3">
+		<TextPosition x="25" y="18"/>
+		<Position x="466" y="259"/>
+	</Country>
+	<Country name="#Country4">
+		<TextPosition x="25" y="18"/>
+		<Position x="573" y="253"/>
+	</Country>
+	<Country name="#Country5">
+		<TextPosition x="25" y="18"/>
+		<Position x="661" y="267"/>
+	</Country>
+	<Country name="#Country6">
+		<TextPosition x="25" y="18"/>
+		<Position x="710" y="285"/>
+	</Country>
+	<Country name="#Country7">
+		<TextPosition x="25" y="18"/>
+		<Position x="169" y="302"/>
+	</Country>
+</Countries>

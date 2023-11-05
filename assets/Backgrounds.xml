@@ -1,0 +1,1533 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Countries>
+	<France>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="0" g="52" b="183"/>
+					<BottomColor r="0" g="192" b="154"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<Lights>
+			<Light type="1" size="1.0" start="19.0" duration="12.0">
+				<Position x="687" y="149"/>
+				<Window>
+					<Rect x="673" y="131" width="28" height="7"/>
+				</Window>
+				<Mirror>
+					<Rect x="678" y="0" width="20" height="47"/>
+				</Mirror>
+			</Light>
+		</Lights>
+		<Windows1>
+			<Window>
+				<Rect x="217" y="62" width="138" height="35"/>
+				<Time start="18.8" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="196" y="65" width="23" height="42"/>
+				<Time start="18.9" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="355" y="63" width="24" height="40"/>
+				<Time start="18.9" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="160" y="70" width="37" height="53"/>
+				<Time start="19.0" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="377" y="72" width="34" height="58"/>
+				<Time start="19.0" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="127" y="81" width="35" height="72"/>
+				<Time start="19.1" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="409" y="77" width="40" height="68"/>
+				<Time start="19.1" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="65" y="92" width="61" height="88"/>
+				<Time start="19.2" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="450" y="89" width="10" height="84"/>
+				<Time start="19.2" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="0" y="100" width="68" height="101"/>
+				<Time start="19.3" duration="10.5"/>
+			</Window>
+		</Windows1>
+		<Windows2>
+			<Window>
+				<Rect x="29" y="40" width="160" height="40"/>
+				<Time start="19.4" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="2" y="41" width="27" height="42"/>
+				<Time start="19.5" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="191" y="41" width="27" height="42"/>
+				<Time start="19.6" duration="10.5"/>
+			</Window>
+		</Windows2>
+		<Windows3>
+			<Window>
+				<Rect x="0" y="82" width="81" height="83"/>
+				<Time start="19.0" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="91" y="82" width="71" height="83"/>
+				<Time start="19.1" duration="10.5"/>
+			</Window>
+		</Windows3>
+		<Windows4>
+			<Window>
+				<Rect x="0" y="65" width="59" height="66"/>
+				<Time start="19.2" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="59" y="65" width="66" height="66"/>
+				<Time start="19.3" duration="10.5"/>
+			</Window>
+		</Windows4>
+		<Windows5>
+			<Window>
+				<Rect x="0" y="265" width="638" height="266"/>
+				<Time start="19.8" duration="10.0"/>
+			</Window>
+		</Windows5>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="250" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="380" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="480" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+		</Clouds>
+		<Trees>
+			<Tree textureDay="#ParisTree3Day" textureNight="#ParisTree3Night" amplitudeAngle="1.3" amplitudeX="0" amplitudeY="0" timeScale="0.1">
+				<Position x="840" y="157"/>
+				<CenterRotate x="222" y="121"/>
+			</Tree>
+			<Tree textureDay="#ParisTree2Day" textureNight="#ParisTree2Night" amplitudeAngle="1.3" amplitudeX="0" amplitudeY="0" timeScale="0.1">
+				<Position x="800" y="16"/>
+				<CenterRotate x="173" y="16"/>
+			</Tree>
+			<Tree textureDay="#ParisTree1Day" textureNight="#ParisTree1Night" amplitudeAngle="1.3" amplitudeX="0" amplitudeY="0" timeScale="0.09">
+				<Position x="800" y="116"/>
+				<CenterRotate x="162" y="66"/>
+			</Tree>
+			<Tree textureDay="#ParisTree4Day" textureNight="#ParisTree4Night" amplitudeAngle="1.0" amplitudeX="0" amplitudeY="0" timeScale="0.1">
+				<Position x="36" y="80"/>
+				<CenterRotate x="0" y="86"/>
+			</Tree>
+		</Trees>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="5.85" alpha="0.0"/>
+			<Key time="6.15" alpha="0.93"/>
+			<Key time="6.93" alpha="0.56"/>
+			<Key time="7.44" alpha="0.25"/>
+			<Key time="8" alpha="0.15"/>
+			<Key time="9" alpha="0"/>
+			<Key time="12.6" alpha="0"/>
+			<Key time="13.44" alpha="0.35"/>
+			<Key time="14" alpha="0.58"/>
+			<Key time="14.4" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<LightMasks>
+			<LightMask texture="#ParisEifelLight" addBlending="false" timeScale="5" alphaMin="240" alphaMax="255" timeStart="18.5" timeEnd="5.5">
+				<Position x="554" y="228"/>
+			</LightMask>
+			<LightMask texture="#ParisEifelAddLight" addBlending="true" timeScale="5" alphaMin="240" alphaMax="255" timeStart="18.5" timeEnd="5.5">
+				<Position x="540" y="227"/>
+			</LightMask>
+			<LightMask texture="#ParisProjector" addBlending="true" timeScale="3" alphaMin="224" alphaMax="255" timeStart="19.15" timeEnd="5.5">
+				<Position x="605" y="310"/>
+				<Projector angleMin="-2" angleMax="+7" timeStart="3.14" timeScale="0.6">
+					<CenterPos x="26" y="0"/>
+				</Projector>
+			</LightMask>
+			<LightMask texture="#ParisProjector" addBlending="true" timeScale="4" alphaMin="224" alphaMax="255" timeStart="18.75" timeEnd="5.5">
+				<Position x="561" y="217"/>
+				<Projector angleMin="-5" angleMax="+5" timeStart="0.0" timeScale="0.5">
+					<CenterPos x="26" y="0"/>
+				</Projector>
+			</LightMask>
+			<LightMask texture="#ParisProjector" addBlending="true" timeScale="3" alphaMin="224" alphaMax="255" timeStart="19.0" timeEnd="5.5">
+				<Position x="640" y="217"/>
+				<Projector angleMin="-5" angleMax="+5" timeStart="3.14" timeScale="0.5">
+					<CenterPos x="26" y="0"/>
+				</Projector>
+			</LightMask>
+		</LightMasks>
+	</France>
+	<London>
+		<Trees>
+			<Tree textureDay="#LondonTreeDay3" textureNight="#LondonTreeNight3" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="2" timeScale="0.054">
+				<Position x="-1" y="308"/>
+				<CenterRotate x="0" y="60"/>
+			</Tree>
+			<Tree textureDay="#LondonTreeDay2" textureNight="#LondonTreeNight2" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="1" timeScale="0.047">
+				<Position x="0" y="395"/>
+				<CenterRotate x="0" y="91"/>
+			</Tree>
+			<Tree textureDay="#LondonTreeDay1" textureNight="#LondonTreeNight1" amplitudeAngle="2.5" amplitudeX="0" amplitudeY="2" timeScale="0.033">
+				<Position x="2" y="436"/>
+				<CenterRotate x="0" y="20"/>
+			</Tree>
+		</Trees>
+		<Windows1>
+			<Window>
+				<Rect x="402" y="427" width="53" height="31"/>
+			</Window>
+			<Window>
+				<Rect x="367" y="427" width="35" height="27"/>
+			</Window>
+			<Window>
+				<Rect x="343" y="428" width="25" height="29"/>
+			</Window>
+			<Window>
+				<Rect x="455" y="426" width="33" height="28"/>
+				<Mirror>
+					<Rect x="452" y="599" width="37" height="39"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="518" y="425" width="34" height="26"/>
+				<Mirror>
+					<Rect x="512" y="599" width="42" height="45"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="600" y="289" width="72" height="111"/>
+				<Time start="18.0" duration="12.0"/>
+			</Window>
+		</Windows1>
+		<Windows2>
+			<Window>
+				<Rect x="349" y="389" width="14" height="22"/>
+				<Mirror>
+					<Rect x="349" y="599" width="14" height="16"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="404" y="395" width="55" height="38"/>
+				<Mirror>
+					<Rect x="403" y="599" width="52" height="37"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="487" y="426" width="31" height="26"/>
+				<Mirror>
+					<Rect x="484" y="599" width="38" height="42"/>
+				</Mirror>
+			</Window>
+		</Windows2>
+		<SmallLightWindows>
+			<Window>
+				<Rect x="584" y="459" width="47" height="38"/>
+				<Time start="18.0" duration="12.0"/>
+				<Mirror>
+					<Rect x="579" y="599" width="58" height="48"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="497" y="454" width="56" height="42"/>
+				<Time start="18.0" duration="12.0"/>
+				<Mirror>
+					<Rect x="496" y="599" width="55" height="48"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="371" y="449" width="77" height="45"/>
+				<Time start="18.0" duration="12.0"/>
+				<Mirror>
+					<Rect x="383" y="599" width="54" height="48"/>
+				</Mirror>
+			</Window>
+			<Window>
+				<Rect x="286" y="444" width="32" height="31"/>
+				<Time start="18.0" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="221" y="442" width="50" height="41"/>
+				<Time start="18.0" duration="12.0"/>
+			</Window>
+		</SmallLightWindows>
+		<BigLightWindows>
+			<Window>
+				<Rect x="0" y="0" width="344" height="543"/>
+				<Time start="19.0" duration="10.0"/>
+			</Window>
+		</BigLightWindows>
+		<Lights>
+			<Light type="1" size="4" start="19.0" duration="10.0">
+				<Position x="196" y="167"/>
+			</Light>
+			<Light type="1" size="2" start="19.0" duration="10.0">
+				<Position x="131" y="318"/>
+			</Light>
+			<Light type="1" size="1" start="19.0" duration="10.0">
+				<Position x="97" y="362"/>
+			</Light>
+			<Light type="1" size="0.5" start="19.0" duration="10.0">
+				<Position x="71" y="386"/>
+			</Light>
+			<Light type="1" size="0.4" start="19.0" duration="10.0">
+				<Position x="46" y="398"/>
+			</Light>
+			<Light type="1" size="0.4" start="19.0" duration="10.0">
+				<Position x="24" y="405"/>
+			</Light>
+		</Lights>
+		<Foams/>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="0" g="52" b="183"/>
+					<BottomColor r="0" g="192" b="154"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="6.0" alpha="0.0"/>
+			<Key time="7.0" alpha="0.3"/>
+			<Key time="7.2" alpha="0.89"/>
+			<Key time="7.5" alpha="1.0"/>
+			<Key time="7.7" alpha="1.0"/>
+			<Key time="8.1" alpha="0.0"/>
+			<Key time="8.6" alpha="0.0"/>
+			<Key time="8.9" alpha="0.5"/>
+			<Key time="10" alpha="0.2"/>
+			<Key time="11" alpha="0"/>
+			<Key time="14" alpha="0.2"/>
+			<Key time="15" alpha="0.2"/>
+			<Key time="15.6" alpha="0.7"/>
+			<Key time="16" alpha="0.0"/>
+			<Key time="16.7" alpha="0.0"/>
+			<Key time="16.9" alpha="0.8"/>
+			<Key time="16.7" alpha="0.0"/>
+			<Key time="17.25" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="150" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="280" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="380" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudKuch" x="600" y="400.0" v="10" vVariation="2" textureLight="LondonCloudKuchLight">
+				<Normal>
+					<Keys>
+						<Key r="34" g="35" b="93" a="255"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+				<Light>
+					<Keys>
+						<Key r="255" g="255" b="255" a="255"/>
+						<Key r="255" g="255" b="255" a="0"/>
+						<Key r="255" g="255" b="255" a="0"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Light>
+			</Cloud>
+		</Clouds>
+		<Boats>
+			<Boat texture="#Boat2" textureLight="#Boat2Light" textureMirror="#Boat2Mirror" textureLightMirror="#Boat2LightMirror" amp="1.0" startTime="19.0" timeScale="1.3">
+				<ColorNight r="81" g="98" b="109"/>
+				<Position x="716" y="511"/>
+				<MirrorPosition x="0" y="-30"/>
+				<LightMirrorPosition x="0" y="-48"/>
+			</Boat>
+			<Boat texture="#Boat1" textureLight="#Boat1Light" textureMirror="#Boat1Mirror" textureLightMirror="#Boat1LightMirror" amp="3.0" startTime="19.0" timeScale="1.8">
+				<ColorNight r="81" g="98" b="109"/>
+				<Position x="685" y="522"/>
+				<MirrorPosition x="0" y="-15"/>
+				<LightMirrorPosition x="0" y="-32"/>
+			</Boat>
+		</Boats>
+		<Caustics>
+			<Caustic x1="292" y1="508" x2="403" y2="511" x3="303" y3="483" x4="376" y4="483" scale="1.4" alpha="160"/>
+			<Caustic x1="418" y1="504" x2="518" y2="505" x3="428" y3="479" x4="503" y4="479" scale="1.45" alpha="160"/>
+			<Caustic x1="530" y1="503" x2="644" y2="504" x3="551" y3="480" x4="646" y4="486" scale="1.7" alpha="160"/>
+		</Caustics>
+	</London>
+	<India>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="1" g="52" b="105"/>
+					<BottomColor r="67" g="134" b="90"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="200" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="120"/>
+						<Key r="255" g="237" b="155" a="79"/>
+						<Key r="58" g="142" b="195" a="128"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="0" y="380" v="3.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="180"/>
+						<Key r="170" g="176" b="210" a="110"/>
+						<Key r="255" g="255" b="255" a="190"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="480" v="6.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="1450" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+		</Clouds>
+		<FortWindows>
+			<Window>
+				<Rect x="63" y="281" width="128" height="41"/>
+				<Time start="18.0" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="105" y="412" width="153" height="94"/>
+				<Time start="18.1" duration="12.0"/>
+			</Window>
+		</FortWindows>
+		<CommonWindows>
+			<Window>
+				<Rect x="178" y="440" width="198" height="83"/>
+				<Time start="18.2" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="434" y="386" width="37" height="43"/>
+			</Window>
+			<Window>
+				<Rect x="449" y="453" width="50" height="55"/>
+			</Window>
+			<Window>
+				<Rect x="494" y="394" width="52" height="57"/>
+			</Window>
+			<Window>
+				<Rect x="546" y="387" width="33" height="24"/>
+			</Window>
+			<Window>
+				<Rect x="552" y="363" width="130" height="58"/>
+			</Window>
+			<Window>
+				<Rect x="690" y="349" width="47" height="65"/>
+			</Window>
+			<Window>
+				<Rect x="596" y="464" width="184" height="103"/>
+			</Window>
+		</CommonWindows>
+		<Besedka1>
+			<Window>
+				<Rect x="550" y="560" width="250" height="126"/>
+				<Time start="18.3" duration="5.0"/>
+			</Window>
+		</Besedka1>
+		<Besedka2>
+			<Window>
+				<Rect x="231" y="526" width="268" height="93"/>
+				<Time start="18.4" duration="5.0"/>
+			</Window>
+		</Besedka2>
+		<Budda>
+			<Window>
+				<Rect x="456" y="493" width="139" height="121"/>
+				<Time start="17.0" duration="13.0"/>
+			</Window>
+		</Budda>
+		<Lights>
+			<Light type="2" size="2" start="18.0" duration="12.0">
+				<Position x="76" y="342"/>
+			</Light>
+			<Light type="2" size="2" start="18.0" duration="12.0">
+				<Position x="174" y="331"/>
+			</Light>
+			<Light type="2" size="1.5" start="18.1" duration="12.0">
+				<Position x="174" y="-365"/>
+			</Light>
+			<Light type="2" size="1.5" start="18.1" duration="12.0">
+				<Position x="198" y="-365"/>
+			</Light>
+			<Light type="2" size="1.5" start="18.1" duration="12.0">
+				<Position x="197" y="-386"/>
+			</Light>
+			<Light type="2" size="1.5" start="18.1" duration="12.0">
+				<Position x="224" y="-385"/>
+			</Light>
+		</Lights>
+		<Flames>
+			<Flame x="577" y="-561" effect="IndiaFlame1" startTime="17.5" duration="13" maskTexture="IndiaFlame" maskAlphaMin="100" maskAlphaMax="255" xMask="247" yMask="0"/>
+			<Flame x="534" y="-549" effect="IndiaFlame1" startTime="17.5" duration="13" maskAlphaMin="100" maskAlphaMax="255" xMask="247" yMask="0"/>
+			<Flame x="500" y="-539" effect="IndiaFlame2" startTime="17.5" duration="13"/>
+			<Flame x="345" y="-522" effect="IndiaFlame3" startTime="17.5" duration="13"/>
+			<Flame x="297" y="-523" effect="IndiaFlame3" startTime="17.5" duration="13"/>
+			<Flame x="253" y="-523" effect="IndiaFlame3" startTime="17.5" duration="13"/>
+		</Flames>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="6.36" alpha="0"/>
+			<Key time="6.75" alpha="0.65"/>
+			<Key time="7.2" alpha="0.58"/>
+			<Key time="7.77" alpha="0.22"/>
+			<Key time="8.34" alpha="0.11"/>
+			<Key time="9.0" alpha="0"/>
+			<Key time="15.8" alpha="0"/>
+			<Key time="16.5" alpha="0.34"/>
+			<Key time="17.1" alpha="0.43"/>
+			<Key time="17.49" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<WaterLeaves>
+			<Leaf textureDay="IndiaLeaf1Day" textureNight="IndiaLeaf1Night" amp="0.2" timeScale="0.5" startTime="0.0">
+				<Position x="199" y="594"/>
+			</Leaf>
+			<Leaf textureDay="IndiaLeaf1Day" textureNight="IndiaLeaf1Night" amp="0.2" timeScale="0.5" startTime="0.1">
+				<Position x="220" y="584"/>
+			</Leaf>
+			<Leaf textureDay="IndiaLeaf1Day" textureNight="IndiaLeaf1Night" amp="0.2" timeScale="0.5" startTime="0.2">
+				<Position x="250" y="585"/>
+			</Leaf>
+			<Leaf textureDay="IndiaLeaf1Day" textureNight="IndiaLeaf1Night" amp="0.2" timeScale="0.5" startTime="0.35">
+				<Position x="170" y="585"/>
+			</Leaf>
+			<Leaf textureDay="IndiaLeaf1Day" textureNight="IndiaLeaf1Night" amp="0.2" timeScale="0.5" startTime="0.5">
+				<Position x="180" y="575"/>
+			</Leaf>
+		</WaterLeaves>
+	</India>
+	<Egypt>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="0" g="52" b="183"/>
+					<BottomColor r="0" g="192" b="154"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="138" b="255"/>
+					<BottomColor r="77" g="253" b="255"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<Windows/>
+		<Lights/>
+		<Foams/>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="8.16" alpha="0.0"/>
+			<Key time="8.5" alpha="0.26"/>
+			<Key time="8.91" alpha="0.53"/>
+			<Key time="9.5" alpha="0.0"/>
+			<Key time="15.48" alpha="0.0"/>
+			<Key time="16.08" alpha="0.3"/>
+			<Key time="16.53" alpha="0.64"/>
+			<Key time="16.9" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<Flames/>
+		<Palma>
+			<Leaves>
+				<Leaf xCenter="132" yCenter="-6" texture="EgyptList1"/>
+				<Leaf xCenter="11" yCenter="1" texture="EgyptList2"/>
+				<Leaf xCenter="1" yCenter="145" texture="EgyptList3"/>
+				<Leaf xCenter="34" yCenter="174" texture="EgyptList4"/>
+				<Leaf xCenter="5" yCenter="35" texture="EgyptList5"/>
+				<Leaf xCenter="249" yCenter="26" texture="EgyptList6"/>
+				<Leaf xCenter="214" yCenter="60" texture="EgyptList7"/>
+			</Leaves>
+			<Stvol xEarth="156" yEarth="517" xLeaves="11" yLeaves="15" texture="EgyptStvol"/>
+		</Palma>
+		<Trava>
+			<Travinka x="-31" y="-15" xCenter="2" yCenter="155" amp="2" r="0.5" texture="EgyptLeftTrava1"/>
+			<Travinka x="7" y="-27" xCenter="3" yCenter="132" amp="1.5" r="0.5" texture="EgyptLeftTrava2"/>
+			<Travinka x="-15" y="-10" xCenter="66" yCenter="129" amp="0.5" r="0.5" texture="EgyptLeftTrava3"/>
+			<Travinka x="700" y="-14" xCenter="126" yCenter="172" amp="0.5" r="0.5" texture="EgyptRightTrava1"/>
+			<Travinka x="700" y="-14" xCenter="126" yCenter="172" amp="0.5" r="0.5" texture="EgyptRightTrava2"/>
+			<Travinka x="700" y="-25" xCenter="126" yCenter="172" amp="0.5" r="0.5" texture="EgyptRightTrava3"/>
+			<Travinka x="760" y="-14" xCenter="131" yCenter="163" amp="0.5" r="0.5" texture="EgyptRightTrava4"/>
+		</Trava>
+	</Egypt>
+	<China>
+		<Lights/>
+		<Foams/>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="1" g="52" b="105"/>
+					<BottomColor r="67" g="134" b="90"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="200" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudPer" x="300" y="175" v="1.8" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="345" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="200" y="290" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="430" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+		</Clouds>
+		<Windows>
+			<Window>
+				<Rect x="485" y="270" width="28" height="22"/>
+				<Time start="18.0" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="491" y="286" width="25" height="16"/>
+				<Time start="18.1" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="516" y="285" width="44" height="24"/>
+				<Time start="18.2" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="560" y="274" width="59" height="25"/>
+				<Time start="18.3" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="621" y="284" width="29" height="23"/>
+				<Time start="18.4" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="579" y="291" width="39" height="19"/>
+				<Time start="18.5" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="549" y="301" width="31" height="20"/>
+				<Time start="18.6" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="545" y="315" width="28" height="15"/>
+				<Time start="18.7" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="575" y="319" width="17" height="17"/>
+				<Time start="18.8" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="584" y="336" width="20" height="19"/>
+				<Time start="18.9" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="518" y="316" width="26" height="23"/>
+				<Time start="19.0" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="501" y="335" width="18" height="25"/>
+				<Time start="19.1" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="484" y="367" width="25" height="32"/>
+				<Time start="19.2" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="448" y="375" width="36" height="26"/>
+				<Time start="19.3" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="377" y="374" width="47" height="36"/>
+				<Time start="19.4" duration="12.0"/>
+			</Window>
+			<Window>
+				<Rect x="350" y="394" width="41" height="21"/>
+				<Time start="19.5" duration="12.0"/>
+			</Window>
+		</Windows>
+		<Trees>
+			<Tree textureDay="#ChinaTree2Day" textureNight="#ChinaTree2Night" amplitudeAngle="1.9" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="150" y="540"/>
+				<CenterRotate x="57" y="220"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree1Day" textureNight="#ChinaTree1Night" amplitudeAngle="0.9" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="50" y="411"/>
+				<CenterRotate x="0" y="20"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree3Day" textureNight="#ChinaTree3Night" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="797" y="380"/>
+				<CenterRotate x="205" y="4"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree4Day" textureNight="#ChinaTree4Night" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="780" y="344"/>
+				<CenterRotate x="141" y="45"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree5Day" textureNight="#ChinaTree5Night" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="230" y="530"/>
+				<CenterRotate x="36" y="100"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree6Day" textureNight="#ChinaTree6Night" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="325" y="605"/>
+				<CenterRotate x="10" y="153"/>
+			</Tree>
+			<Tree textureDay="#ChinaTree7Day" textureNight="#ChinaTree7Night" amplitudeAngle="1.5" amplitudeX="0" amplitudeY="0" timeScale="0.054">
+				<Position x="10" y="420"/>
+				<CenterRotate x="3" y="30"/>
+			</Tree>
+		</Trees>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="7.08" alpha="0.0"/>
+			<Key time="7.29" alpha="0.5"/>
+			<Key time="7.44" alpha="0.73"/>
+			<Key time="8.13" alpha="0.3"/>
+			<Key time="9.0" alpha="0.0"/>
+			<Key time="15.5" alpha="0.0"/>
+			<Key time="16.45" alpha="0.7"/>
+			<Key time="17.16" alpha="0.8"/>
+			<Key time="17.46" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<Flames>
+			<Flame x="680" y="207" effect="ChinaBigFlame" startTime="18.0" duration="12.0" maskAlphaMin="100" maskAlphaMax="180" xMask="585" yMask="37"/>
+			<Flame x="506" y="118" effect="ChinaFlame1" startTime="18.0" duration="12.0" maskAlphaMin="100" maskAlphaMax="180" xMask="585" yMask="37"/>
+			<Flame x="362" y="122" effect="ChinaFlame2" startTime="18.4" duration="12.0" maskAlphaMin="100" maskAlphaMax="180" xMask="296" yMask="140"/>
+			<Flame x="317" y="155" effect="ChinaFlame2" startTime="18.4" duration="12.0" maskAlphaMin="100" maskAlphaMax="180" xMask="237" yMask="174"/>
+			<Flame x="267" y="171" effect="ChinaFlame3" startTime="18.4" duration="12.0" maskAlphaMin="100" maskAlphaMax="180" xMask="233" yMask="207"/>
+			<Flame x="239" y="181" effect="ChinaFlame3" startTime="18.4" duration="11.2" maskAlphaMin="100" maskAlphaMax="180" xMask="197" yMask="221"/>
+		</Flames>
+		<LightMasks>
+			<LightMask texture="#ChinaMask1" addBlending="true" timeScale="0.5" alphaMin="32" alphaMax="192" timeStart="18.0" timeEnd="6.0">
+				<Position x="617" y="-553"/>
+			</LightMask>
+			<LightMask texture="#ChinaMask2" addBlending="true" timeScale="0.75" alphaMin="96" alphaMax="192" timeStart="18.0" timeEnd="6.0">
+				<Position x="460" y="-575"/>
+			</LightMask>
+			<LightMask texture="#ChinaMask3" addBlending="true" timeScale="1.0" alphaMin="128" alphaMax="192" timeStart="18.4" timeEnd="5.6">
+				<Position x="220" y="-543"/>
+			</LightMask>
+		</LightMasks>
+	</China>
+	<Japan>
+		<Windows/>
+		<Lights>
+			<Light type="1" size="3.0" start="18.5" duration="12.0">
+				<Position x="740" y="292"/>
+			</Light>
+			<Light type="1" size="1.0" start="19.0" duration="12.0">
+				<Position x="453" y="228"/>
+			</Light>
+		</Lights>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="250" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="380" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="480" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+		</Clouds>
+		<Trees>
+			<Tree textureDay="#JapanTree1Day" textureNight="#JapanTree1Night" amplitudeAngle="1.3" amplitudeX="0" amplitudeY="0" timeScale="0.05">
+				<Position x="291" y="116"/>
+				<CenterRotate x="4" y="41"/>
+			</Tree>
+			<Tree textureDay="#JapanTree2Day" textureNight="#JapanTree2Night" amplitudeAngle="1.3" amplitudeX="0" amplitudeY="0" timeScale="0.05">
+				<Position x="251" y="181"/>
+				<CenterRotate x="102" y="183"/>
+			</Tree>
+		</Trees>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="1" g="52" b="105"/>
+					<BottomColor r="67" g="134" b="90"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="5.91" alpha="0.0"/>
+			<Key time="6.27" alpha="0.32"/>
+			<Key time="6.63" alpha="0.45"/>
+			<Key time="7.41" alpha="0.22"/>
+			<Key time="8.79" alpha="0.0"/>
+			<Key time="13.05" alpha="0.0"/>
+			<Key time="13.11" alpha="0.625"/>
+			<Key time="14.3" alpha="0.5"/>
+			<Key time="14.88" alpha="0.41"/>
+			<Key time="15.48" alpha="0.3"/>
+			<Key time="16.14" alpha="0.385"/>
+			<Key time="17.01" alpha="0.718"/>
+			<Key time="17.79" alpha="0.93"/>
+			<Key time="18.12" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<Foams/>
+		<LightMasks>
+			<LightMask texture="#JapanLightMask1" addBlending="false" timeScale="0.5" alphaMin="192" alphaMax="255" timeStart="18.0" timeEnd="6.0">
+				<Position x="0" y="0"/>
+			</LightMask>
+			<LightMask texture="#JapanLightMask2" addBlending="true" timeScale="2" alphaMin="100" alphaMax="128" timeStart="18.0" timeEnd="6.0">
+				<Position x="149" y="-542"/>
+			</LightMask>
+			<LightMask texture="#JapanLightMask3" addBlending="false" timeScale="0.8" alphaMin="192" alphaMax="255" timeStart="18.5" timeEnd="6.5">
+				<Position x="583" y="-357"/>
+			</LightMask>
+			<LightMask texture="#JapanLightMask4" addBlending="false" timeScale="0.5" alphaMin="192" alphaMax="255" timeStart="19.0" timeEnd="7.0">
+				<Position x="376" y="-403"/>
+			</LightMask>
+		</LightMasks>
+	</Japan>
+	<America>
+		<LightMasks>
+			<LightMask texture="#AmericaLight1" addBlending="false" timeScale="1.0" alphaMin="220" alphaMax="255" timeStart="18.8" timeEnd="6.8">
+				<Position x="361" y="-599"/>
+			</LightMask>
+		</LightMasks>
+		<Lights>
+			<Light type="1" size="1.4" start="18.8" duration="12.0">
+				<Position x="528" y="-490"/>
+			</Light>
+			<Light type="1" size="1.4" start="18.8" duration="12.0">
+				<Position x="575" y="-499"/>
+			</Light>
+			<Light type="1" size="1.4" start="18.8" duration="12.0">
+				<Position x="622" y="-508"/>
+			</Light>
+			<Light type="1" size="1.4" start="18.8" duration="12.0">
+				<Position x="667" y="-515"/>
+			</Light>
+			<Light type="1" size="1.4" start="18.8" duration="12.0">
+				<Position x="716" y="-526"/>
+			</Light>
+			<Light type="1" size="1.8" start="18.8" duration="12.0">
+				<Position x="493" y="-548"/>
+			</Light>
+			<Light type="1" size="1" start="19.0" duration="11.0">
+				<Position x="795" y="-396"/>
+			</Light>
+			<Light type="1" size="1" start="19.05" duration="11.0">
+				<Position x="769" y="-392"/>
+			</Light>
+			<Light type="1" size="1" start="19.1" duration="11.0">
+				<Position x="741" y="-388"/>
+			</Light>
+			<Light type="1" size="1" start="19.15" duration="11.0">
+				<Position x="714" y="-385"/>
+			</Light>
+			<Light type="1" size="1" start="19.2" duration="11.0">
+				<Position x="688" y="-382"/>
+			</Light>
+			<Light type="1" size="1" start="19.25" duration="11.0">
+				<Position x="662" y="-378"/>
+			</Light>
+			<Light type="1" size="1" start="19.3" duration="11.0">
+				<Position x="370" y="-357"/>
+			</Light>
+			<Light type="1" size="1" start="19.35" duration="11.0">
+				<Position x="332" y="-356"/>
+			</Light>
+			<Light type="1" size="1" start="19.4" duration="11.0">
+				<Position x="295" y="-357"/>
+			</Light>
+			<Light type="1" size="0.75" start="19.45" duration="11.0">
+				<Position x="567" y="-360"/>
+			</Light>
+			<Light type="1" size="0.75" start="19.5" duration="11.0">
+				<Position x="593" y="-360"/>
+			</Light>
+			<Light type="1" size="0.75" start="19.55" duration="11.0">
+				<Position x="619" y="-360"/>
+			</Light>
+			<Light type="1" size="0.75" start="19.6" duration="11.0">
+				<Position x="646" y="-360"/>
+			</Light>
+		</Lights>
+		<Sky>
+			<Keys>
+				<Key>
+					<TopColor r="31" g="0" b="102"/>
+					<MiddleColor r="0" g="52" b="183"/>
+					<BottomColor r="0" g="192" b="154"/>
+				</Key>
+				<Key>
+					<TopColor r="220" g="195" b="255"/>
+					<MiddleColor r="255" g="182" b="197"/>
+					<BottomColor r="255" g="92" b="75"/>
+				</Key>
+				<Key>
+					<TopColor r="0" g="123" b="255"/>
+					<MiddleColor r="100" g="232" b="255"/>
+					<BottomColor r="228" g="240" b="158"/>
+				</Key>
+			</Keys>
+			<KeyList>
+				<KeyID value="0"/>
+				<KeyID value="0"/>
+				<KeyID value="1"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="2"/>
+				<KeyID value="1"/>
+				<KeyID value="0"/>
+			</KeyList>
+		</Sky>
+		<Clouds>
+			<Cloud texture="LondonCloudPer" x="10" y="220" v="2.0" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="1" g="120" b="174" a="240"/>
+						<Key r="255" g="237" b="155" a="158"/>
+						<Key r="58" g="142" b="195" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleDown" x="400" y="350" v="5.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="13" g="75" b="141" a="240"/>
+						<Key r="170" g="176" b="210" a="158"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+			<Cloud texture="LondonCloudMiddleUp" x="200" y="450" v="7.5" vVariation="1">
+				<Normal>
+					<Keys>
+						<Key r="219" g="255" b="177" a="168"/>
+						<Key r="213" g="207" b="228" a="255"/>
+						<Key r="255" g="255" b="255" a="255"/>
+					</Keys>
+					<KeyList>
+						<KeyID value="0"/>
+						<KeyID value="0"/>
+						<KeyID value="1"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="2"/>
+						<KeyID value="1"/>
+						<KeyID value="0"/>
+					</KeyList>
+				</Normal>
+			</Cloud>
+		</Clouds>
+		<Windows1>
+			<Window>
+				<Rect x="0" y="599" width="100" height="67"/>
+				<Time start="18.8" duration="10.5"/>
+			</Window>
+			<Window>
+				<Rect x="0" y="516" width="32" height="24"/>
+				<Time start="18.5" duration="4.0"/>
+			</Window>
+			<Window>
+				<Rect x="33" y="525" width="35" height="27"/>
+				<Time start="19.5" duration="10"/>
+			</Window>
+			<Window>
+				<Rect x="69" y="528" width="44" height="35"/>
+				<Time start="19.3" duration="6.0"/>
+			</Window>
+			<Window>
+				<Rect x="100" y="559" width="14" height="30"/>
+				<Time start="20.0" duration="5.0"/>
+			</Window>
+			<Window>
+				<Rect x="113" y="577" width="48" height="47"/>
+				<Time start="19.8" duration="10.0"/>
+			</Window>
+			<Window>
+				<Rect x="115" y="530" width="51" height="41"/>
+				<Time start="18.8" duration="9.0"/>
+			</Window>
+			<Window>
+				<Rect x="166" y="532" width="65" height="50"/>
+				<Time start="19.2" duration="8.0"/>
+			</Window>
+			<Window>
+				<Rect x="168" y="570" width="37" height="39"/>
+				<Time start="20.5" duration="6.0"/>
+			</Window>
+			<Window>
+				<Rect x="233" y="558" width="34" height="59"/>
+				<Time start="20.1" duration="5.0"/>
+			</Window>
+			<Window>
+				<Rect x="267" y="559" width="28" height="68"/>
+				<Time start="20.4" duration="4.0"/>
+			</Window>
+			<Window>
+				<Rect x="296" y="551" width="30" height="56"/>
+				<Time start="20.4" duration="4.0"/>
+			</Window>
+			<Window>
+				<Rect x="326" y="546" width="25" height="53"/>
+				<Time start="21.0" duration="7.0"/>
+			</Window>
+			<Window>
+				<Rect x="295" y="578" width="20" height="22"/>
+			</Window>
+			<Window>
+				<Rect x="314" y="576" width="14" height="24"/>
+			</Window>
+			<Window>
+				<Rect x="328" y="571" width="24" height="23"/>
+			</Window>
+			<Window>
+				<Rect x="350" y="526" width="28" height="33"/>
+			</Window>
+			<Window>
+				<Rect x="378" y="520" width="26" height="37"/>
+			</Window>
+			<Window>
+				<Rect x="350" y="553" width="28" height="28"/>
+			</Window>
+			<Window>
+				<Rect x="378" y="582" width="51" height="63"/>
+			</Window>
+		</Windows1>
+		<Windows2>
+			<Window>
+				<Rect x="0" y="507" width="574" height="507"/>
+				<Time start="19.25" duration="10.5"/>
+			</Window>
+		</Windows2>
+		<Windows4>
+			<Window>
+				<Rect x="491" y="370" width="309" height="187"/>
+				<Time start="18.5" duration="10.5"/>
+			</Window>
+		</Windows4>
+		<Windows5>
+			<Window>
+				<Rect x="265" y="363" width="148" height="235"/>
+				<Time start="18.75" duration="10.5"/>
+			</Window>
+		</Windows5>
+		<Windows6>
+			<Window>
+				<Rect x="0" y="328" width="213" height="112"/>
+				<Time start="19.03" duration="10.5"/>
+			</Window>
+		</Windows6>
+		<Windows3>
+			<Window>
+				<Rect x="784" y="472" width="16" height="52"/>
+				<Time start="19.0" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="758" y="460" width="21" height="41"/>
+				<Time start="19.05" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="729" y="456" width="25" height="46"/>
+				<Time start="19.1" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="702" y="454" width="22" height="53"/>
+				<Time start="19.15" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="676" y="448" width="23" height="46"/>
+				<Time start="19.2" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="649" y="441" width="23" height="44"/>
+				<Time start="19.25" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="357" y="440" width="23" height="66"/>
+				<Time start="19.3" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="319" y="433" width="22" height="59"/>
+				<Time start="19.35" duration="11.0"/>
+			</Window>
+			<Window>
+				<Rect x="283" y="437" width="20" height="62"/>
+				<Time start="19.4" duration="11.0"/>
+			</Window>
+		</Windows3>
+		<SunGlow>
+			<Key time="0.0" alpha="0.0"/>
+			<Key time="6.36" alpha="0.0"/>
+			<Key time="6.84" alpha="0.32"/>
+			<Key time="7.05" alpha="0.32"/>
+			<Key time="7.32" alpha="0.1"/>
+			<Key time="7.5" alpha="0.1"/>
+			<Key time="7.71" alpha="0.5"/>
+			<Key time="8.82" alpha="0.25"/>
+			<Key time="9.0" alpha="0.0"/>
+			<Key time="13.0" alpha="0.0"/>
+			<Key time="13.26" alpha="0.23"/>
+			<Key time="13.74" alpha="0.45"/>
+			<Key time="14.07" alpha="0.0"/>
+			<Key time="14.49" alpha="0.0"/>
+			<Key time="14.79" alpha="0.54"/>
+			<Key time="15.42" alpha="0.54"/>
+			<Key time="15.81" alpha="0.0"/>
+			<Key time="24.0" alpha="0.0"/>
+		</SunGlow>
+		<Foams/>
+		<Flames/>
+	</America>
+</Countries>

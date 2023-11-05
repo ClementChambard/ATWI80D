@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Resources>
+	<Fonts>
+	</Fonts>
+	<Textures/>
+	<Textures2D>
+		<texture2D id="MapTitlePoint" path="textures\Map\Point.png" upload="false" group="Map"/>
+
+		<texture2D id="MapCountryIntroNormal" path="textures\Local\Map\CountryIntroNormal.png"/>
+		<texture2D id="MapCountryIntroActive" path="textures\Local\Map\CountryIntroActive.png"/>
+		<texture2D id="MapCountryIntroPressed" path="textures\Local\Map\CountryIntroPressed.png"/>
+
+		<texture2D id="MapMenuNormal" path="textures\Local\map\MenuNormal.png" upload="false" group="Map"/>
+		<texture2D id="MapMenuActive" path="textures\Local\map\MenuActive.png" upload="false" group="Map"/>
+		<texture2D id="MapMenuPressed" path="textures\Local\map\MenuPressed.png" upload="false" group="Map"/>
+
+		<texture2D id="MapContinueNormal" path="textures\Local\map\ContinueNormal.png" upload="false" group="Map"/>
+		<texture2D id="MapContinueActive" path="textures\Local\map\ContinueActive.png" upload="false" group="Map"/>
+		<texture2D id="MapContinuePressed" path="textures\Local\map\ContinuePressed.png" upload="false" group="Map"/>
+
+		<texture2D id="MapLeftUpButtonSubstr" path="textures\map\LeftUpButtonSubstr.png" upload="false" group="Map"/>
+		<texture2D id="MapLeftDownButtonSubstr" path="textures\map\LeftDownButtonSubstr.png" upload="false" group="Map"/>
+		<texture2D id="MapLeftButton" path="textures\map\LeftButton.png" upload="false" group="Map"/>
+
+		<texture2D id="MapRightUpButtonSubstr" path="textures\map\RightUpButtonSubstr.png" upload="false" group="Map"/>
+		<texture2D id="MapRightDownButtonSubstr" path="textures\map\RightDownButtonSubstr.png" upload="false" group="Map"/>
+		<texture2D id="MapRightButton" path="textures\map\RightButton.png" upload="false" group="Map"/>
+
+		<texture2D id="MapClockShadow" path="textures\map\ClockShadow.png" upload="false" group="Map"/>
+		<texture2D id="MapClockSubstr" path="textures\map\ciferblat.png" upload="false" group="Map"/>
+
+		<texture2D id="MapClockCenter" path="textures\map\ClockCenter.png" upload="false" group="Map"/>
+		<texture2D id="MapClockGlass" path="textures\map\ClockGlass.png" upload="false" group="Map"/>
+
+		<texture2D id="MapClockArrowHour" path="textures\map\ClockArrowHour.png" upload="false" group="Map"/>
+		<texture2D id="MapClockArrowMin" path="textures\map\ClockArrowMin.png" upload="false" group="Map"/>
+		<texture2D id="MapClockArrowSec" path="textures\map\ClockArrowSec.png" upload="false" group="Map"/>
+
+		<texture2D id="MapClockKoleso1" path="textures\map\Koleso1.png" upload="false" group="Map"/>
+		<texture2D id="MapClockKoleso11" path="textures\map\Koleso11.png" upload="false" group="Map"/>
+		<texture2D id="MapClockKoleso2" path="textures\map\Koleso2.png" upload="false" group="Map"/>
+		<texture2D id="MapClockKoleso3" path="textures\map\Koleso3.png" upload="false" group="Map"/>
+
+		<texture2D id="MapCandle" path="textures\map\Candle.png" upload="false" group="Map"/>
+		<texture2D id="MapCandleShadow" path="textures\map\CandleShadow.png" upload="false" group="Map"/>
+
+		<texture2D id="MapLightMask1" path="textures\map\Mask1.jpg" upload="false" group="Map"/>
+		<texture2D id="MapLightMask2" path="textures\map\Mask2.jpg" upload="false" group="Map"/>
+		<texture2D id="MapLightMask3" path="textures\map\Mask3.jpg" upload="false" group="Map"/>
+
+		<texture2D id="MapUpPanel" path="textures\Map\upPanel.png" upload="false" group="Map"/>
+		<texture2D id="MapDownPanel" path="textures\Map\downPanel.png" upload="false" group="Map"/>
+		<texture2D id="MapLeftRamka" path="textures\Map\leftRamka.png" upload="false" group="Map"/>
+		<texture2D id="MapRightRamka" path="textures\Map\rightRamka.png" upload="false" group="Map"/>
+		<texture2D id="DownLine" path="textures\Map\DownLine.png" upload="false" group="Map"/>
+		<texture2D id="MapRing" path="textures\Map\Ring.png" upload="false" group="Map"/>
+
+		<texture2D id="MapMarka1" path="textures\Map\Marki\big_england.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka2" path="textures\Map\Marki\big_france.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka3" path="textures\Map\Marki\big_egypt.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka4" path="textures\Map\Marki\big_india.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka5" path="textures\Map\Marki\big_china.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka6" path="textures\Map\Marki\big_japan.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka7" path="textures\Map\Marki\big_usa.png" upload="false" group="Map"/>
+
+		<texture2D id="MapMarka1small" path="textures\Map\Marki\small_england.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka2small" path="textures\Map\Marki\small_france.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka3small" path="textures\Map\Marki\small_egypt.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka4small" path="textures\Map\Marki\small_india.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka5small" path="textures\Map\Marki\small_china.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka6small" path="textures\Map\Marki\small_japan.png" upload="false" group="Map"/>
+		<texture2D id="MapMarka7small" path="textures\Map\Marki\small_usa.png" upload="false" group="Map"/>
+
+		<texture2D id="MapMarkaSubstr1" path="textures\Map\Substr\England.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr2" path="textures\Map\Substr\France.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr3" path="textures\Map\Substr\Egypt.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr4" path="textures\Map\Substr\India.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr5" path="textures\Map\Substr\China.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr6" path="textures\Map\Substr\Japan.jpg" upload="false" group="Map"/>
+		<texture2D id="MapMarkaSubstr7" path="textures\Map\Substr\USA.jpg" upload="false" group="Map"/>
+
+		<texture2D id="MarkaWindowBtn1" path="textures\Map\MarkaWindowBtn1.png" upload="false" group="Map"/>
+		<texture2D id="MarkaWindowBtn2" path="textures\Map\MarkaWindowBtn2.png" upload="false" group="Map"/>
+		<texture2D id="MarkaWindowBtn1Active" path="textures\Map\MarkaWindowBtn1Active.png" upload="false" group="Map"/>
+		<texture2D id="MarkaWindowBtn2Active" path="textures\Map\MarkaWindowBtn2Active.png" upload="false" group="Map"/>
+		<texture2D id="MarkaWindowBtn1Pressed" path="textures\Map\MarkaWindowBtn1Pressed.png" upload="false" group="Map"/>
+		<texture2D id="MarkaWindowBtn2Pressed" path="textures\Map\MarkaWindowBtn2Pressed.png" upload="false" group="Map"/>
+
+		<texture2D id="MarkiSmall" path="textures\Map\markiSmall.png" upload="false" group="Map"/>
+		<texture2D id="MarkiSmallActive" path="textures\Map\markiSmallActive.png" upload="false" group="Map"/>
+
+		<texture2D id="Earth" path="textures\Map\!map_texture.png" upload="false" group="Map"/>
+		<texture2D id="MapBackground" path="textures\Map\map.jpg" upload="false" group="Map"/>
+		<texture2D id="Point" path="textures\Map\map_mark_current.tga" upload="false" group="Map"/>
+		<texture2D id="CountryNames" path="textures\Local\Map\Country.png" upload="false" group="Map"/>
+
+		<texture2D id="MapArrowDownPart" path="textures\Map\Arrow1.png" upload="false" group="Map"/>
+		<texture2D id="MapArrowUpPart" path="textures\Map\Arrow2.png" upload="false" group="Map"/>
+
+		<texture2D id="MarkaWindow" path="textures\Map\MarkaWindow.png" upload="false" group="Map"/>
+	</Textures2D>
+	<Animations>
+	</Animations>
+	<VertexBuffers/>
+	<Sounds>
+	</Sounds>
+</Resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Buttons>
+	<MessageBoxBtn1 name="MessageBoxBtn1">
+		<position x="32" y="558"/>
+		<state on="#ShowHintActive" off="#ShowHintPassive"/>
+	</MessageBoxBtn1>
+	<MessageBoxBtn2 name="MessageBoxBtn2">
+		<position x="191" y="563"/>
+		<state normal="#OkNormal"/>
+		<state active="#OkActive"/>
+		<state pressed="#OkPressed"/>
+		<rectangle x="0" y="0" width="128" height="64"/>
+	</MessageBoxBtn2>
+	<Button name="ExitDemo">
+		<text>Exit</text>
+		<textPosition>
+			<position x="0" y="0"/>
+		</textPosition>
+		<position x="140" y="285"/>
+		<state normal="#mbutton2"/>
+		<state active="#mbutton2_active"/>
+		<state pressed="#mbutton2_press"/>
+		<font normal="Title"/>
+		<font pressed="Title"/>
+		<font active="Title"/>
+		<rectangle x="0" y="0" width="128" height="64"/>
+	</Button>
+</Buttons>

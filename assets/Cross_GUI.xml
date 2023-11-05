@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Cross">
+		<Controls>
+			<SolidRect name="BlackScreen">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+	<Layer name="Cross1">
+		<Controls>
+			<SolidRect name="BlackScreen">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+	<Layer name="Fade">
+		<Controls>
+			<SolidRect name="Fade">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+	<Layer name="Fade3">
+		<Controls>
+			<SolidRect name="Fade3">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+	<Layer name="Cross4">
+		<Controls>
+			<SolidRect name="BlackScreen">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+	<Layer name="Cross5">
+		<Controls>
+			<SolidRect name="BlackScreen">
+				<rectangle x="0" y="0" width="800" height="600"/>
+				<color r="0" g="0" b="0" a="255"/>
+			</SolidRect>
+		</Controls>
+	</Layer>
+</GUI>

@@ -1,0 +1,77 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<GameplayConstants>
+	<TimeBonus value="50.0"/>
+	<Chains>
+		<ChainMessage n="1" text="Excellent!"/>
+		<ChainMessage n="2" text="Perfect!"/>
+		<ChainMessage n="3" text="Great!"/>
+	</Chains>
+	<AddBonusFactor add1="0.055" add2="0.075" add3="0.075" add4="0.085"/>
+	
+	<HintAddBonusFactor1 add1="1.00" add2="0.70" add3="0.70" add4="0.70"/>
+	<HintAddBonusFactor2 add1="1.00" add2="1.00" add3="0.70" add4="0.70"/>
+	<HintAddBonusFactor3 add1="1.00" add2="1.00" add3="1.00" add4="0.70"/>
+	<HintAddBonusFactor4 add1="1.00" add2="1.00" add3="1.00" add4="1.00"/>
+
+	<LongChainsFactors k1="1" k2="0.70" k3="0.50" k4="0.30"/>
+	
+	<LifeBonusScores scores="100000"/>
+	<WiseTips totalNumber="5"/>
+	<MaxTrashOnField count="3"/>
+	<AddMaxTrashOnCycle count="2"/>
+	<AbsoluteMaxTrashOnField count="12"/>
+	<Chain5 count="20"/>
+	<Chain9 count="50"/>
+	<Chain12 count="100"/>
+	<NoteBookTexts>
+		<Element stage="1" level="1" textID="Dnevnik1" page="1"/>
+		<Element stage="1" level="2" textID="Dnevnik2" page="2"/>
+		<Element stage="1" level="3" textID="Dnevnik3" page="3"/>
+		<Element stage="1" level="4" textID="Dnevnik4" page="4"/>
+		<Element stage="1" level="5" textID="Dnevnik5" page="4"/>
+		<Element stage="1" level="6" textID="Dnevnik6" page="5"/>
+		<Element stage="1" level="7" textID="Dnevnik7" page="6"/>
+		<Element stage="2" level="0" textID="Dnevnik8" page="1"/>
+		<Element stage="2" level="1" textID="Dnevnik9" page="2"/>
+		<Element stage="2" level="2" textID="Dnevnik10" page="2"/>
+		<Element stage="2" level="3" textID="Dnevnik11" page="3"/>
+		<Element stage="2" level="4" textID="Dnevnik12" page="4"/>
+		<Element stage="2" level="5" textID="Dnevnik13" page="4"/>
+		<Element stage="2" level="6" textID="Dnevnik14" page="4"/>
+		<Element stage="2" level="7" textID="Dnevnik15" page="5"/>
+		<Element stage="2" level="8" textID="Dnevnik16" page="5"/>
+		<Element stage="2" level="9" textID="Dnevnik17" page="6"/>
+		<Element stage="3" level="0" textID="Dnevnik18" page="1"/>
+		<Element stage="3" level="3" textID="Dnevnik19" page="2"/>
+		<Element stage="3" level="5" textID="Dnevnik20" page="3"/>
+		<Element stage="3" level="7" textID="Dnevnik21" page="4"/>
+		<Element stage="3" level="9" textID="Dnevnik22" page="5"/>
+		<Element stage="3" level="11" textID="Dnevnik23" page="6"/>
+		<Element stage="4" level="0" textID="Dnevnik24" page="1"/>
+		<Element stage="4" level="3" textID="Dnevnik25" page="2"/>
+		<Element stage="4" level="5" textID="Dnevnik26" page="3"/>
+		<Element stage="4" level="7" textID="Dnevnik27" page="4"/>
+		<Element stage="4" level="9" textID="Dnevnik28" page="5"/>
+		<Element stage="4" level="11" textID="Dnevnik29" page="6"/>
+		<Element stage="5" level="0" textID="Dnevnik30" page="1"/>
+		<Element stage="5" level="3" textID="Dnevnik31" page="2"/>
+		<Element stage="5" level="6" textID="Dnevnik32" page="3"/>
+		<Element stage="5" level="8" textID="Dnevnik33" page="4"/>
+		<Element stage="5" level="11" textID="Dnevnik34" page="5"/>
+		<Element stage="6" level="0" textID="Dnevnik35" page="1"/>
+		<Element stage="6" level="2" textID="Dnevnik36" page="2"/>
+		<Element stage="6" level="3" textID="Dnevnik37" page="3"/>
+		<Element stage="6" level="5" textID="Dnevnik38" page="4"/>
+		<Element stage="6" level="7" textID="Dnevnik39" page="5"/>
+		<Element stage="6" level="9" textID="Dnevnik40" page="6"/>
+		<Element stage="6" level="11" textID="Dnevnik41" page="7"/>
+		<Element stage="6" level="12" textID="Dnevnik42" page="8"/>
+		<Element stage="7" level="0" textID="Dnevnik43" page="1"/>
+		<Element stage="7" level="2" textID="Dnevnik44" page="2"/>
+		<Element stage="7" level="3" textID="Dnevnik45" page="3"/>
+		<Element stage="7" level="5" textID="Dnevnik46" page="4"/>
+		<Element stage="7" level="7" textID="Dnevnik47" page="5"/>
+		<Element stage="7" level="9" textID="Dnevnik48" page="6"/>
+		<Element stage="7" level="12" textID="Dnevnik49" page="7"/>
+	</NoteBookTexts>
+</GameplayConstants>

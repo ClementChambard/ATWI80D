@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Sounds>
+		<sample id="Thunder1" path="Thunder1.ogg" mix="1"/>
+		<sample id="Thunder2" path="Thunder2.ogg" mix="1"/>
+		<sample id="HighScores" path="HighScores.ogg" mix="10"/>
+		<sample id="IceBreak" path="IceBreak.ogg" mix="3"/>
+		<sample id="ButtonClick" path="Button.ogg" mix="3"/>
+		<sample id="Boom" path="Boom.ogg" mix="10"/>
+		<sample id="Chain1" path="Chain1.ogg" mix="1"/>
+		<sample id="Chain2" path="Chain2.ogg" mix="1"/>
+		<sample id="Chain3" path="Chain3.ogg" mix="1"/>
+		<sample id="ChipSelect" path="ChipSelect.ogg" mix="3"/>
+		<sample id="ChipMove" path="ChipMove.ogg" mix="3"/>
+		<sample id="ChipKnock" path="ChipKnock.ogg" mix="50"/>
+		<sample id="ChipWrongMove" path="ChipWrongMove.ogg" mix="3"/>
+		<sample id="ChipToSun" path="ChipToSun.ogg" mix="2"/>
+		<sample id="ChipUnlock" path="unlock.ogg" mix="3"/>
+		<sample id="SunAdd" path="SunAdd.ogg" mix="20"/>
+		<sample id="SunComplete" path="SunComplete.ogg" mix="1"/>
+		<sample id="SunStart" path="SunStart.ogg" mix="1"/>
+		<sample id="SunRay" path="SunRay.ogg" mix="10"/>
+		<sample id="SunChipDestroy" path="SunChipDestroy.ogg" mix="30"/>
+		<sample id="Diamond" path="diamond.ogg" mix="25"/>
+		<sample id="Move" path="move.ogg" mix="5"/>
+		<sample id="Test" path="button.ogg" mix="5"/>
+		<sample id="Fall" path="Cube fall.ogg" mix="5"/>
+		<sample id="Bomb" path="Bomb_expl.ogg" mix="5"/>
+		<sample id="FallenArtefact" path="FallenArtefact.ogg" mix="15"/>
+		<sample id="Go" path="Go.ogg" mix="1"/>
+		<sample id="LevelStart1" path="LevelStart1.ogg" mix="1"/>
+		<sample id="LevelStart2" path="LevelStart2.ogg" mix="1"/>
+		<sample id="LevelStartStage" path="LevelStartStage.ogg" mix="1"/>
+		<sample id="LevelComplete" path="LevelComplete.ogg" mix="1"/>
+		<sample id="FallenVisBonus" path="FallenVisBonus.ogg" mix="15"/>
+		<sample id="Match1" path="BreakFigure1.ogg" mix="5"/>
+		<sample id="Match2" path="BreakFigure2.ogg" mix="5"/>
+		<sample id="Match3" path="BreakFigure3.ogg" mix="5"/>
+		<sample id="Match4" path="BreakFigure4.ogg" mix="5"/>
+		<sample id="Match5" path="BreakFigure5.ogg" mix="5"/>
+		<sample id="Match6" path="BreakFigure6.ogg" mix="5"/>
+		<sample id="Match7" path="BreakFigure7.ogg" mix="5"/>
+		<sample id="Match8" path="BreakFigure8.ogg" mix="5"/>
+                <sample id="Match9" path="BreakFigure9.ogg" mix="5"/>
+                <sample id="Match10" path="BreakFigure10.ogg" mix="5"/>
+                                
+		<sample id="Hint" path="Hint.ogg" mix="3"/>
+
+		<track id="IntroGame" path="IntroGame.ogg"/>
+		
+		<track id="IntroNewPlayer" path="IntroNewPlayer.ogg"/>
+
+		<sample id="DialogWindow" path="DialogWindow.ogg" mix="1"/>
+
+		<track id="NoteWriting" path="NoteWriting.ogg" useSoundVolume="true"/>
+
+		<sample id="ArtefactSound1" path="BreakFigure2.ogg" mix="5"/>
+		<sample id="ArtefactSound2" path="BreakFigure3.ogg" mix="5"/>
+		<sample id="ArtefactSound3" path="BreakFigure4.ogg" mix="5"/>
+		<sample id="ArtefactSound4" path="BreakFigure5.ogg" mix="5"/>
+		<sample id="ArtefactSound5" path="BreakFigure6.ogg" mix="5"/>
+		<sample id="ArtefactSound6" path="BreakFigure7.ogg" mix="5"/>
+		<sample id="ArtefactSound7" path="BreakFigure8.ogg" mix="5"/>
+
+		<sample id="IceGrow" path="IceGrow.ogg" mix="5"/>
+		<sample id="IceGrow2" path="ice_razmorozka.ogg" mix="5"/>
+
+		<sample id="TipWindow" path="TipWindow.ogg" mix="5"/>
+		
+		<sample id="ShieldWonder" path="flash.ogg" mix="5"/>
+		<sample id="SunWonder" path="flash.ogg" mix="5"/>
+		
+                                
+		<sample id="Flash" path="flash.ogg" mix="10"/>
+		<sample id="FlashStart" path="FlashStart.ogg" mix="4"/>
+		<sample id="ChangeChips" path="ChangeChips.ogg" mix="1"/>
+
+		<track id="Rain" path="Rain.ogg"/>
+		<track id="WaterWall" path="Water_wall.ogg" useSoundVolume="true"/>
+		<track id="Fire" path="Fire.ogg" useSoundVolume="true"/>
+
+		<sample id="FlyWindow" path="FlyWindow.ogg" mix="1"/>
+		<sample id="FlyMarka" path="FlyMarka.ogg" mix="1"/>
+		<sample id="MarkaChange" path="ChangeMarka.ogg" mix="1"/>
+		<sample id="FlySumka" path="FlySumka.ogg" mix="1"/>
+		<sample id="ArtHint" path="ArtHint.ogg" mix="1"/>
+		<sample id="ListingNote" path="ListingNote.ogg" mix="2"/>
+		<sample id="PanelSlide" path="PanelSlide.ogg" mix="1"/>
+		<sample id="ClickBonus" path="ClickBonus.ogg" mix="2"/>
+		<sample id="ClearMark" path="ClearMark.ogg" mix="1"/>
+		<sample id="Hummer" path="hummer.ogg" mix="1"/>
+		<sample id="MegaCross" path="MegaCross.ogg" mix="1"/>
+		<track id="ScoreTick" path="ScoreTick.ogg" useSoundVolume="true"/>
+		<sample id="BonusTimeStart" path="Tumbling3.ogg" mix="1"/>
+		<sample id="BonusTimeEnd" path="Tumbling3.ogg" mix="1"/>
+		<sample id="AddLife" path="AddLife.ogg" mix="1"/>
+		<sample id="StatValue" path="StatValue.ogg" mix="6"/>
+		<sample id="StatTotalScore" path="StatTotalScore.ogg" mix="1"/>
+		<sample id="StatTip" path="StatTip.ogg" mix="1"/>
+		<sample id="LevelLost" path="JingleLost.ogg" mix="1"/>
+		<sample id="GameOver" path="GameOver.ogg" mix="1"/>
+		<sample id="OpenNotebook" path="OpenNotebook.ogg" mix="15"/>
+		<sample id="CloseNotebook" path="CloseNotebook.ogg" mix="15"/>
+		<track id="MapArrowMove" path="MapArrowMove.ogg" useSoundVolume="true"/>
+		<sample id="MapArrowEnd" path="MapArrowEnd.ogg" mix="15"/>
+		<sample id="BonusComplete" path="BonusComplete.ogg" mix="15"/>
+		<sample id="ArtCollecting" path="ArtCollecting.ogg" mix="2"/>
+		<sample id="AddArtefact" path="AddArtefact.ogg" mix="2"/>
+		<sample id="TimeUp" path="TimeUp.ogg" mix="1"/>
+
+		<sample id="TikTak1" path="TikTak1.ogg" mix="1"/>
+		<sample id="TikTak2" path="TikTak2.ogg" mix="1"/>
+		<sample id="TikTak3" path="TikTak3.ogg" mix="1"/>
+		<track id="Mmm0" path="mmm0.ogg" useSoundVolume="true"/>
+		<track id="Mmm1" path="mmm1.ogg" useSoundVolume="true"/>
+		<track id="Mmm2" path="mmm2.ogg" useSoundVolume="true"/>
+		<track id="Mmm3" path="mmm3.ogg" useSoundVolume="true"/>
+
+		<track id="CountrySound1" path="CountrySound1.ogg" useEnvVolume="true"/>
+		<track id="CountrySound2" path="CountrySound2.ogg" useEnvVolume="true"/>
+		<track id="CountrySound3" path="CountrySound3.ogg" useEnvVolume="true"/>
+		<track id="CountrySound4" path="CountrySound4.ogg" useEnvVolume="true"/>
+		<track id="CountrySound5" path="CountrySound5.ogg" useEnvVolume="true"/>
+		<track id="CountrySound6" path="CountrySound6.ogg" useEnvVolume="true"/>
+		<track id="CountrySound7" path="CountrySound7.ogg" useEnvVolume="true"/>
+	</Sounds>
+</Resources>

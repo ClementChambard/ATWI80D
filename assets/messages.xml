@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Messages>
+	<Message name="msg_1">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Form matches of three in-a-row by swapping adjacent tiles. For example, these flashing tiles can be swapped."/>
+		</Text>
+	</Message>
+	<Message name="msg_2">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Drive this piece to the bottom of the game field by getting rid of tiles under it and you will see it added to the item outline on the left."/>
+		</Text>
+	</Message>
+	<Message name="msg_3">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Tiles can only be swapped if it results in matching three in a row."/>
+		</Text>
+	</Message>
+	<Message name="msg_4">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Finish the level by dropping all the item pieces to the bottom of the game field."/>
+		</Text>
+	</Message>
+	<Message name="artefactSwap">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Item pieces can also be moved if it results in a match."/>
+		</Text>
+	</Message>
+	<Message name="thisIsBag">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="This is your carpet-bag. By clicking on it you can view all the items you have been able to collect in this country and read Mr. Fogg's note-book."/>
+		</Text>
+	</Message>
+	<Message name="thisIsEye">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="By clicking the eye you can pause the game and enjoy beautiful views of the land you are in."/>
+		</Text>
+	</Message>
+	<Message name="thisIsTimer">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="This is a timer. It shows how much time you have left to complete the level."/>
+		</Text>
+	</Message>
+	<Message name="TimeBonus">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="This is a time bonus. Drive it down to the bottom of the game field to collect it and freeze the timer."/>
+		</Text>
+	</Message>
+	<Message name="ScoreBonus">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A pack of bonus points. Drive it down to the bottom of the game field to earn extra score points."/>
+		</Text>
+	</Message>
+	<Message name="LifeBonus">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A bonus life. Free it through the bottom of the game field to collect it."/>
+		</Text>
+	</Message>
+	<Message name="bonusProgress1">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="By matching four tiles or more you recharge and upgrade the power-ups that will help you free the way for the item pieces. Charge the power-up to 100% to be able to use it."/>
+		</Text>
+	</Message>
+	<Message name="bonusProgress2">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A charged power-up can be upgraded by continuing to match four tiles or more. The Hammer will be upgraded when the meter is full."/>
+		</Text>
+	</Message>
+	<Message name="bonus_1">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="The Hammer power-up is ready! You can use it to get rid of an inconvenient tile on the game field. To do that click on the Hammer and point to the tile you want to smash."/>
+		</Text>
+	</Message>
+	<Message name="bonus_2">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="You have upgraded the Hammer to Tesla's Hammer. It can be used to destroy all tiles of a certain type present on the game field."/>
+		</Text>
+	</Message>
+	<Message name="bonus_3">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="You have charged the Bomb power-up. It can be used to destroy a cluster of tiles in a certain area of the game field."/>
+		</Text>
+	</Message>
+	<Message name="bonus_4">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="You have charged the Fireball power-up. It will help you clear the way for the item pieces in multiple directions."/>
+		</Text>
+	</Message>
+	<Message name="BonusLevelHint1">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="Make matches of three or more tiles to open the stamp that is hidden under the game field."/>
+		</Text>
+	</Message>
+	<Message name="BonusLevelHint2">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="You have revealed a part of the stamp. Continue to play and open the rest of it step by step."/>
+		</Text>
+	</Message>
+	<Message name="BonusLevelHint3">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="The stamp is almost yours! You are very close to getting this material proof for Mr. Fogg. Open the remaining parts to finish the level."/>
+		</Text>
+	</Message>
+	<Message name="locked_chip">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A locked tile. To break the lock bring the other matching tiles to the locked one."/>
+		</Text>
+	</Message>
+	<Message name="double_locked_chip">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A double-locked tile. You will need to break the lock twice."/>
+		</Text>
+	</Message>
+	<Message name="not_falling_locked_chip">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A frozen tile. It's frozen to its spot and won't move until you melt it by placing 2 matching tiles next to it."/>
+		</Text>
+	</Message>
+	<Message name="not_falling_double_locked_chip">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="A deep-frozen tile. It will take twice as long to melt it."/>
+		</Text>
+	</Message>
+	<Message name="stone">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="This is part of the wall. Pieces will not go through."/>
+		</Text>
+	</Message>
+	<Message name="thisIsMusor">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="This is debris. It cannot be matched with tiles. You can get rid of it by dropping it through the bottom of the game field."/>
+		</Text>
+	</Message>
+	<Message name="MapMarka1">
+		<Text height="0.8">
+			<formatedText formateWidth="240" font="Hint" text="You acquired your first stamp. You can view the items you collected in this country as well as the country intro by clicking on the stamp."/>
+		</Text>
+	</Message>
+</Messages>

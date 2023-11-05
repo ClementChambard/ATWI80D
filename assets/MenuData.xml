@@ -1,0 +1,41 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Data>
+	<Trees>
+		<Tree texture="#MenuTree1" amplitudeAngle="5.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.05">
+			<Position x="165" y="550"/>
+			<CenterRotate x="100" y="100"/>
+			<Shadow texture="#MenuTree1Shadow">
+				<Position x="170" y="170"/>
+				<CenterRotate x="100" y="100"/>
+			</Shadow>
+		</Tree>
+		<Tree texture="#MenuTree2" amplitudeAngle="5.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.03">
+			<Position x="133" y="332"/>
+			<CenterRotate x="100" y="100"/>
+		</Tree>
+		<Tree texture="#MenuTree3" amplitudeAngle="5.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.04">
+			<Position x="170" y="422"/>
+			<CenterRotate x="100" y="100"/>
+			<Shadow texture="#MenuTree3Shadow">
+				<Position x="170" y="250"/>
+				<CenterRotate x="100" y="100"/>
+			</Shadow>
+		</Tree>
+		<Tree texture="#MenuTree4" amplitudeAngle="3.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.07">
+			<Position x="587" y="408"/>
+			<CenterRotate x="100" y="100"/>
+		</Tree>
+		<Tree texture="#MenuTree5" amplitudeAngle="3.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.07">
+			<Position x="624" y="386"/>
+			<CenterRotate x="100" y="100"/>
+		</Tree>
+		<Tree texture="#MenuTree6" amplitudeAngle="3.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.07">
+			<Position x="733" y="467"/>
+			<CenterRotate x="100" y="100"/>
+		</Tree>
+		<Tree texture="#MenuTree7" amplitudeAngle="3.0" amplitudeX="3.0" amplitudeY="2.0" timeScale="0.08">
+			<Position x="772" y="422"/>
+			<CenterRotate x="100" y="100"/>
+		</Tree>
+	</Trees>
+</Data>

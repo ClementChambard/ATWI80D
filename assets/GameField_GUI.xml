@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="StageLayer_1">
+		<Controls>
+			<GameField name="GameField"/>
+			<London name="Background"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="TestEgypt">
+		<Controls>
+			<China name="Background"/>
+		</Controls>
+	</Layer>
+	<Layer name="StageLayer_2">
+		<Controls>
+			<GameField name="GameField"/>
+			<France name="Background"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_3">
+		<Controls>
+			<GameField name="GameField"/>
+			<Egypt name="Background"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_4">
+		<Controls>
+			<GameField name="GameField"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+			<India name="Background"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_5">
+		<Controls>
+			<GameField name="GameField"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+			<China name="Background"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_6">
+		<Controls>
+			<GameField name="GameField"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+			<Japan name="Background"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+	<Layer name="StageLayer_7">
+		<Controls>
+			<GameField name="GameField"/>
+			<GameFrame name="gameFrame"/>
+			<ListBox name="LevelList" numOfItems="35" step="15" width="150">
+				<position x="50" y="50"/>
+				<buttonScrollUp>Up</buttonScrollUp>
+				<buttonScrollDown>Down</buttonScrollDown>
+				<font active="Interface20" normal="Interface18"/>
+			</ListBox>
+			<Button name="down">
+				<position x="150" y="430"/>
+				<state normal="#STR_UP" active="#STR_UP" pressed="#STR_UP"/>
+			</Button>
+			<Button name="up">
+				<position x="150" y="520"/>
+				<state normal="#STR_DOWN" active="#STR_DOWN" pressed="#STR_DOWN"/>
+			</Button>
+			<Button name="Load">
+				<position x="100" y="600"/>
+				<text>Start</text>
+				<textPosition>
+					<position x="12" y="10"/>
+				</textPosition>
+				<state normal="#BUTTON1_NORMAL" active="#BUTTON1_ACTIVE" pressed="#BUTTON1_PRESS"/>
+				<font normal="Interface18" active="Interface18" pressed="Interface18"/>
+			</Button>
+			<America name="Background"/>
+		</Controls>
+		<Script>GameFunc</Script>
+	</Layer>
+</GUI>

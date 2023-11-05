@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Resources>
+	<Fonts>
+		<font name="NoteFont" track="4" texturePrint="true" spaceSize="3"/>
+		<font name="Small" track="4"/>
+		<font name="BonusHint" track="5"/>
+		<font name="Dialog" track="4" texturePrint="true"/>
+		<font name="Hint" track="3"/>
+		<font name="GameTitle" track="4"/>
+		<font name="MapTitle" track="4"/>
+		<font name="BagTitle" track="4"/>
+		<font name="ScoreBig" track="3"/>
+		<font name="arial" track="2"/>
+		<font name="scores" track="6"/>
+		<font name="bonus" track="4"/>
+		<font name="Letter" track="5"/>
+		<font name="Interface14" track="4"/>
+		<font name="Interface14Bold" track="4"/>
+		<font name="Interface18" track="4"/>
+		<font name="Interface18Y" track="5" spaceSize="5"/>
+		<font name="Interface20" track="4"/>
+		<font name="Interface20Y" track="4"/>
+		<font name="Interface22" track="4"/>
+	</Fonts>
+	<Textures/>
+	<Textures2D/>
+	<Animations>
+	</Animations>
+	<VertexBuffers/>
+	<Sounds/>
+</Resources>

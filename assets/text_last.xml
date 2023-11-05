@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<TextResources>
+	<string id="CountryUpper1">ENGLAND</string>
+	<string id="CountryUpper2">FRANCE</string>
+	<string id="CountryUpper3">EGYPT</string>
+	<string id="CountryUpper4">INDIA</string>
+	<string id="CountryUpper5">CHINA</string>
+	<string id="CountryUpper6">JAPAN</string>
+	<string id="CountryUpper7">USA</string>
+
+	<string id="PiecesOfArtefact">pieces</string>
+	<string id="ClickToStart">Click to start...</string>
+	<string id="charged">charged</string>
+
+	<string id="ClickToContinue">Click to continue...</string>
+
+	<text id="Bonus1Charged" height="0.6">
+		<string font="Interface14">Молоток собран на #BonusCharged# процентов</string>
+	</text>
+	<text id="Bonus2Charged" height="0.6">
+		<string font="Interface14Bold">Молоток</string>
+		<string font="Interface14">Молоток Тесла собран на #BonusCharged#%</string>
+	</text>
+	<text id="Bonus3Charged" height="0.6">
+		<string font="Interface14Bold">Молоток Тесла</string>
+		<string font="Interface14">Бомба собрана на #BonusCharged#%</string>
+	</text>
+	<text id="Bonus4Charged" height="0.6">
+		<string font="Interface14Bold">Бомба</string>
+		<string font="Interface14">Мегакрест собран на #BonusCharged#%</string>
+	</text>
+	<text id="Bonus4Completed" height="0.6">
+		<string font="Interface14Bold">Мегакрест</string>
+	</text>
+
+	<string id="WelcomePlayer">Welcome</string>
+	<string id="WelcomeBackPlayer">Welcome back</string>
+	<string id="HiScores">SCORES</string>
+	<string id="Cycle">Journey</string>
+	<string id="AboutOk">OK</string>
+	<string id="CompleteGameOk">OK</string>
+	<string id="GameMenu">MENU</string>
+	<string id="GameMenuCancel">RESUME</string>
+	<string id="GameMenuExit">QUIT</string>
+	<string id="GameMenuHelp">HELP</string>
+	<string id="GameMenuOptions">OPTIONS</string>
+	<string id="GameMenuRestart">RESTART</string>
+	<string id="HelpScreenOk">OK</string>
+	<string id="HelpScreenShow">DON'T SHOW AT STARTUP</string>
+	<string id="HintsOk">PLAY</string>
+	<string id="LoadGameCancel">RESTART</string>
+	<string id="LoadGameOk">LOAD</string>
+	<string id="LoseOk">OK</string>
+	<string id="MainMenuExit">QUIT</string>
+	<string id="MainMenuHelp">HELP</string>
+	<string id="MainMenuOptions">OPTIONS</string>
+	<string id="MainMenuRecords">SCORES</string>
+	<string id="MainMenuStart">START</string>
+	<string id="MapCancel">MENU</string>
+	<string id="MapOk">PLAY</string>
+	<string id="OptionsAbout">CREDITS</string>
+	<string id="OptionsCancel">CANCEL</string>
+	<string id="OptionsFullscreen">FULLSCREEN</string>
+	<string id="OptionsMusic">MUSIC</string>
+	<string id="OptionsCustomCursor">CUSTOM CURSOR</string>
+	<string id="OptionsOk">OK</string>
+	<string id="OptionsShowHelp">SHOW HELP</string>
+	<string id="OptionsShowHints">SHOW HINTS</string>
+	<string id="OptionsSound">SOUNDS</string>
+	<string id="PlayerCreateCancel">CANCEL</string>
+	<string id="PlayerCreateOk">OK</string>
+	<string id="PlayerMenuCancel">CANCEL</string>
+	<string id="PlayerMenuDelete">DELETE</string>
+	<string id="PlayerMenuNew">NEW</string>
+	<string id="PlayerMenuOk">OK</string>
+	<string id="PyramidCancel">CANCEL</string>
+	<string id="PyramidOk">PLAY</string>
+	<string id="RecordsClear">CLEAR</string>
+	<string id="RecordsExit">OK</string>
+	<string id="StartGame">START GAME</string>
+	<string id="WinOk">OK</string>
+	<string id="Pyramid1">KHUFU</string>
+	<string id="Pyramid2">DJOZER</string>
+	<string id="Pyramid3">SNEFERU</string>
+	<string id="Pyramid4">SENUSRET</string>
+	<string id="Pyramid5">NIUSERRE</string>
+	<string id="Pyramid6">SPHINX</string>
+	<string id="QuitGameYes">YES</string>
+	<string id="QuitGameNo">NO</string>
+	<string id="RestartYes">YES</string>
+	<string id="RestartNo">NO</string>
+	<string id="ConfirmYes">YES</string>
+	<string id="ConfirmNo">NO</string>
+	<string id="ToMainMenuYes">YES</string>
+	<string id="ToMainMenuNo">NO</string>
+	<string id="HitAnyKey">PRESS ANY KEY TO CONTINUE</string>
+	<string id="AboutCaption">CREDITS</string>
+	<string id="OptionsCaption">OPTIONS</string>
+	<string id="ChoosePlayerCaption">PLAYER</string>
+	<string id="NewPlayerCaption">NEW PLAYER</string>
+	<string id="QuitGameCaption">QUIT GAME?</string>
+	<string id="ContinueGameCaption">CONTINUE?</string>
+	<string id="QuitToMainMenuCaption">LEAVE GAME?</string>
+	<string id="DeletePlayerCaption">DELETE PLAYER?</string>
+	<string id="ClearRecordsCaption">CLEAR?</string>
+	<string id="RestartCaption">RESTART?</string>
+	<string id="Combo1">2X</string>
+	<string id="Combo2">3X</string>
+	<string id="Combo3">AMUN</string>
+	<string id="Combo4">RA</string>
+	<string id="Combo5">OSIRIS</string>
+	<string id="Combo6">THOTH</string>
+	<string id="Combo7">ANUBIS</string>
+	<string id="Combo8">PTAH</string>
+	<string id="Combo9">ISIS</string>
+	<string id="Combo10">HODialog</string>
+	<string id="Rank1">OUTCAST</string>
+	<string id="Rank2">SLAVE</string>
+	<string id="Rank3">FARMER</string>
+	<string id="Rank4">SOLDIER</string>
+	<string id="Rank5">ARTISAN</string>
+	<string id="Rank6">MERCHANT</string>
+	<string id="Rank7">SCRIBE</string>
+	<string id="Rank8">ENGINEER</string>
+	<string id="Rank9">TREASURER</string>
+	<string id="Rank10">HIGH PRIEST</string>
+	<string id="Rank11">VIZIER</string>
+	<string id="Rank12">PHARAOH</string>
+	<string id="Rank13">GOD</string>
+	<string id="StatCaption">LEVEL COMPLETE!</string>
+	<string id="StatScore">SCORE</string>
+	<string id="StatTime">TIME</string>
+	<string id="StatCombo">BEST COMBO</string>
+	<string id="StatRank">RANK</string>
+	<string id="MapRank">RANK</string>
+	<string id="Statistics">STATISTICS</string>
+	<string id="Tip">TIP:</string>
+
+	<text id="NewScreenSaverAvail" height="0.6">
+		<formatedText formateWidth="200" font="Interface14" text="Ты прошёл страну и теперь в твоём скринсейвере доступен новый фон!"/>
+	</text>
+
+	<text id="BonusTip1" height="0.6">
+		<string font="BonusHint">Чтобы разбить фишку, наведи на неё молоток</string>
+		<string font="BonusHint">и нажми левую клавишу мыши</string>
+	</text>
+	<text id="BonusTip2" height="0.6">
+		<string font="BonusHint">Кликни на какой-нибудь фишке, чтобы разбить</string>
+		<string font="BonusHint">все фишки одного с ней цвета</string>
+	</text>
+	<text id="BonusTip3" height="0.6">
+		<string font="BonusHint">Чтобы разбить область фишек, наведи на них бомбу</string>
+		<string font="BonusHint">и нажми левую кнопку мыши</string>
+	</text>
+	<text id="BonusTip4" height="0.6">
+		<string font="BonusHint">Кликни по какой-нибудь фишке, чтобы разбить все фишки, лежащие с ней</string>
+		<string font="BonusHint">на одной горизонтали, вертикали и диагонали</string>
+	</text>
+
+	<text id="EnglandIntroText1" height="0.6">
+		<string font="Dialog">2 октября 1872г. Англия</string>
+		<string font="Dialog">Начало путешествия</string>
+		<string font="Dialog">Как раз в этот день, когда было заключено</string>
+		<string font="Dialog">это немыслимое пари, Филеас Фогг рассчитал</string>
+		<string font="Dialog">своего слугу Джемса Форстера, который</string>
+		<string font="Dialog">провинился в том, что принёс своему</string>
+		<string font="Dialog">хозяину воду для бритья, нагретую до 84</string>
+		<string font="Dialog">градусов по Фаренгейту, вместо 86;</string>
+		<string font="Dialog">и теперь наш джентельмен дома ожидал</string>
+		<string font="Dialog">нового слугу, который должен был вот вот</string>
+		<string font="Dialog">явиться...</string>
+	</text>
+	<text id="FranceIntroText1" height="0.6">
+		<string font="Dialog">9 октября 1872г. Англия</string>
+		<string font="Dialog">Покидая Лондон, Филеас Фогг, без сомнения не подозревал</string>
+		<string font="Dialog">что его отъезд вызовет такой большой шум. Известие о пари</string>
+		<string font="Dialog">сначала распространилось в Реформ-клубе, затем,</string>
+		<string font="Dialog">по милости репортёров, это возбуждение перекинулось</string>
+		<string font="Dialog">в газеты, а через газеты оно передалось населению</string>
+		<string font="Dialog">всего Соединённого королевства. Обеспокоенный таким</string>
+		<string font="Dialog">повышенным интересом общественности к путешествию Фогга,</string>
+		<string font="Dialog">председатель Реформ-клуба мистер Смит решает заручиться</string>
+		<string font="Dialog">поддержкой своего старого знакомого - полицейского агента</string>
+		<string font="Dialog">Фикса.</string>
+	</text>
+	<text id="FranceIntroText2" height="0.6">
+		<string font="Dialog">9 октября 1872г. Франция</string>
+		<string font="Dialog">День 7 путешествия</string>
+		<string font="Dialog">Тем временем наш почтенный джентельмен и его слуга</string>
+		<string font="Dialog">благополучно добрались до столицы Франции - Парижа.</string>
+		<string font="Dialog">Едва сойдя с поезда, путешественники спешат в порт,</string>
+		<string font="Dialog">на "Магнолию" - корабль, который отправляется сегодня</string>
+		<string font="Dialog">в Египет. Ничто не должно помешать планам сэра</string>
+		<string font="Dialog">Филеаса Фогга.</string>
+	</text>
+	<text id="EnglandFoggText1" height="0.6">
+		<string font="Dialog">Ну где же он? Теперь, в моём положении,</string>
+		<string font="Dialog">я не могу себе позволить терять ни минуты.</string>
+	</text>
+	<text id="EnglandFoggText2" height="0.6">
+		<string font="Dialog">Наконец-то! Вы француз и Вас зовут Джон?</string>
+	</text>
+	<text id="EnglandPaspText1" height="0.6">
+		<string font="Dialog">Жан, с вашего позволения, Жан Паспарту.</string>
+	</text>
+	<text id="EnglandFoggText3" height="0.6">
+		<string font="Dialog">Хорошо, Паспарту, мне вас рекомендовали</string>
+		<string font="Dialog">и у меня о вас хорошие сведения.</string>
+		<string font="Dialog">Вы мне подходите. Известны ли вам мои условия?</string>
+	</text>
+	<text id="EnglandPaspText2" height="0.6">
+		<string font="Dialog">Да сударь. Я готов приступить прямо сейчас!</string>
+	</text>
+	<text id="EnglandFoggText4" height="0.6">
+		<string font="Dialog">Тем лучше - сегодня мы отправляемся</string>
+		<string font="Dialog">в кругосветное путешествие.</string>
+	</text>
+	<text id="EnglandPaspText3" height="0.6">
+		<string font="Dialog">Что? Кругосветное путешествие?!</string>
+	</text>
+	<text id="EnglandFoggText5" height="0.6">
+		<string font="Dialog">Да - я должен сдержать своё слово</string>
+		<string font="Dialog">джентельмена, и доказать, что можно</string>
+		<string font="Dialog">объехать весь свет за 80 дней.</string>
+		<string font="Dialog">Поэтому мы не можем терять ни минуты.</string>
+	</text>
+	<text id="EnglandPaspText4" height="0.6">
+		<string font="Dialog">Но мистер Фогг... А как же багаж?</string>
+	</text>
+	<text id="EnglandFoggText6" height="0.6">
+		<string font="Dialog">Никакого багажа. Соберите всё самое</string>
+		<string font="Dialog">необходимое в ручной саквояж.</string>
+		<string font="Dialog">Остальное купим по дороге.</string>
+	</text>
+	<text id="EnglandFoggText7" height="0.6">
+		<string font="Dialog">Я тем временем улажу свои дела в Лондоне.</string>
+		<string font="Dialog">К моему возвращению, Паспарту,</string>
+		<string font="Dialog">всё должно быть готово к нашему отъезду.</string>
+	</text>
+	<text id="EnglandPaspText5" height="0.6">
+		<string font="Dialog">Хорошо, мистер Фогг, я всё сделаю. Но...</string>
+	</text>
+	<text id="EnglandFoggText8" height="0.6">
+		<string font="Dialog">И Паспарту - ни в коем случае не забудьте</string>
+		<string font="Dialog">мой дневник. Без него наше путешествие</string>
+		<string font="Dialog">невозможно.</string>
+	</text>
+	<text id="EnglandPaspText6" height="0.6">
+		<string font="Dialog">Вот так дела! А я то думал,</string>
+		<string font="Dialog">что устраиваюсь на работу к самому</string>
+		<string font="Dialog">большому домоседу в Соединённом королевстве.</string>
+	</text>
+	<text id="EnglandPaspText7" height="0.6">
+		<string font="Dialog">Ох, чувствую я, что ничего хорошего</string>
+		<string font="Dialog">не сулит нам это путешествие.</string>
+		<string font="Dialog">Но как бы то ни было, надо собирать</string>
+		<string font="Dialog">саквояж. Ну и где же этот дневник?..</string>
+	</text>
+	<text id="EnglandFoggText9" height="0.6">
+		<string font="Dialog">Вы ничего не забыли, Паспарту?</string>
+	</text>
+	<text id="EnglandPaspText8" height="0.6">
+		<string font="Dialog">Ничего, сударь. Я собрал всё необходимое</string>
+		<string font="Dialog">в этот саквояж</string>
+	</text>
+	<text id="EnglandFoggText10" height="0.6">
+		<string font="Dialog">Мои плащ и одеяло?</string>
+	</text>
+	<text id="EnglandPaspText9" height="0.6">
+		<string font="Dialog">Конечно, мистер Фогг - вот они.</string>
+		<string font="Dialog">Мы можем отправляться.</string>
+	</text>
+	<text id="EnglandFoggText11" height="0.6">
+		<string font="Dialog">Боюсь, что нет, Паспарту.</string>
+		<string font="Dialog">Осталась ещё одна, самая важная вещь.</string>
+	</text>
+	<text id="EnglandPaspText10" height="0.6">
+		<string font="Dialog">Мистер Фогг, я не мог ничего забыть!</string>
+		<string font="Dialog">Если вы имеете в виду ваш дневник,</string>
+		<string font="Dialog">то он здесь.</string>
+	</text>
+	<text id="EnglandFoggText12" height="0.6">
+		<string font="Dialog">Нет, Паспарту, это касается моего пари.</string>
+		<string font="Dialog">Для того, чтобы мне его выиграть,</string>
+		<string font="Dialog">мне понадобятся доказательства.</string>
+	</text>
+	<text id="EnglandFoggText13" height="0.6">
+		<string font="Dialog">Из каждой страны на нашем маршруте</string>
+		<string font="Dialog">мы должны привезти почтовую марку.</string>
+	</text>
+	<text id="EnglandPaspText11" height="0.6">
+		<string font="Dialog">Хорошенькие доказательства! Какие угодно</string>
+		<string font="Dialog">марки из любой страны можно найти</string>
+		<string font="Dialog">в Лондонской почте - и никуда ехать</string>
+		<string font="Dialog">не надо, мистер Фогг.</string>
+	</text>
+	<text id="EnglandFoggText14" height="0.6">
+		<string font="Dialog">На что вы намекаете, Паспарту?</string>
+		<string font="Dialog">Запомните - ни один джентельмен никогда</string>
+		<string font="Dialog">не опустится до жульничества! К тому же</string>
+		<string font="Dialog">это уникальные марки - найти их можно</string>
+		<string font="Dialog">только в одной стране.</string>
+	</text>
+	<text id="EnglandFoggText15" height="0.6">
+		<string font="Dialog">Ладно, за дело, Паспарту - нам надо</string>
+		<string font="Dialog">заполучить марку, прежде чем мы сможем</string>
+		<string font="Dialog">отправиться во Францию.</string>
+	</text>
+	<text id="FranceFixText1" height="0.6">
+		<string font="Dialog">Вызывали, мистер Смит?</string>
+	</text>
+	<text id="FrancePredText1" height="0.6">
+		<string font="Dialog">Да, мистер Фикс, мне необходима ваша</string>
+		<string font="Dialog">помощь в одной деликатном деле. Вы уже</string>
+		<string font="Dialog">наверняка слышали об этом Филеасе Фогге,</string>
+		<string font="Dialog">наглеце, посмевшем утверждать, что он</string>
+		<string font="Dialog">сможет объехать весь мир за 80 дней?</string>
+	</text>
+	<text id="FranceFixText2" height="0.6">
+		<string font="Dialog">Конечно, сэр. Вся Англия взбудоражена</string>
+		<string font="Dialog">этим заявлением, возможный исход</string>
+		<string font="Dialog">предприятия Фогга уже стал предметом</string>
+		<string font="Dialog">многих крупных пари.</string>
+	</text>
+	<text id="FrancePredText2" height="0.6">
+		<string font="Dialog">Это меня и беспокоит, мистер Фикс.</string>
+		<string font="Dialog">Дело в том, что такой интерес к</string>
+		<string font="Dialog">персоне Фогга может угрожать моей</string>
+		<string font="Dialog">репутации.</string>
+	</text>
+	<text id="FranceFixText3" height="0.6">
+		<string font="Dialog">Понимаю, мистер Смит...</string>
+	</text>
+	<text id="FrancePredText3" height="0.6">
+		<string font="Dialog">Я безусловно уверен, что Фогг ни за что</string>
+		<string font="Dialog">не успеет в срок завершить своё</string>
+		<string font="Dialog">путешествие. Но тем не менее, мистер Фикс,</string>
+		<string font="Dialog">я прошу вас проследить за Фоггом и</string>
+		<string font="Dialog">информировать меня о каждом его шаге.</string>
+	</text>
+	<text id="FranceFixText4" height="0.6">
+		<string font="Dialog">Хорошо, мистер Смит. Больше от меня</string>
+		<string font="Dialog">ничего не требуется?</string>
+	</text>
+	<text id="FrancePredText4" height="0.6">
+		<string font="Dialog">Да - если вам вдруг представится</string>
+		<string font="Dialog">случай... возможность... задержать</string>
+		<string font="Dialog">Фогга в его путешествии...</string>
+	</text>
+	<text id="FrancePredText5" height="0.6">
+		<string font="Dialog">Конечно, ни в коем случае не вызывая</string>
+		<string font="Dialog">никаких подозрений!</string>
+	</text>
+	<text id="FranceFixText5" height="0.6">
+		<string font="Dialog">Я понял, сэр. Можете не беспокоиться</string>
+		<string font="Dialog">на этот счёт - я сделаю всё, что</string>
+		<string font="Dialog">в моих силах.</string>
+	</text>
+	<text id="FrancePredText6" height="0.6">
+		<string font="Dialog">Разумеется, я не останусь перед вами</string>
+		<string font="Dialog">в долгу, мистер Фикс, слово джентельмена!</string>
+	</text>
+	<text id="FrancePaspText1" height="0.6">
+		<string font="Dialog">О, Париж - я не был в Париже 5 лет! А ведь я</string>
+		<string font="Dialog">здесь вырос, мистер Фогг. Хотите, я покажу вам</string>
+		<string font="Dialog">свои родные места? Заглянем к моей тётушке и...</string>
+	</text>
+	<text id="FranceFoggText1" height="0.6">
+		<string font="Dialog">Паспарту, самое дорогое в нашем с вами</string>
+		<string font="Dialog">путешествии - время! Мы не может тратить его</string>
+		<string font="Dialog">понапрасну. К тому же, мы уже почти пришли в порт.</string>
+		<string font="Dialog">А вот, видимо, и капитан "Магнолии".</string>
+	</text>
+	<text id="FranceCaptText1" height="0.6">
+		<string font="Dialog">Джентельмены, чем я могу вам помочь?</string>
+	</text>
+	<text id="FranceFoggText2" height="0.6">
+		<string font="Dialog">Мы хотели бы отправиться на вашем</string>
+		<string font="Dialog">корабле в Египет.</string>
+	</text>
+	<text id="FranceCaptText2" height="0.6">
+		<string font="Dialog">Боюсь, это невозможно, милорд.</string>
+		<string font="Dialog">Корабль после шторма был сильно повреждён</string>
+		<string font="Dialog">и нуждается в ремонте. Отплыть можно только</string>
+		<string font="Dialog">через две недели.</string>
+	</text>
+	<text id="FranceFoggText3" height="0.6">
+		<string font="Dialog">Но я не могу так долго ждать!</string>
+		<string font="Dialog">Неужели ничего нельзя сделать?</string>
+	</text>
+	<text id="FranceCaptText3" height="0.6">
+		<string font="Dialog">Ремонт корабля, милорд, это непростая задача.</string>
+		<string font="Dialog">К тому же многие детали не пережили шторма и</string>
+		<string font="Dialog">требуют замены. Да и к чему такая спешка, милорд?</string>
+		<string font="Dialog">Вы же в Париже - отдохните, осмотритесь.</string>
+	</text>
+	<text id="FrancePaspText2" height="0.6">
+		<string font="Dialog">Да, мистер Фогг, отличный повод зайти к моей...</string>
+	</text>
+	<text id="FranceFoggText4" height="0.6">
+		<string font="Dialog">Паспарту! Давайте лучше подумаем, как нам помочь</string>
+		<string font="Dialog">отремонтировать "Магнолию". Мы должны быть</string>
+		<string font="Dialog">в Египте как можно скорее!</string>
+	</text>
+	<text id="PrincessText1" height="0.6">
+		<string font="Dialog">Мне горячо рекомендовали Вас</string>
+		<string font="Dialog">и у меня о Вас хорошие сведения, поэтому</string>
+		<string font="Dialog">я принимаю Вас на работу, Паспарту</string>
+	</text>
+	<text id="PrincessText2" height="0.6">
+		<string font="Dialog">Я буду рад работать у столь почтенного господина.</string>
+	</text>
+	<text id="PrincessText3" height="0.6">
+		<string font="Dialog">Сегодня мы отправляемся</string>
+		<string font="Dialog">в кругосветное путешествие.</string>
+	</text>
+	<text id="PrincessText4" height="0.6">
+		<string font="Dialog">Кругосветное путешествие ?!..</string>
+	</text>
+	<text id="PrincessText5" height="0.6">
+		<string font="Dialog">В восемьдесят дней.</string>
+		<string font="Dialog">Поэтому нам нельзя терять ни минуты.</string>
+	</text>
+	<text id="PrincessText6" height="0.6">
+		<string font="Dialog">А как же багаж? </string>
+	</text>
+	<text id="PrincessText7" height="0.6">
+		<string font="Dialog">Никакого багажа.</string>
+		<string font="Dialog">Только ручной саквояж с самым необходимым.</string>
+		<string font="Dialog">Все остальное купим по дороге.</string>
+		<string font="Dialog">Я доверяю это Вам.</string>
+	</text>
+	<text id="PrincessText8" height="0.6">
+		<string font="Dialog">Вот так штука!</string>
+		<string font="Dialog">А  я-то  думал  пожить  спокойно!..</string>
+	</text>
+	<text id="PaspText" height="0.6">
+		<string font="Dialog">Да, мой господин!</string>
+	</text>
+	<text id="FoggText11" height="0.6">
+		<string font="Dialog">Англия, Паспорту!</string>
+	</text>
+	<text id="FoggText12" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">английскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText21" height="0.6">
+		<string font="Dialog">Франция, Паспорту!</string>
+	</text>
+	<text id="FoggText22" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">французскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText31" height="0.6">
+		<string font="Dialog">Египет, Паспорту!</string>
+	</text>
+	<text id="FoggText32" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">египетскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText41" height="0.6">
+		<string font="Dialog">Идия, Паспорту!</string>
+	</text>
+	<text id="FoggText42" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">индийскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText51" height="0.6">
+		<string font="Dialog">Китай, Паспорту!</string>
+	</text>
+	<text id="FoggText52" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">китайскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText61" height="0.6">
+		<string font="Dialog">Япония, Паспорту!</string>
+	</text>
+	<text id="FoggText62" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">японскую марку, Паспорту!</string>
+	</text>
+	<text id="FoggText71" height="0.6">
+		<string font="Dialog">Америка, Паспорту!</string>
+	</text>
+	<text id="FoggText72" height="0.6">
+		<string font="Dialog">А теперь, мы соберём</string>
+		<string font="Dialog">американскую марку, Паспорту!</string>
+	</text>
+	<text id="MapText1" height="0.6">
+		<string font="Interface20">sdgsdg</string>
+		<string font="Interface20">sdgsddfdsfsdf</string>
+		<string font="Interface20">sf</string>
+	</text>
+	<text id="MapText2" height="0.6">
+		<string font="Interface20">sdfadsg</string>
+		<string font="Interface20">asdgsdg</string>
+		<string font="Interface20">asdg</string>
+	</text>
+	<text id="CountryHistory1_1" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Страница 1. Первый абзац"/>
+	</text>
+	<text id="CountryHistory1_2" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Страница 1. Второй абзац."/>
+	</text>
+	<text id="CountryHistory2_1" height="0.55">
+		<formatedText formateWidth="160" font="NoteFont" text="Именно сегодня у меня появился новый слуга, француз по имени Паспарту. Он был ошеломлен новостью о кругосветном путешествии, но безропотно начал собираться. Таким и должен быть слуга - кажется, на этот раз мне повезло. Впрочем, вещей беру с собой немного - необходимое купим в дороге. Настоящий джентльмен путешествует по миру с одним саквояжем."/>
+	</text>
+	<text id="CountryHistory3_1" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Третья страница. Запись номер один."/>
+	</text>
+	<text id="CountryHistory3_2" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Третья страница, Запись номер два."/>
+	</text>
+	<text id="CountryHistory3_3" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Третья страница, Запись номер три."/>
+	</text>
+	<text id="CountryHistory2" height="0.6">
+		<string font="NoteFont">sdfadserfg</string>
+		<string font="NoteFont">asdg</string>
+		<string font="NoteFont">asdergergg</string>
+		<string font="NoteFont">sdfadserfg</string>
+		<string font="NoteFont">asdg</string>
+		<string font="NoteFont">asdergergg</string>
+	</text>
+	<text id="CountryHistory3" height="0.6">
+		<string font="NoteFont">sdfadsg</string>
+		<string font="NoteFont">asdgsdg</string>
+		<string font="NoteFont">asdg</string>
+	</text>
+	<text id="CountryHistory4" height="0.6">
+		<string font="NoteFont">sdfadsg</string>
+		<string font="NoteFont">asdgsdg</string>
+		<string font="NoteFont">asdg</string>
+	</text>
+	<text id="CountryHistory5" height="0.6">
+		<string font="NoteFont">sdfadsg</string>
+		<string font="NoteFont">asdgsdg</string>
+		<string font="NoteFont">asdg</string>
+	</text>
+	<text id="CountryHistory6" height="0.6">
+		<string font="NoteFont">sdfadsg</string>
+		<string font="NoteFont">asdgsdg</string>
+		<string font="NoteFont">asdg</string>
+	</text>
+	<text id="CountryHistory7" height="0.6">
+		<string font="NoteFont">sdfadsg</string>
+		<string font="NoteFont">asdgsdg</string>
+		<string font="NoteFont">asdg</string>
+	</text>
+	<text id="EndGame" height="0.75">
+		<string font="Interface18"></string>
+		<string font="Interface18">Do you really want to exit?</string>
+		<string font="Interface18">(the game will be saved)</string>
+	</text>
+	<text id="ScreensaverConfirm" height="0.6">
+		<text font="Hint" text="The game will be closed.
+Do you want to continue?"/>
+	</text>
+	<text id="ScreensaverInfo" height="0.6">
+		<text font="Hint" text="There is a reward for completing the whole
+journey -- an animated 3D screensaver that will
+be yours to keep. It will decorate your screen
+and remind you of your glorious achievements."/>
+	</text>
+	<text id="ScreensaverReady1" height="0.6">
+		<text font="Hint" text="Your mission is accomplished and you can now
+receive your reward - Atlantis 3D Screensaver!"/>
+	</text>
+	<text id="ScreensaverReady2Ext" height="0.6">
+		<text font="Hint" text="Click to download and install a premium-
+quality animated 3D screensaver that will
+remind you of your glorious achievements."/>
+	</text>
+	<text id="ScreensaverReady2" height="0.6">
+		<text font="Hint" text="Click to install a premium-quality
+animated 3D screensaver that will
+remind you of your glorious achievements."/>
+	</text>
+	<text id="MapMarkaTip11" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Англии."/>
+	</text>
+	<text id="MapMarkaTip12" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали во Франции."/>
+	</text>
+	<text id="MapMarkaTip13" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Египте."/>
+	</text>
+	<text id="MapMarkaTip14" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Индии."/>
+	</text>
+	<text id="MapMarkaTip15" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Китае."/>
+	</text>
+	<text id="MapMarkaTip16" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Японии."/>
+	</text>
+	<text id="MapMarkaTip17" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="Это марка, которую вы собрали в Америке."/>
+	</text>
+	<text id="MapMarkaTip2" height="0.6">
+		<formatedText formateWidth="100" font="Interface14" text="А это слот под марку."/>
+	</text>
+	<text id="GameOver" height="0.7">
+		<string font="Interface14">Unfortunately you were not able</string>
+		<string font="Interface14">to collect all the pieces.</string>
+		<string font="Interface14"/>
+		<string font="Interface14">Try again starting from the</string>
+		<string font="Interface14">first level in</string>
+		<string font="Interface14"/>
+		<string font="Interface18">#MaxCountry#</string>
+	</text>
+	<text id="ActiveNoDelete" height="0.6">
+		<string font="Interface18">You cannot delete</string>
+		<string font="Interface18">active player!</string>
+	</text>
+	<text id="LastNoDelete" height="0.6">
+		<string font="Hint">You cannot delete</string>
+		<string font="Hint">last player!</string>
+	</text>
+	<text id="EndGameAndLostLife" height="0.75">
+		<string font="Interface18">Your game will be saved.</string>
+		<string font="Interface18">However, if you exit now</string>
+		<string font="Interface18">you will lose a life.</string>
+		<string font="Interface18"/>
+		<string font="Interface18">Do you really want to exit now?</string>
+	</text>
+	<text id="EndGameAndLostLastLife" height="0.75">
+		<string font="Hint">Your game will be saved. However, if you</string>
+		<string font="Hint">exit now you will lose your last life.</string>
+		<string font="Hint">You can then resume your journey starting</string>
+		<string font="Hint">from the first level in this land.</string>
+		<string font="Hint"/>
+		<string font="Hint">Do you want to exit? </string>
+	</text>
+	<text id="LivesLeft">
+		<string font="Interface18">#LivesLeftCount# lives left</string>
+		<string font="Interface18"/>
+		<string font="Interface14">Try again and may you have</string>
+		<string font="Interface14">the best of luck in your</string>
+		<string font="Interface14">honorable mission!</string>
+	</text>
+	<text id="OneLifeLeft">
+		<string font="Interface20">1 life left</string>
+		<string font="Hint"/>
+		<string font="Hint">Try again and may you have the best of</string>
+		<string font="Hint">luck in your honorable mission!</string>
+	</text>
+	<text id="HelpText1">
+		<string font="Small">Form matches of three in-a-row</string>
+		<string font="Small">by swapping</string>
+	</text>
+	<text id="HelpText2">
+		<string font="Small">Form matches</string>
+		<string font="Small">of three in-a-row</string>
+	</text>
+	<string id="Stage">Stage</string>
+	<string id="Day">Day</string>
+	<string id="Country1">England</string>
+	<string id="Country2">France</string>
+	<string id="Country3">Egypt</string>
+	<string id="Country4">India</string>
+	<string id="Country5">China</string>
+	<string id="Country6">Japan</string>
+	<string id="Country7">USA</string>
+	<string id="NoMovesReshuffle">No moves! Reshuffle...</string>
+	<string id="HarryUpTimeIsOut">Harry Up! Time is out!</string>
+	<string id="LevelComplete">Level complete!</string>
+	<string id="YouLoseLife">You lose a life!</string>
+	<string id="SwapBonusTip1">Select chip</string>
+	<string id="SwapBonusTip2">and now select the new place for it</string>
+	<string id="BombBonusTip">Select chip to explode</string>
+	<string id="FlashBonusTip">Select chip to destroy all chips with the same color</string>
+	<text id="Tip1" height="0.6">
+		<text font="text" text="The hearts on the panel 
+to the left are extra lives 
+you have remaining."/>
+	</text>
+	<text id="Tip2" height="0.6">
+		<text font="text" text="After every completed level you
+get to learn some valuable
+information on the land you are in."/>
+	</text>
+	<text id="Tip3" height="0.6">
+		<text font="text" text="The more tiles you match in one
+go, the more energy is added to
+the Sun power-up."/>
+	</text>
+	<text id="Tip4" height="0.6">
+		<text font="text" text="The Sun power-up is re-set after
+every level whereas all the other
+bonuses remain with you until
+you use them. It is a good idea
+to utilize the Sun power-up as
+soon as it is charged. "/>
+	</text>
+	<text id="Tip5" height="0.6">
+		<text font="text" text="Use the bonuses only when you
+have to. They will come in handy
+later in your travels as the levels
+get more and more difficult. "/>
+	</text>
+	<text id="Tip6" height="0.6">
+		<text font="text" text="Try to score more points. Every
+100 000 bring you an extra life."/>
+	</text>
+	<text id="Tip7" height="0.6">
+		<text font="text" text="Get bonus points for completing
+a level quickly."/>
+	</text>
+	<text id="Tip8" height="0.6">
+		<text font="text" text="Try to collect all the bonuses
+available on the levels you go
+through. Things may become
+difficult without them as you
+proceed in your journey."/>
+	</text>
+	<text id="Tip9" height="0.6">
+		<text font="text" text="You will be rewarded with a premium
+Atlantis 3D screensaver at the end
+of the journey."/>
+	</text>
+	<text id="Tip10" height="0.6">
+		<text font="text" text='You get bonus points for longer
+chains. These are marked with
+"Terrific!", "Fantastic!" and
+"SPECTACULAR!"'/>
+	</text>
+	<text id="Tip11" height="0.6">
+		<text font="text" text="It is a good idea to utilize the 
+Sun power-up on the more difficult
+levels by intentionally working to
+recharge it as quickly as possible."/>
+	</text>
+	<text id="Tip12" height="0.6">
+		<text font="text" text="You can replay the levels you
+already completed to pick up the
+uncollected bonuses you may need."/>
+	</text>
+	<text id="Tip13" height="0.6">
+		<text font="text" text="The Lightning bonus does not only
+help you get rid of inconvenient
+tiles but also decreases the number
+of types of tiles in the game field
+that may be very useful sometimes."/>
+	</text>
+	<text id="Tip14" height="0.6">
+		<text font="text" text="Try to get rid of the locked tiles
+at the very beginning as it may be
+much more difficult to do once they
+drop lower on the field. "/>
+	</text>
+	<text id="Tip15" height="0.6">
+		<text font="text" text="Use the Swap bonus wisely. It can
+move the artifact pieces away from
+the wall."/>
+	</text>
+	<text id="Tip16" height="0.6">
+		<text font="text" text="All scores are saved in the High
+Scores table. It is displayed 
+automatically if no keys are
+pressed in the main menu window
+for a few moments."/>
+	</text>
+	<text id="Tip17" height="0.6">
+		<text font="text" text="When thinking of what bonus to use
+keep in mind that the Time and the
+Swap bonuses will come in very
+handy on the more difficult levels."/>
+	</text>
+	<text id="Tip18" height="0.6">
+		<text font="text" text="It is usually easier to get rid of frozen tiles 
+at the very beginning."/>
+	</text>
+	<text id="Tip19" height="0.6">
+		<text font="text" text="The game does not end even after
+you complete all the levels. There
+are new bonuses to collect and
+adventures to embark on so you are
+welcome to continue playing."/>
+	</text>
+	<text id="Tip20" height="0.6">
+		<text font="text" text="You can always check what bonuses
+have been left uncollected on the
+levels you already completed and
+go back to get them."/>
+	</text>
+	<text id="Tip21" height="0.6">
+		<text font="text" text="Try to free the artifact pieces one
+by one to avoid having several of
+them at the bottom of the game
+field at once. That usually makes
+matching difficult."/>
+	</text>
+	<text id="Tip22" height="0.6">
+		<text font="text" text='You can always go back to view the
+animated clips from your journey
+by pressing the "Travels" button
+in the main menu.'/>
+	</text>
+	<text id="Tip23" height="0.6">
+		<text font="text" text="Every artifact gives you control
+over a certain power that is
+related to the country you got it
+from. You will need all seven to
+raise the Atlantis."/>
+	</text>
+	<text id="Tip24" height="0.6">
+		<text font="text" text="You can always view the artifacts
+you have collected with related
+info by selecting the Altar of
+Poseidon symbol in the top
+left-hand corner of the map."/>
+	</text>
+	<text id="Tip25" height="0.6">
+		<text font="text" text="The Altar of Poseidon in the main
+menu shows how many artifacts you
+have collected thus far."/>
+	</text>
+	<text id="Tip26" height="0.6">
+		<text font="text" text="Keep up the good work and discover
+the mystery of Atlantis at the end
+of your travels."/>
+	</text>
+	<text id="Tip27" height="0.6">
+		<text font="text" text="The hearts on the panel to the left
+are extra lives you have remaining."/>
+	</text>
+	<text id="Credits" height="1.0">
+		<string font="Interface22">presents</string>
+		<string font="Interface18"/>
+		<string font="Interface20" height="0.6">The Rise</string>
+		<string font="Interface20" height="0.6">of</string>
+		<string font="Interface20" height="0.6">Atlantis</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Game design</string>
+		<string font="Interface22">Igor Elovikov</string>
+		<string font="Interface22">Igor Bukhman</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Game programming</string>
+		<string font="Interface22">Vladimir Minin</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Programming</string>
+		<string font="Interface22">Igor Elovikov</string>
+		<string font="Interface22">Alexander Sergeenko</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Artwork</string>
+		<string font="Interface22">Irina Balina</string>
+		<string font="Interface22">Svetlana Sablina</string>
+		<string font="Interface22">Svetlana Ziminova</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Animation</string>
+		<string font="Interface22">Svetlana Ziminova</string>
+		<string font="Interface22">Irina Balina</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">3D Models</string>
+		<string font="Interface22">Stanislav Milashenko</string>
+		<string font="Interface22">Nikolay Vorobyev</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18" height="0.4"/>
+		<string font="Interface18" height="0.6">In-game text</string>
+		<string font="Interface18" height="0.6">and</string>
+		<string font="Interface18" height="0.6">storyline</string>
+		<string font="Interface22">Yuri Labintsev</string>
+		<string font="Interface22">Laura Hellebusch</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Level design</string>
+		<string font="Interface22">Igor Bukhman</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18" height="0.4"/>
+		<string font="Interface18" height="0.6">Web-version</string>
+		<string font="Interface18" height="0.6">and</string>
+		<string font="Interface18" height="0.6">localization</string>
+		<string font="Interface22">Denis Pinaev</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Sound FX</string>
+		<string font="Interface22">Eugene Maxiyanov</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Music</string>
+		<string font="Interface22">Michael Ivashenko</string>
+		<string font="Interface18">* * *</string>
+		<string font="Interface18">Special thanks</string>
+		<string font="Interface22">Dmitri Bukhman</string>
+		<string font="Interface22">Daria Sablina</string>
+		<string font="Interface22">Ekaterina Galicheva</string>
+		<string font="Interface22">Anastasia Sharipova</string>
+		<string font="Interface22">Maria Serebrennikova</string>
+		<string font="Interface22">Tony Leamer</string>
+		<string font="Interface22">Terri Hardie</string>
+		<string font="Interface22">Erik Zwerling</string>
+		<string font="Interface22">David Nixon</string>
+		<string font="Interface22">Mark Magdamit</string>
+		<string font="Interface22">Jessica Sachs</string>
+		<string font="Interface22">Jeff Hendricks</string>
+		<string font="Interface22" scale="0.7">and</string>
+		<string font="Interface22">Plato</string>
+	</text>
+	<text id="Dnevnik1" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="This is the day I hired a new servant, a Frenchman by the name Passepartout. The news of the journey around the world came as a shock to him, yet he started packing without a word. This is the manner a servant should be. It appears that this time I may have found the right man. We are not taking much luggage. A proper gentleman travels around the world with a light carpet-bag."/>
+	</text>
+	<text id="Dnevnik2" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The most important thing that Passepartout packed is my personal note-book. These notes will become documented evidence of my journey. Perhaps one day, many years from now, I will read them to my children."/>
+	</text>
+	<text id="Dnevnik3" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I had an argument with Mr. Stuart, chairman of the Reform Club, about whether it is possible to travel around the world in 80 days. He got so agitated trying to prove me wrong that bet his post of the chairman! Quite honestly he is not the only one who thinks it is impossible to do. Well, gentleman, you will soon see who is right..."/>
+	</text>
+	<text id="Dnevnik4" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="This wager has already been referred to as fantastic and inconceivable. I wonder what they will say when I win. My opinion is that there is nothing fantastic about it. All there is here is superb calculation and passion that characterize a true Englishman."/>
+	</text>
+	<text id="Dnevnik5" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Do I feel strongly about the success of this enterprise? By all means! A true Englishman will not start a new venture unless he is at least 50 per cent sure of the favourable outcome.  We are departing for Paris today!"/>
+	</text>
+	<text id="Dnevnik6" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Here we are in Paris. We were finally able to get to the port, yet there was no ship we could embark upon to continue to Egypt. We are thus faced with the first impediments in our journey. The steamer Magnolia we were to board here has gotten into a serious storm. The damage it suffered hinders it from being able to depart within the next two weeks! I have made a decision to help with the repair of the ship whatever the costs."/>
+	</text>
+	<text id="Dnevnik7" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The additional expenditures to replace the damaged parts promise to be quite substantial, yet the game is worth the candle. Passepartout will help me. I do not like to compliment the servants but it appears that this one is indeed a stroke of luck. However, time will tell..."/>
+	</text>
+	<text id="Dnevnik8" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="According to Passepartout, Paris is the most beautiful city. The Eiffel Tower, the Champs-Elysees, not to mention Passepartout's auntie's house -- all these are of course of great interest. However we cannot devote any time to sight-seeing. Our goal is to get the ship repaired as soon as possible and we have absolutely no time to spare!"/>
+	</text>
+	<text id="Dnevnik9" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I am positive I will win the bet. The calculation is accurate, I simply could not err. Yet I feel somewhat anxious. My reputation and wellbeing are at stake."/>
+	</text>
+	<text id="Dnevnik10" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="All done! The vessel has been repaired and is ready to set sail. We start for Egypt in an hour. We must hurry to get a stamp! Before the Magnolia departs I must find myself proof of my stay in this country..."/>
+	</text>
+	<text id="Dnevnik11" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I could not expect such a turn of events! Having just gone off board in Egypt I was immediately detained by the authorities on suspicion of a robbery of the Egyptian Museum. This is indeed ridiculous! Still, I had to comply and await the arrival of further details of the crime. I have a feeling as if all of this was staged to cause a delay in my journey. But who could do that..?"/>
+	</text>
+	<text id="Dnevnik12" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I have been taken to jail and it looks like they are planning to keep me in custody. They say that because of the incident at the museum the port has been closed altogether, therefore the Magnolia will not leave until the relics have been found. My journey is on the brink of failure!"/>
+	</text>
+	<text id="Dnevnik13" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I am struck by the local traditions that are utterly different from the European. No one speaks English here and I am completely unaware of the events outside. What's the current state of the investigation? Am I still the prime suspect? I can only guess and wait."/>
+	</text>
+	<text id="Dnevnik14" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Time goes by painfully slowly. My solitude is only consoled by this note-book that they allowed me to take into the cell. The carpet-bag remains with Passepartout. He is my only hope now. No one else can get me out of here. I wonder how he is doing?"/>
+	</text>
+	<text id="Dnevnik15" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I finally got a chance to see and talk to Passepartout! He was able to bribe the guard to allow us a short meeting. We did not have much time and Passepartout could not tell me all. He swore he would get me out of here. He said he is very close to solving this robbery and he only lacks some evidence."/>
+	</text>
+	<text id="Dnevnik16" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Passepartout saved the day! He is quite some quick fellow I must note. He got me out of jail, helped solve the crime and collect the relics. Now the port is open and the Magnolia can depart for India. It is time to hurry. The journey continues!"/>
+	</text>
+	<text id="Dnevnik17" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Destiny has presented me with an unexpected gift. We ran into a charming yet very sad young lady at the railway station. Her name is Aouda and she told us her story. It turns out that her uncle wants to marry her to a rich and old rajah against her will. She is terrified but no one asks about the bride's consent in India. I must help her!"/>
+	</text>
+	<text id="Dnevnik18" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Everybody knows that India is a great reversed triangle of land, with its base in the north and its apex in the south. The British Crown exercises a real and despotic dominion over the larger portion of this vast country. Yet there are certain ferocious rajahs in the interior who are absolutely independent and uphold the old and often very cruel traditions."/>
+	</text>
+	<text id="Dnevnik19" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="My attention is constantly drawn to Aouda. She is Indian but has the manners of a true English aristocrat, speaks the language with great purity and is absolutely charming. It was worth getting into the risky wager just for the chance to meet her here."/>
+	</text>
+	<text id="Dnevnik20" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The greed and thirst for gold of Aouda's uncle is quite astonishing. He is prepared to abandon his intention to marry his niece but needs 'weighty arguments' as he put it. Aouda confirmed my suspicions on what that meant -- a generous offering. That is disgusting!"/>
+	</text>
+	<text id="Dnevnik21" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I will note that the Indian Ocean has been favourable, the wind being in the north-west, and all sails aiding the engine. The trip was accomplished most successfully and ahead of time resulting in a gain. I am sure this will be very useful!"/>
+	</text>
+	<text id="Dnevnik22" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Thus, we have been able to convince the uncle to cancel Aouda's wedding. It was not easy. Jewelry and expensive gifts turned out more convincing than any words. We are happy to have Aouda with us in this wonderful journey."/>
+	</text>
+	<text id="Dnevnik23" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="A new blow came in China. All of the country is celebrating the Festival of the Fiery Dragon and it is absolutely impossible to get through the crowd. Until the festival is over we will not be able to leave the country… The idea came quite unexpectedly -- we will travel to Japan on a hot air balloon! However this may not be as easy to accomplish as it seemed at first."/>
+	</text>
+	<text id="Dnevnik24" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="We found a merchant with a stock of balloons but were not able to purchase anything. The old man is not interested in money but is willing to give us a balloon if we crack his riddles. It sounds incredible but nonetheless it is indeed so. We will have to solve his riddles or our brilliant plan on leaving this country is not to be realized."/>
+	</text>
+	<text id="Dnevnik25" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The journey from India to China is one I shall remember for a long time. I will take note of one thing here: the construction of the railway line that was announced to be completed was in fact not, therefore we had to secure a means of conveyance which came at a rather serious price.  Aouda endured the cumbersome journey very well!"/>
+	</text>
+	<text id="Dnevnik26" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="In the meantime the big Festival of the Fiery Dragon here continues and there is no end in sight. Passepartout and Aouda are enraptured by the scale and brilliance of the celebration. The air is filled with kites and fireworks. Thousands of people are in the streets with colorful lanterns. Alas, I do not have time for this. I have to solve these mysterious riddles."/>
+	</text>
+	<text id="Dnevnik27" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The Celestial Empire is extraordinary! I did not pay a pound for the balloon but I did have to spend some time puzzling over the old man's riddles. I just have to put one down for the record. What light on a pitch-dark night gives? What luck on a long journey brings and from misfortunes protects?"/>
+	</text>
+	<text id="Dnevnik28" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Thus, we reached the shores of Japan on a hot air balloon and made it safely to Yokohama where new impediments have been in store for us. This time around Passepartout went into a sacred temple with his shoes on. It is unbelievable but the punishment for a crime like that is two months of imprisonment. We shall undertake to make a generous offering to the temple to try to free him."/>
+	</text>
+	<text id="Dnevnik29" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="It is a matter of honour for me to free Passeparout, for I cannot leave him here entirely alone. I shall never forget how he liberated me from detention in Egypt when I was falsely accused of the museum robbery."/>
+	</text>
+	<text id="Dnevnik30" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="We are presently in Yokohama. Having reached Japan by air we made the journey to this major seaport by land. This is where we will depart for America from."/>
+	</text>
+	<text id="Dnevnik31" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Yokohama is a principal Japanese port on the Pacific Ocean which takes both cargo and passenger vessels. It is very busy around the clock."/>
+	</text>
+	<text id="Dnevnik32" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Japan strikes me with the constant whirl of people in the streets. Among the coaches, palanquins and rickshas women mince along in kimonos, the latter being a type of national Japanese costume somewhat similar to a housecoat girded with a wide silk scarf."/>
+	</text>
+	<text id="Dnevnik33" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="I remember my servant Passepartout first looking with great curiosity at everything in the Land of the Rising Sun. It looked as if he was finally beginning to like this journey. Alas, his curiosity cost him dearly. I should not have left him alone..."/>
+	</text>
+	<text id="Dnevnik34" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Our offering for the temple priests is almost ready. I hope it will help to mitigate the punishment and perhaps even free Passepartout. Getting all the gifts was not an easy task -- the culture of this country remains a mystery to me. I thanked Aouda for her help. Her knowledge of the Japanese traditions was instrumental in the choice of gifts to offer."/>
+	</text>
+	<text id="Dnevnik35" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="At last Passepartout is free! It is essential to know the customs and traditions of a country one is traveling to. It is an unwritten law that Passepartout unintentionally broke. The result of that was a delay in time and additional several hundred pounds that it cost us."/>
+	</text>
+	<text id="Dnevnik36" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="We were late to get on the Concord, for Liverpool, by just three-quarters of an hour! There is only one ship in harbor that would be able to transport us to Europe but the captain thereof turned out to be a very strange gentleman indeed. It seems impossible to convince him to take us aboard his ship."/>
+	</text>
+	<text id="Dnevnik37" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The captain is a very interesting character whose passion is indeed quite astonishing. He is obsessed with pirates! It's unbelievable but just like the old man in China, the captain is not interested in money at all. It looks like we will have to find a way to win his trust somehow."/>
+	</text>
+	<text id="Dnevnik38" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="My fellow-travellers are in a state of despair. We crossed America from the Pacific to the Atlantic to only lose the boat by three-quarters of an hour. It is overwhelming at this point, when we are so close to the final destination!"/>
+	</text>
+	<text id="Dnevnik39" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text='A separate book of its own could be written about the adventures we encountered on the way. As a matter of fact I expected certain possible obstacles because the "great trunk line" which crosses the entire width of the United States goes through a territory which is still infested by Indians and wild beasts, and a large tract which the Mormons, after they were driven from Illinois in 1845, began to colonise.'/>
+	</text>
+	<text id="Dnevnik40" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="The expectations were, alas, legitimate. First a great herd of buffaloes formed an insurmountable obstacle to the passage of the train, then a suspension-bridge thrown over some rapids turned out to be in a ruinous condition. I am again amazed at Aouda's courage!"/>
+	</text>
+	<text id="Dnevnik41" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Scarcely had the train passed the river, when the bridge, completely ruined, fell with a crash into the rapids… Then the train was attacked by a band of Sioux. Aouda behaved courageously from the first. She defended herself like a true heroine with a revolver, which she shot through the broken windows. The remainder of the journey to Omaha we were forced to undertake on a sledge..."/>
+	</text>
+	<text id="Dnevnik42" height="0.6">
+		<formatedText formateWidth="150" font="NoteFont" text="Thus, I have been able to win the captain's favor by means of exploitation of his wild passion for everything pirate. He is prepared to help us reach Europe. We are ready to set sail for Britain now and there is still hope that the wager can be won if we can get to Liverpool on time!"/>
+	</text>
+</TextResources>
+

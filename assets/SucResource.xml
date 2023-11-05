@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Resources>
+	<Fonts>
+	</Fonts>
+	<Textures/>
+	<Textures2D>
+		<texture2D id="SucHeroSubstr" path="textures\Heroes\SucSubstr.png" upload="false" group="BagRes"/>
+		<texture2D id="SucUpRightCorner" path="textures\Heroes\SucRightUpCorner.png" upload="false" group="BagRes"/>
+		<texture2D id="Notebook" path="textures\Suc\notebook.jpg" upload="false" group="BagRes"/>
+		<texture2D id="NoteList" path="textures\Suc\list.png" upload="false" group="BagRes"/>
+		<texture2D id="SmallSubstr" path="textures\Suc\ArtSubstr.png"/>
+		<texture2D id="Selection" path="textures\Suc\select.png" upload="false" group="BagRes"/>
+
+		<texture2D id="NoteRightArrowNormal" path="textures\Suc\RightArrowNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteRightArrowActive" path="textures\Suc\RightArrowActive.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteLeftArrowNormal" path="textures\Suc\LeftArrowNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteLeftArrowActive" path="textures\Suc\LeftArrowActive.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagCountryIntroNormal" path="textures\Local\Bag\CountryIntroNormal.png"/>
+		<texture2D id="BagCountryIntroActive" path="textures\Local\Bag\CountryIntroActive.png"/>
+		<texture2D id="BagCountryIntroPressed" path="textures\Local\Bag\CountryIntroPressed.png"/>
+
+		<texture2D id="BagViewMapNormal" path="textures\Local\Bag\ViewMapNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="BagViewMapActive" path="textures\Local\Bag\ViewMapActive.png" upload="false" group="BagRes"/>
+		<texture2D id="BagViewMapPressed" path="textures\Local\Bag\ViewMapPressed.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagPlayNormal" path="textures\Local\Bag\PlayNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="BagPlayActive" path="textures\Local\Bag\PlayActive.png" upload="false" group="BagRes"/>
+		<texture2D id="BagPlayPressed" path="textures\Local\Bag\PlayPressed.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagBackNormal" path="textures\Local\Bag\BackNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="BagBackActive" path="textures\Local\Bag\BackActive.png" upload="false" group="BagRes"/>
+		<texture2D id="BagBackPressed" path="textures\Local\Bag\BackPressed.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagMenuNormal" path="textures\Local\Bag\MenuNormal.png" upload="false" group="BagRes"/>
+		<texture2D id="BagMenuActive" path="textures\Local\Bag\MenuActive.png" upload="false" group="BagRes"/>
+		<texture2D id="BagMenuPressed" path="textures\Local\Bag\MenuPressed.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagRamkaUL" path="textures\suc\BagRamkaUL.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRamkaUR" path="textures\suc\BagRamkaUR.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRamkaDL" path="textures\suc\BagRamkaDL.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRamkaDR" path="textures\suc\BagRamkaDR.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRamkaLeft" path="textures\suc\BagRamkaLeft.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRamkaRight" path="textures\suc\BagRamkaRight.png" upload="false" group="BagRes"/>
+
+		<texture2D id="BagLeft" path="textures\suc\BagLeft.png" upload="false" group="BagRes"/>
+		<texture2D id="BagRight" path="textures\suc\BagRight.png" upload="false" group="BagRes"/>
+		<texture2D id="BagUp" path="textures\suc\BagUp.png" upload="false" group="BagRes"/>
+		<texture2D id="BagDown" path="textures\suc\BagDown.png" upload="false" group="BagRes"/>
+
+		<texture2D id="NoteImage1" path="textures\Local\Bag\NoteImage1.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage2" path="textures\Local\Bag\NoteImage2.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage3" path="textures\Local\Bag\NoteImage3.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage4" path="textures\Local\Bag\NoteImage4.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage5" path="textures\Local\Bag\NoteImage5.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage6" path="textures\Local\Bag\NoteImage6.png" upload="false" group="BagRes"/>
+		<texture2D id="NoteImage7" path="textures\Local\Bag\NoteImage7.png" upload="false" group="BagRes"/>
+
+		<texture2D id="NoteSuits" path="textures\Local\Bag\Suits.png" upload="false" group="BagRes"/>
+
+		<texture2D id="SucBG" path="textures\suc\sucbg.jpg" upload="false" group="BagRes"/>
+
+		<texture2D id="Question" path="textures\suc\quest.png"/>
+	</Textures2D>
+	<Animations>
+	</Animations>
+	<VertexBuffers/>
+	<Sounds>
+	</Sounds>
+</Resources>

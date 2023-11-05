@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Help">
+		<Controls>
+			<Help name="Help"/>
+		</Controls>
+		<Script>HelpFunc</Script>
+	</Layer>
+
+	<Layer name="Profiles">
+		<Controls>
+			<Panel name="Panel" static="true">
+				<texture name="#Profile"/>
+				<position x="300" y="480"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#ProfileCaption</text>
+						<position x="142" y="38"/>
+						<font name="Interface22"/>
+						<align>Center</align>
+					</Text>
+					<Button name="New">
+						<position x="33" y="248"/>
+						<state normal="#ProfileNewNormal" active="#ProfileNewActive" pressed="#ProfileNewPressed"/>
+					</Button>
+					<Button name="Delete">
+						<position x="150" y="248"/>
+						<state normal="#ProfileDeleteNormal" active="#ProfileDeleteActive" pressed="#ProfileDeletePressed"/>
+					</Button>
+					<Button name="Ok">
+						<position x="33" y="287"/>
+						<state normal="#ProfileSelectNormal" active="#ProfileSelectActive" pressed="#ProfileSelectPressed"/>
+					</Button>
+					<Button name="Cancel">
+						<position x="150" y="287"/>
+						<state normal="#CancelNormal" active="#CancelActive" pressed="#CancelPressed"/>
+					</Button>
+					<Button name="0_Down">
+						<position x="228" y="130"/>
+						<state normal="#ProfileUpNormal" active="#ProfileUpActive" pressed="#ProfileUpPressed"/>
+					</Button>
+					<Button name="0_Up">
+						<position x="228" y="170"/>
+						<state normal="#ProfileDownNormal" active="#ProfileDownActive" pressed="#ProfileDownPressed"/>
+					</Button>
+					<ListBox name="Names" numOfItems="5" step="21" width="100">
+						<position x="128" y="105"/>
+						<buttonScrollUp>0_Up</buttonScrollUp>
+						<buttonScrollDown>0_Down</buttonScrollDown>
+						<font active="Interface20Y" normal="Interface18"/>
+					</ListBox>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ProfileFunc</Script>
+	</Layer>
+	<Layer name="NewProfile">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="297" y="421"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#NewProfileCaption</text>
+						<position x="150" y="68"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="InfoText">
+						<text>#NewProfileInfoText</text>
+						<position x="150" y="145"/>
+						<font name="Interface14"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="42" y="190"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+					<Button name="Cancel">
+						<position x="152" y="190"/>
+						<state normal="#CancelNormal" active="#CancelActive" pressed="#CancelPressed"/>
+					</Button>
+					<EditBox name="Name" limit="10">
+						<position x="50" y="110"/>
+						<font scale="1.0" name="Interface22"/>
+					</EditBox>
+					<Panel name="0_PanelInner" freeze="true" static="true">
+						<texture name="#WINDOW_INNER_SMALL"/>
+						<position x="35" y="118"/>
+					</Panel>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>NewProfileFunc</Script>
+	</Layer>
+	<Layer name="FirstProfile">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="300" y="410"/>
+				<Controls>
+					<Text name="Caption">
+						<text>#NewProfileCaption</text>
+						<position x="150" y="68"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="InfoText">
+						<text>#NewProfileInfoText</text>
+						<position x="150" y="145"/>
+						<font name="Interface14"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="100" y="190"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+					<EditBox name="Name" limit="10">
+						<position x="50" y="110"/>
+						<font scale="1.0" name="Interface22"/>
+					</EditBox>
+					<Panel name="0_PanelInner" freeze="true" static="true">
+						<texture name="#WINDOW_INNER_SMALL"/>
+						<position x="35" y="118"/>
+					</Panel>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>FirstProfileFunc</Script>
+	</Layer>
+	<Layer name="ActiveNoDelete">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="55" y="294"/>
+				<Controls>
+					<Text name="InfoText">
+						<text>@ActiveNoDelete</text>
+						<position x="150" y="80"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="97" y="190"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ActiveDeleteMessageFunc</Script>
+	</Layer>
+	<Layer name="LastNoDelete">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="55" y="294"/>
+				<Controls>
+					<Text name="InfoText">
+						<text>@LastNoDelete</text>
+						<position x="150" y="80"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="97" y="190"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>LastDeleteMessageFunc</Script>
+	</Layer>
+	<Layer name="DeletePlayerConfirm">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="30" y="350"/>
+				<Controls>
+					<Text name="ConfirmText">
+						<text>#DeletePlayerConfirm1</text>
+						<position x="150" y="80"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="ConfirmText2">
+						<text>#DeletePlayerConfirm2</text>
+						<position x="150" y="100"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="PlayerName">
+						<text>#PlayerName</text>
+						<position x="150" y="130"/>
+						<font name="Interface20Y"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Yes">
+						<position x="42" y="193"/>
+						<state normal="#YesNormal" active="#YesActive" pressed="#YesPressed"/>
+					</Button>
+					<Button name="No">
+						<position x="152" y="193"/>
+						<state normal="#NoNormal" active="#NoActive" pressed="#NoPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>DeletePlayerFunc</Script>
+	</Layer>
+	<Layer name="ExitConfirm">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="270" y="420"/>
+				<Controls>
+					<Text name="ConfirmText">
+						<text>#ExitConfirm1</text>
+						<position x="150" y="100"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="ConfirmText2">
+						<text>#ExitConfirm2</text>
+						<position x="150" y="120"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Yes">
+						<position x="42" y="193"/>
+						<state normal="#YesNormal" active="#YesActive" pressed="#YesPressed"/>
+					</Button>
+					<Button name="No">
+						<position x="152" y="193"/>
+						<state normal="#NoNormal" active="#NoActive" pressed="#NoPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ExitConfirmFunc</Script>
+	</Layer>
+	<Layer name="ExitConfirmWithSS">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="270" y="420"/>
+				<Controls>
+					<Text name="ConfirmText">
+						<text>#ExitConfirm1</text>
+						<position x="150" y="80"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Text name="ConfirmText2">
+						<text>#ExitConfirm2</text>
+						<position x="150" y="100"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+
+					<CheckBox name="EnableScreensaver" startupState="false">
+						<position x="58" y="139"/>
+						<text></text>
+						<font name="Interface14"/>
+						<textPosition>
+							<position x="35" y="0"/>
+						</textPosition>
+						<state on="#CHECK_BUTTON_ON" off="#CHECK_BUTTON"/>
+					</CheckBox>
+					<Text name="EnableText1">
+						<text>#EnableSSOnExit1</text>
+						<position x="95" y="130"/>
+						<font name="Interface14"/>
+						<align>Left</align>
+					</Text>
+					<Text name="EnableText2">
+						<text>#EnableSSOnExit2</text>
+						<position x="95" y="145"/>
+						<font name="Interface14"/>
+						<align>Left</align>
+					</Text>
+
+					<Button name="Yes">
+						<position x="42" y="193"/>
+						<state normal="#YesNormal" active="#YesActive" pressed="#YesPressed"/>
+					</Button>
+					<Button name="No">
+						<position x="152" y="193"/>
+						<state normal="#NoNormal" active="#NoActive" pressed="#NoPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>ExitConfirmWithSSFunc</Script>
+	</Layer>
+	<Layer name="NoBackgroundsSelected">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#WINDOW_SMALL"/>
+				<position x="254" y="380"/>
+				<Controls>
+					<Text name="InfoText">
+						<text>@NoBackgroundsSelected</text>
+						<position x="150" y="80"/>
+						<font name="Interface18"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="97" y="190"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>NoBackgroundsSelectedFunc</Script>
+	</Layer>
+
+	<Layer name="CycleCompletedLayer">
+		<Controls>
+			<Panel name="Panel">
+				<texture name="#FinalWindow"/>
+				<position x="210" y="420"/>
+				<Controls>
+					<Text name="InfoText">
+						<text>@CycleCompleted</text>
+						<position x="189" y="35"/>
+						<font name="Interface18Y"/>
+						<align>Center</align>
+					</Text>
+					<Button name="Ok">
+						<position x="141" y="244"/>
+						<state normal="#OkNormal" active="#OkActive" pressed="#OkPressed"/>
+					</Button>
+				</Controls>
+			</Panel>
+		</Controls>
+		<Script>CycleCompletedFunc</Script>
+	</Layer>
+</GUI>

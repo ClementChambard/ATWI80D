@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<GUI>
+	<include>gui.lua</include>
+	<Layer name="Test">
+		<Controls>
+			<_Panel name="Menu">
+				<texture name="textures\menu.tga"/>
+				<position x="245" y="540"/>
+			</_Panel>
+			<ParticleTest name="ptest"/>
+		</Controls>
+		<Background>
+			<texture name="textures\pole_Babylon.jpg"/>
+		</Background>
+	</Layer>
+</GUI>

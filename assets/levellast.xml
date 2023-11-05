@@ -1,0 +1,975 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by elovikov (EMBRACE) -->
+<Levels>
+	<!-- 
+На карте уровня:
+	0 - нет клетки
+	1 - обычная фишка
+	символом - обозначаются просто закрытые (залоченные) фишки
+	символом + обозначаются дважды закрытые фишки
+	символом * камни (могут быть только внизу, по идее)
+бонусы:
+	L - молния, 
+	T - время, 
+	R - решафл, 
+	B - бомба
+артефакты:
+	A - кусочек артефакта
+
+атрибуты тэга Level:
+	name - имя уровня,
+	width, height - ширина, высота игрового поля
+	time - время, отводимое на прохождение
+	chips - номера фишек, которые могут использоваться на поле. 
+		по значению этого же атрибута определяется общее количество различных фишек в уровне.
+	artefact_begin - номер первого кусочка артефакта на поле.
+-->
+	<Level name="level_1" artefact_begin="0" time="650" chips="0123" sun_inc4="0.08" sun_inc5="0.11" sun_inc6="0.12" tip_time="10" qMusor="50">
+		<Line>11111A1</Line>
+		<Line>1111111</Line>
+		<Line>111A111</Line>
+		<Line>11A11A1</Line>
+		<Line>1111A11</Line>
+		<Line>1A11111</Line>
+		<Line>1111111</Line>
+	</Level>
+	<Level name="level_2" artefact_begin="1" time="630" chips="0123" sun_inc4="0.2" sun_inc5="0.3" sun_inc6="0.35" tip_time="10" qMusor="50">
+		<Line>111111111</Line>
+		<Line>111111A11</Line>
+		<Line>111111111</Line>
+		<Line>11A111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+	</Level>
+	<Level name="level_3" artefact_begin="3" time="580" chips="0123" sun_inc4="0.15" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>000101000</Line>
+		<Line>101111A01</Line>
+		<Line>11A111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>1111B1111</Line>
+		<Line>111111111</Line>
+		<Line>011111110</Line>
+	</Level>
+	<Level name="level_4" artefact_begin="5" time="520" chips="0123" sun_inc4="0.1" sun_inc5="0.15" sun_inc6="0.18" tip_time="10" qMusor="50">
+		<Line>0001A1000</Line>
+		<Line>001111100</Line>
+		<Line>0A1111110</Line>
+		<Line>1111111A1</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>011111110</Line>
+		<Line>001111100</Line>
+		<Line>000111000</Line>
+	</Level>
+	<Level name="level_5" artefact_begin="8" time="470" chips="0123" sun_inc4="0.1" sun_inc5="0.15" sun_inc6="0.18" tip_time="10" qMusor="50">
+		<Line>00001111A1</Line>
+		<Line>0000111111</Line>
+		<Line>00001A1111</Line>
+		<Line>0001111111</Line>
+		<Line>0011111111</Line>
+		<Line>01A1111110</Line>
+		<Line>11111L1100</Line>
+		<Line>1111111000</Line>
+		<Line>1111111000</Line>
+		<Line>1111111000</Line>
+	</Level>
+	<Level name="level_6" artefact_begin="11" time="440" chips="0123" sun_inc4="0.09" sun_inc5="0.15" sun_inc6="0.18" tip_time="10" qMusor="50">
+		<Line>001A11A100</Line>
+		<Line>0011111100</Line>
+		<Line>0011111100</Line>
+		<Line>0011111100</Line>
+		<Line>0011111100</Line>
+		<Line>1A111111A1</Line>
+		<Line>01111B1110</Line>
+		<Line>0011111100</Line>
+		<Line>0001111000</Line>
+		<Line>0001111000</Line>
+	</Level>
+	<Level name="level_7" artefact_begin="15" time="390" chips="0123" sun_inc4="0.09" sun_inc5="0.14" sun_inc6="0.17" tip_time="10" qMusor="50">
+		<Line>0000T10000</Line>
+		<Line>A1101A011A</Line>
+		<Line>1110110111</Line>
+		<Line>1110110111</Line>
+		<Line>1110110111</Line>
+		<Line>111A111111</Line>
+		<Line>111111A111</Line>
+		<Line>0111111110</Line>
+		<Line>0011111100</Line>
+		<Line>0011111100</Line>
+	</Level>
+	<Level name="level_2.1" artefact_begin="0" time="670" chips="01243" sun_inc4="0.18" sun_inc5="0.26" sun_inc6="0.29" tip_time="10" qMusor="50">
+		<Line>0000111A1B</Line>
+		<Line>0000111111</Line>
+		<Line>0000111111</Line>
+		<Line>1A11111111</Line>
+		<Line>111-A-1111</Line>
+		<Line>1111111111</Line>
+		<Line>1111110000</Line>
+		<Line>1111110000</Line>
+		<Line>1111110000</Line>
+	</Level>
+	<Level name="level_2.2" artefact_begin="3" time="580" chips="01423" sun_inc4="0.17" sun_inc5="0.24" sun_inc6="0.27" tip_time="10" qMusor="50">
+		<Line>001A101A100</Line>
+		<Line>01111011110</Line>
+		<Line>111A101L111</Line>
+		<Line>11111A11111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>01111111110</Line>
+		<Line>01111111110</Line>
+		<Line>00111111100</Line>
+		<Line>00011111000</Line>
+	</Level>
+	<Level name="level_2.3" artefact_begin="7" time="560" chips="04123" sun_inc4="0.16" sun_inc5="0.23" sun_inc6="0.26" tip_time="10" qMusor="50">
+		<Line>111A1111V</Line>
+		<Line>11A011111</Line>
+		<Line>1A0011111</Line>
+		<Line>100011111</Line>
+		<Line>1---11A11</Line>
+		<Line>111111-11</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+	</Level>
+	<Level name="level_2.4" artefact_begin="11" time="480" chips="01243" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>000010000</Line>
+		<Line>0001A1000</Line>
+		<Line>00A111100</Line>
+		<Line>011111A10</Line>
+		<Line>B11111111</Line>
+		<Line>111111111</Line>
+		<Line>11-111111</Line>
+		<Line>1111-1111</Line>
+		<Line>111101-11</Line>
+		<Line>111000111</Line>
+	</Level>
+	<Level name="level_2.5" artefact_begin="14" time="480" chips="01423" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>000011111</Line>
+		<Line>000A111A1</Line>
+		<Line>001-111-1</Line>
+		<Line>0A1111111</Line>
+		<Line>1-1111111</Line>
+		<Line>11111A111</Line>
+		<Line>11111-111</Line>
+		<Line>01111111T</Line>
+		<Line>001111111</Line>
+		<Line>000111111</Line>
+		<Line>000011111</Line>
+	</Level>
+	<Level name="level_2.6" artefact_begin="18" time="480" chips="01423" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>0000A0000</Line>
+		<Line>000A1A000</Line>
+		<Line>001111100</Line>
+		<Line>011111110</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>0-11111-0</Line>
+		<Line>0-11L11-0</Line>
+		<Line>001111100</Line>
+		<Line>000111000</Line>
+	</Level>
+	<Level name="level_2.7" artefact_begin="21" time="480" chips="01234" sun_inc4="0.19" sun_inc5="0.28" sun_inc6="0.36" tip_time="10" qMusor="50">
+		<Line>A111A111A</Line>
+		<Line>1111A1111</Line>
+		<Line>A1111111A</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>101010101</Line>
+		<Line>001010100</Line>
+	</Level>
+	<Level name="level_2.8" artefact_begin="27" time="100" chips="01423" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>BA10000000</Line>
+		<Line>111A111000</Line>
+		<Line>1111111111</Line>
+		<Line>011111111A</Line>
+		<Line>01111A1111</Line>
+		<Line>0111111111</Line>
+		<Line>0111111110</Line>
+		<Line>0011111100</Line>
+		<Line>0011111000</Line>
+		<Line>00----0000</Line>
+	</Level>
+	<Level name="level_2.9" artefact_begin="31" time="420" chips="01423" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>111111111</Line>
+		<Line>0A11111A0</Line>
+		<Line>101-A-101</Line>
+		<Line>110---011</Line>
+		<Line>1A11111A1</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>0111A1110</Line>
+		<Line>000111000</Line>
+		<Line>000111000</Line>
+	</Level>
+	<Level name="level_2.10" artefact_begin="37" time="430" chips="01243" sun_inc4="0.14" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>00-000-00</Line>
+		<Line>0-A101A-0</Line>
+		<Line>T1111111A</Line>
+		<Line>1111-1111</Line>
+		<Line>1111-1111</Line>
+		<Line>111+A+111</Line>
+		<Line>0111+1110</Line>
+		<Line>001111100</Line>
+		<Line>000111000</Line>
+		<Line>000010000</Line>
+	</Level>
+	<Level name="level_3.1" artefact_begin="0" time="580" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>1111A00000</Line>
+		<Line>111110111A</Line>
+		<Line>1111101111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>0001111111</Line>
+		<Line>01A1111100</Line>
+		<Line>01111R1100</Line>
+		<Line>0111110000</Line>
+		<Line>0111110000</Line>
+	</Level>
+	<Level name="level_3.2" artefact_begin="3" time="500" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>001-11-000</Line>
+		<Line>001A111000</Line>
+		<Line>L11111A000</Line>
+		<Line>A111110111</Line>
+		<Line>111111111A</Line>
+		<Line>1111111111</Line>
+		<Line>1110111111</Line>
+		<Line>0001111111</Line>
+		<Line>0001111100</Line>
+		<Line>0001111100</Line>
+	</Level>
+	<Level name="level_3.3" artefact_begin="7" time="450" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>001AAA100</Line>
+		<Line>011111110</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111000111</Line>
+		<Line>111111111</Line>
+		<Line>T11111111</Line>
+		<Line>*+11111+*</Line>
+		<Line>0+11111+0</Line>
+		<Line>001111100</Line>
+	</Level>
+	<Level name="level_3.4" artefact_begin="10" time="440" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>000A11A000</Line>
+		<Line>0011111100</Line>
+		<Line>0111001110</Line>
+		<Line>0011111100</Line>
+		<Line>0001111000</Line>
+		<Line>A11111111A</Line>
+		<Line>1111111111</Line>
+		<Line>0001111000</Line>
+		<Line>0001B11000</Line>
+		<Line>0001111000</Line>
+		<Line>0001111000</Line>
+	</Level>
+	<Level name="level_3.5" artefact_begin="14" time="400" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>0000AA0000</Line>
+		<Line>0000111000</Line>
+		<Line>0000111100</Line>
+		<Line>00A1111110</Line>
+		<Line>001111111A</Line>
+		<Line>0011111110</Line>
+		<Line>L111111000</Line>
+		<Line>1111111000</Line>
+		<Line>0111111110</Line>
+		<Line>0011111111</Line>
+		<Line>0001111111</Line>
+	</Level>
+	<Level name="level_3.6" artefact_begin="18" time="460" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>0000A0000</Line>
+		<Line>011111110</Line>
+		<Line>0A11A11A0</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111+-+111</Line>
+		<Line>111000111</Line>
+		<Line>111000111</Line>
+	</Level>
+	<Level name="level_3.7" artefact_begin="22" time="460" chips="02354" sun_inc4="0.16" sun_inc5="0.23" sun_inc6="0.26" tip_time="10" qMusor="50">
+		<Line>00A000A00</Line>
+		<Line>0A0A0A0A0</Line>
+		<Line>111111111</Line>
+		<Line>V11111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>011111110</Line>
+		<Line>1---1---1</Line>
+	</Level>
+	<Level name="level_3.8" artefact_begin="28" time="410" chips="02354" sun_inc4="0.18" sun_inc5="0.24" sun_inc6="0.28" tip_time="10" qMusor="50">
+		<Line>111A1A111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>0A11011A0</Line>
+		<Line>001000100</Line>
+		<Line>011101110</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111R11111</Line>
+		<Line>111101111</Line>
+		<Line>+1110111*</Line>
+	</Level>
+	<Level name="level_3.9" artefact_begin="32" time="400" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>00000A00000</Line>
+		<Line>0000AAA0000</Line>
+		<Line>00001110000</Line>
+		<Line>00011111000</Line>
+		<Line>000+++++000</Line>
+		<Line>00111111100</Line>
+		<Line>00111111100</Line>
+		<Line>0T1111111T0</Line>
+		<Line>01111111110</Line>
+		<Line>11111111111</Line>
+		<Line>11011111011</Line>
+	</Level>
+	<Level name="level_3.10" artefact_begin="36" time="470" chips="02354" sun_inc4="0.14" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>1-10000000</Line>
+		<Line>1A10000000</Line>
+		<Line>1111000000</Line>
+		<Line>11111B1000</Line>
+		<Line>1111111000</Line>
+		<Line>1111111100</Line>
+		<Line>11111111--</Line>
+		<Line>0*111111-A</Line>
+		<Line>00111111--</Line>
+	</Level>
+	<Level name="level_3.11" artefact_begin="38" time="470" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>A000A1000A</Line>
+		<Line>1000110001</Line>
+		<Line>1000110001</Line>
+		<Line>1000110001</Line>
+		<Line>1000110001</Line>
+		<Line>-00011000-</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111001111</Line>
+		<Line>1111--1111</Line>
+	</Level>
+	<Level name="level_3.12" artefact_begin="41" time="510" chips="02354" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>011A0A110</Line>
+		<Line>A1110111A</Line>
+		<Line>1111B1111</Line>
+		<Line>11111L111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>-111*111-</Line>
+		<Line>-111*111-</Line>
+		<Line>-111*111-</Line>
+	</Level>
+	<Level name="level_4.1" artefact_begin="0" time="600" chips="02364" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>11A1111A11</Line>
+		<Line>1A-1111-A1</Line>
+		<Line>1ZA1111AZ1</Line>
+		<Line>11Z1111Z11</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>11111V1111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+	</Level>
+	<Level name="level_4.2" artefact_begin="6" time="500" chips="02364" sun_inc4="0.14" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>A0A0AA0A0A</Line>
+		<Line>1010110101</Line>
+		<Line>1010110101</Line>
+		<Line>1110110111</Line>
+		<Line>1111ZZ1111</Line>
+		<Line>0111111110</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111B11111</Line>
+		<Line>0-111111-0</Line>
+		<Line>0011111100</Line>
+	</Level>
+	<Level name="level_4.3" artefact_begin="12" time="420" chips="02364" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>ZZZZ00ZZZZ</Line>
+		<Line>1111001111</Line>
+		<Line>A11A00A11A</Line>
+		<Line>1111001111</Line>
+		<Line>1111001111</Line>
+		<Line>1111001111</Line>
+		<Line>1111001111</Line>
+	</Level>
+	<Level name="level_4.4" artefact_begin="16" time="430" chips="02364" sun_inc4="0.13" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>0000A0000</Line>
+		<Line>010111010</Line>
+		<Line>-A10001A-</Line>
+		<Line>0Z01110Z0</Line>
+		<Line>001111100</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>11R111111</Line>
+		<Line>011111110</Line>
+	</Level>
+	<Level name="level_4.5" artefact_begin="19" time="420" chips="02364" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>-A-000-A-</Line>
+		<Line>1+11011+1</Line>
+		<Line>-1-1T1-1-</Line>
+		<Line>110111011</Line>
+		<Line>100111001</Line>
+		<Line>001111100</Line>
+		<Line>011111110</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>1111*1111</Line>
+	</Level>
+	<Level name="level_4.6" artefact_begin="21" time="500" chips="02364" sun_inc4="0.14" sun_inc5="0.22" sun_inc6="0.25" tip_time="10" qMusor="50">
+		<Line>1A11000000</Line>
+		<Line>A1111A0000</Line>
+		<Line>1111111100</Line>
+		<Line>11111111AA</Line>
+		<Line>1111111110</Line>
+		<Line>1111111100</Line>
+		<Line>+++1111100</Line>
+		<Line>00++1L1110</Line>
+		<Line>0000111111</Line>
+		<Line>0000001111</Line>
+	</Level>
+	<Level name="level_4.7" artefact_begin="26" time="380" chips="02364" sun_inc4="0.13" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>AZZZ1111A1</Line>
+		<Line>ZZZZ1A1111</Line>
+		<Line>ZZZZ111A11</Line>
+		<Line>0000111111</Line>
+		<Line>0000111111</Line>
+		<Line>0000111111</Line>
+		<Line>0000111111</Line>
+		<Line>0000011111</Line>
+		<Line>00000011B1</Line>
+		<Line>0000000111</Line>
+	</Level>
+	<Level name="level_4.8" artefact_begin="30" time="450" chips="02364" sun_inc4="0.12" sun_inc5="0.17" sun_inc6="0.21" tip_time="10" qMusor="50">
+		<Line>A111111111A</Line>
+		<Line>-111111111-</Line>
+		<Line>11111R11111</Line>
+		<Line>11111111111</Line>
+		<Line>1111ZZZ1111</Line>
+		<Line>11111111111</Line>
+		<Line>11111A11111</Line>
+		<Line>111*111*111</Line>
+		<Line>11100000111</Line>
+		<Line>11100000111</Line>
+	</Level>
+	<Level name="level_4.9" artefact_begin="33" time="440" chips="02364" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>B11-------</Line>
+		<Line>110A-----A</Line>
+		<Line>1100A---A0</Line>
+		<Line>11100A-A00</Line>
+		<Line>111100A001</Line>
+		<Line>1111100011</Line>
+		<Line>1111110111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+	</Level>
+	<Level name="level_4.10" artefact_begin="40" time="440" chips="02364" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>1110AA0111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>0111111110</Line>
+		<Line>1111111111</Line>
+		<Line>A11111111A</Line>
+		<Line>0111111110</Line>
+		<Line>-111R1111-</Line>
+		<Line>+11111111+</Line>
+		<Line>+11100111+</Line>
+	</Level>
+	<Level name="level_4.11" artefact_begin="44" time="470" chips="02364" sun_inc4="0.15" sun_inc5="0.22" sun_inc6="0.26" tip_time="10" qMusor="50">
+		<Line>A011111110A</Line>
+		<Line>A011111110A</Line>
+		<Line>A011111110A</Line>
+		<Line>10111111101</Line>
+		<Line>V011111110T</Line>
+		<Line>10111111101</Line>
+		<Line>10111111101</Line>
+		<Line>10111111101</Line>
+		<Line>10111111101</Line>
+		<Line>10111111101</Line>
+	</Level>
+	<Level name="level_4.12" artefact_begin="50" time="480" chips="02364" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>A001AA100A</Line>
+		<Line>0111111110</Line>
+		<Line>1111111111</Line>
+		<Line>1Z11111111</Line>
+		<Line>Z1Z11111ZZ</Line>
+		<Line>11Z1111Z11</Line>
+		<Line>111Z**1Z11</Line>
+		<Line>111100Z111</Line>
+		<Line>1110000111</Line>
+	</Level>
+	<Level name="level_5.1" artefact_begin="0" time="550" chips="02734" sun_inc4="0.13" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>+0000000+</Line>
+		<Line>11AABAA11</Line>
+		<Line>010010010</Line>
+		<Line>111111111</Line>
+		<Line>111101111</Line>
+		<Line>111101111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>011X1X110</Line>
+		<Line>011111110</Line>
+		<Line>001111100</Line>
+	</Level>
+	<Level name="level_5.2" artefact_begin="4" time="500" chips="02734" sun_inc4="0.13" sun_inc5="0.21" sun_inc6="0.24" tip_time="9" qMusor="50">
+		<Line>1111111111</Line>
+		<Line>111A11A111</Line>
+		<Line>Z11111111Z</Line>
+		<Line>LZ111111Z1</Line>
+		<Line>11XXXXXX11</Line>
+		<Line>111ZZZZ111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+	</Level>
+	<Level name="level_5.3" artefact_begin="6" time="420" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>1100110011</Line>
+		<Line>0A101101A0</Line>
+		<Line>001A111100</Line>
+		<Line>001-11A100</Line>
+		<Line>001111-100</Line>
+		<Line>0011111100</Line>
+		<Line>1011111101</Line>
+		<Line>1-111111-1</Line>
+		<Line>0+111111+0</Line>
+		<Line>00111T1100</Line>
+		<Line>0001111000</Line>
+	</Level>
+	<Level name="level_5.4" artefact_begin="10" time="400" chips="02734" sun_inc4="0.23" sun_inc5="0.34" sun_inc6="0.38" tip_time="10" qMusor="50">
+		<Line>V00000000A</Line>
+		<Line>1100000001</Line>
+		<Line>1110000001</Line>
+		<Line>1111000001</Line>
+		<Line>1111100001</Line>
+		<Line>1111110001</Line>
+		<Line>1111111001</Line>
+		<Line>1111111101</Line>
+		<Line>1A1111A111</Line>
+		<Line>1111111111</Line>
+	</Level>
+	<Level name="level_5.5" artefact_begin="13" time="390" chips="02734" sun_inc4="0.09" sun_inc5="0.16" sun_inc6="0.2" tip_time="10" qMusor="50">
+		<Line>0000AA0000</Line>
+		<Line>0001111000</Line>
+		<Line>0011111100</Line>
+		<Line>0111111110</Line>
+		<Line>A11111111A</Line>
+		<Line>+11111111+</Line>
+		<Line>0111111110</Line>
+		<Line>00*1111*00</Line>
+		<Line>0001111000</Line>
+		<Line>0000110000</Line>
+	</Level>
+	<Level name="level_5.6" artefact_begin="17" time="400" chips="02734" sun_inc4="0.11" sun_inc5="0.18" sun_inc6="0.21" tip_time="10" qMusor="50">
+		<Line>001111Z000</Line>
+		<Line>0A11110000</Line>
+		<Line>111-111000</Line>
+		<Line>1-11A11A00</Line>
+		<Line>11111111A0</Line>
+		<Line>1111111111</Line>
+		<Line>111-1111+0</Line>
+		<Line>B111111100</Line>
+		<Line>1111111000</Line>
+		<Line>01111-0000</Line>
+		<Line>0011111000</Line>
+	</Level>
+	<Level name="level_5.7" artefact_begin="21" time="400" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>001AAA100</Line>
+		<Line>0001-1000</Line>
+		<Line>0A11011A0</Line>
+		<Line>111010111</Line>
+		<Line>100111001</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>1111*1111</Line>
+		<Line>111000111</Line>
+	</Level>
+	<Level name="level_5.8" artefact_begin="26" time="410" chips="02734" sun_inc4="0.1" sun_inc5="0.17" sun_inc6="0.21" tip_time="10" qMusor="50">
+		<Line>1000110001</Line>
+		<Line>1A111111A1</Line>
+		<Line>000LAAA000</Line>
+		<Line>1110110111</Line>
+		<Line>111-111111</Line>
+		<Line>011111-110</Line>
+		<Line>0111111110</Line>
+		<Line>10-1111-01</Line>
+		<Line>1111111111</Line>
+		<Line>-11111111-</Line>
+		<Line>00+1111+00</Line>
+	</Level>
+	<Level name="level_5.9" artefact_begin="31" time="410" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>A11111111A</Line>
+		<Line>111A111111</Line>
+		<Line>111111R111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>111111111*</Line>
+		<Line>*001111000</Line>
+		<Line>0001111000</Line>
+	</Level>
+	<Level name="level_5.10" artefact_begin="34" time="390" chips="02734" sun_inc4="0.1" sun_inc5="0.15" sun_inc6="0.18" tip_time="10" qMusor="50">
+		<Line>0Z100001+0</Line>
+		<Line>001B00A100</Line>
+		<Line>0A000000A0</Line>
+		<Line>1110000111</Line>
+		<Line>1111001111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>111-11-111</Line>
+		<Line>1A11--11A1</Line>
+		<Line>0011111100</Line>
+		<Line>0++1111++0</Line>
+	</Level>
+	<Level name="level_5.11" artefact_begin="39" time="380" chips="02734" sun_inc4="0.12" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>0A000A000A0</Line>
+		<Line>01000100010</Line>
+		<Line>01000100010</Line>
+		<Line>01000100010</Line>
+		<Line>01000100010</Line>
+	</Level>
+	<Level name="level_5.12" artefact_begin="42" time="430" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>--X111R111</Line>
+		<Line>-AX111111A</Line>
+		<Line>--X1111111</Line>
+		<Line>111111A111</Line>
+		<Line>111A111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>*11111111*</Line>
+		<Line>**111111**</Line>
+	</Level>
+	<Level name="level_6.1" artefact_begin="0" time="520" chips="02374" sun_inc4="0.13" sun_inc5="0.21" sun_inc6="0.24" tip_time="10" qMusor="50">
+		<Line>A11111T1ZA</Line>
+		<Line>-111A111ZZ</Line>
+		<Line>1111-11111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1101101111</Line>
+		<Line>1101101111</Line>
+	</Level>
+	<Level name="level_6.2" artefact_begin="3" time="380" chips="10234" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>100111111A</Line>
+		<Line>0A10011111</Line>
+		<Line>0111101111</Line>
+		<Line>V0111A0111</Line>
+		<Line>1011-0-111</Line>
+		<Line>110A011111</Line>
+		<Line>11-0-11111</Line>
+		<Line>111111111*</Line>
+		<Line>1111111110</Line>
+		<Line>1111111110</Line>
+		<Line>*11111100*</Line>
+	</Level>
+	<Level name="level_6.3" artefact_begin="7" time="450" chips="10234" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>1001110000</Line>
+		<Line>011AA11000</Line>
+		<Line>0111111000</Line>
+		<Line>A11111A-00</Line>
+		<Line>11111111-0</Line>
+		<Line>1111111111</Line>
+		<Line>1111A11110</Line>
+		<Line>*1B1111100</Line>
+		<Line>0111111000</Line>
+		<Line>0--1111000</Line>
+		<Line>*00--10000</Line>
+	</Level>
+	<Level name="level_6.4" artefact_begin="12" time="380" chips="10234" sun_inc4="0.11" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>A0000000A</Line>
+		<Line>11A1-1A11</Line>
+		<Line>111111111</Line>
+		<Line>-1111111-</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>0*1L111*0</Line>
+		<Line>001111100</Line>
+		<Line>000010000</Line>
+	</Level>
+	<Level name="level_6.5" artefact_begin="16" time="290" chips="10234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>00Z0000Z00</Line>
+		<Line>100A00A001</Line>
+		<Line>1100AA0011</Line>
+		<Line>1111111111</Line>
+		<Line>01-1111-10</Line>
+		<Line>0111111110</Line>
+		<Line>0111111110</Line>
+		<Line>0111111110</Line>
+		<Line>0111111110</Line>
+		<Line>01B1111B10</Line>
+		<Line>0111++1110</Line>
+	</Level>
+	<Level name="level_6.6" artefact_begin="20" time="400" chips="10234" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>0000A0000</Line>
+		<Line>000101000</Line>
+		<Line>A111A111A</Line>
+		<Line>000-0-000</Line>
+		<Line>-101-101-</Line>
+		<Line>110111011</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>11111T111</Line>
+		<Line>*111+111*</Line>
+	</Level>
+	<Level name="level_6.7" artefact_begin="24" time="400" chips="10234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>00A111A00</Line>
+		<Line>001111100</Line>
+		<Line>011111110</Line>
+		<Line>A-11111-A</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>111111111</Line>
+		<Line>*1111111*</Line>
+		<Line>0111R1110</Line>
+		<Line>001111100</Line>
+		<Line>00*111100</Line>
+	</Level>
+	<Level name="level_6.8" artefact_begin="28" time="390" chips="10234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>1100110011</Line>
+		<Line>1101111011</Line>
+		<Line>1101AA1011</Line>
+		<Line>1111111111</Line>
+		<Line>A11111111A</Line>
+		<Line>0-111111-0</Line>
+		<Line>00-1111-00</Line>
+		<Line>111-11-111</Line>
+		<Line>1111111111</Line>
+		<Line>01111111T0</Line>
+		<Line>0111**1110</Line>
+	</Level>
+	<Level name="level_6.9" artefact_begin="32" time="400" chips="10234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>00011L1000</Line>
+		<Line>0A11AA11A0</Line>
+		<Line>ZZ111111ZZ</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>-*111111*-</Line>
+		<Line>0011111100</Line>
+		<Line>001*11*100</Line>
+	</Level>
+	<Level name="level_6.10" artefact_begin="36" time="380" chips="10234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>0010000100</Line>
+		<Line>0111001110</Line>
+		<Line>111AAAA111</Line>
+		<Line>011-11-110</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>01111R1110</Line>
+		<Line>11-1111-11</Line>
+		<Line>111*11*111</Line>
+		<Line>111*11*111</Line>
+		<Line>1*100001*1</Line>
+	</Level>
+	<Level name="level_6.11" artefact_begin="40" time="430" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>A0XXXXXXX0A</Line>
+		<Line>+0111A1110+</Line>
+		<Line>+0111*1110+</Line>
+	</Level>
+	<Level name="level_6.12" artefact_begin="43" time="490" chips="10234" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>A11000011A</Line>
+		<Line>11111R1111</Line>
+		<Line>11A1111A11</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>***0000***</Line>
+	</Level>
+	<Level name="level_7.1" artefact_begin="0" time="380" chips="12345" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>0V1000001V0</Line>
+		<Line>11110001111</Line>
+		<Line>11111011111</Line>
+		<Line>11111A11111</Line>
+		<Line>11111A11111</Line>
+		<Line>*1111A1111*</Line>
+		<Line>01111111110</Line>
+		<Line>01111111110</Line>
+		<Line>00111111100</Line>
+		<Line>00111111100</Line>
+		<Line>0000---0000</Line>
+	</Level>
+	<Level name="level_7.2" artefact_begin="3" time="320" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>1111111111</Line>
+		<Line>1100000011</Line>
+		<Line>1110101111</Line>
+		<Line>1110100011</Line>
+		<Line>1110111011</Line>
+		<Line>A110100011</Line>
+		<Line>111111111A</Line>
+		<Line>111111L111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>*11111111*</Line>
+	</Level>
+	<Level name="level_7.3" artefact_begin="5" time="400" chips="15234" sun_inc4="0.1" sun_inc5="0.15" sun_inc6="0.18" tip_time="10" qMusor="50">
+		<Line>A-Z1111X+A</Line>
+		<Line>-AZ11T1XA+</Line>
+		<Line>ZZZ1111XXX</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1100110011</Line>
+		<Line>1100110011</Line>
+	</Level>
+	<Level name="level_7.4" artefact_begin="9" time="65" chips="15234" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>RT111AA1AA</Line>
+		<Line>B111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>111T111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+	</Level>
+	<Level name="level_7.5" artefact_begin="13" time="410" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.23" tip_time="10" qMusor="50">
+		<Line>R11ZZA0000</Line>
+		<Line>1A1ZZ00000</Line>
+		<Line>111Z00000A</Line>
+		<Line>1110001111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>111111111*</Line>
+		<Line>1111111110</Line>
+		<Line>1111111110</Line>
+		<Line>1111111*00</Line>
+		<Line>11111*0000</Line>
+	</Level>
+	<Level name="level_7.6" artefact_begin="16" time="360" chips="15234" sun_inc4="0.05" sun_inc5="0.1" sun_inc6="0.1" tip_time="10" qMusor="50">
+		<Line>1A1A1A111A</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>11+*11*+11</Line>
+		<Line>11**11**11</Line>
+	</Level>
+	<Level name="level_7.7" artefact_begin="20" time="370" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>000000A000</Line>
+		<Line>00000A-000</Line>
+		<Line>0000A0-000</Line>
+		<Line>000A0-1000</Line>
+		<Line>00A0-11000</Line>
+		<Line>0A0-11111R</Line>
+		<Line>1--1111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>*1*1*1*1*1</Line>
+	</Level>
+	<Level name="level_7.8" artefact_begin="26" time="300" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>00001A0000</Line>
+		<Line>0001++1000</Line>
+		<Line>0011A11100</Line>
+		<Line>011111A110</Line>
+		<Line>B11111111A</Line>
+		<Line>+1A111111-</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>01-0**0-10</Line>
+		<Line>0000**0000</Line>
+	</Level>
+	<Level name="level_7.9" artefact_begin="31" time="430" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>-A11A00000</Line>
+		<Line>11A11+0000</Line>
+		<Line>1111A11000</Line>
+		<Line>-111111+00</Line>
+		<Line>1111111110</Line>
+		<Line>1111111110</Line>
+		<Line>01111111T1</Line>
+		<Line>00*1111111</Line>
+		<Line>000*111111</Line>
+		<Line>0000*11111</Line>
+		<Line>00000*1111</Line>
+	</Level>
+	<Level name="level_7.10" artefact_begin="35" time="500" chips="15234" sun_inc4="0.11" sun_inc5="0.19" sun_inc6="0.22" tip_time="10" qMusor="50">
+		<Line>T1111A1111T</Line>
+		<Line>-111111111-</Line>
+		<Line>R1111A1111V</Line>
+		<Line>11111111111</Line>
+		<Line>11111A11111</Line>
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>11111*11111</Line>
+		<Line>1111***1111</Line>
+		<Line>111*****111</Line>
+	</Level>
+	<Level name="level_7.11" artefact_begin="38" time="450" chips="02734" sun_inc4="0.12" sun_inc5="0.2" sun_inc6="0.23" tip_time="9" qMusor="50">
+		<Line>11111111111</Line>
+		<Line>11111111111</Line>
+		<Line>Z111111111Z</Line>
+		<Line>ZZ1111111ZZ</Line>
+		<Line>ZZZZ111ZZZZ</Line>
+		<Line>ZZZZZ1ZZZZZ</Line>
+		<Line>ZZZZZZZZZZZ</Line>
+		<Line>ZZZZZZZZZZZ</Line>
+		<Line>A01ZXAXZ10A</Line>
+		<Line>+011XAX110+</Line>
+		<Line>+0111*1110+</Line>
+	</Level>
+	<Level name="level_7.12" artefact_begin="42" time="540" chips="15234" sun_inc4="0.17" sun_inc5="0.25" sun_inc6="0.29" tip_time="9" qMusor="50">
+		<Line>1-111111-1</Line>
+		<Line>-11111111-</Line>
+		<Line>1111AA1111</Line>
+		<Line>1111AA1111</Line>
+		<Line>1111AA1111</Line>
+		<Line>1111111111</Line>
+		<Line>1111111111</Line>
+		<Line>111****111</Line>
+		<Line>1L100001B1</Line>
+		<Line>BRT0000RTL</Line>
+	</Level>
+</Levels>

@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<Effects>
+	<ParticleSystem name="IndiaWaterFall1" texture="textures\Fields\India\fontan.jpg" numOfParticles="30" lifeInitial="1.9" lifeVariation="0.3" startTime="1.9" additive="true">
+		<Param name="x" initial="0" variation="20" d="" dVariation="0">
+			<spline>
+				<key initial="6" variation="1"/>
+				<key initial="12" variation="1"/>
+				<key initial="14" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="38" variation="2"/>
+				<key initial="28" variation="2"/>
+				<key initial="0" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="6" variation="1" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="6" variation="1"/>
+				<key initial="8" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="90"/>
+		<Param name="red" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaWaterFall2" texture="textures\Fields\India\fontan.jpg" numOfParticles="30" lifeInitial="1.8" lifeVariation="0.3" startTime="1.8" additive="true">
+		<Param name="x" initial="0" variation="20" d="" dVariation="0">
+			<spline>
+				<key initial="16" variation="1"/>
+				<key initial="25" variation="1"/>
+				<key initial="28" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="38" variation="2"/>
+				<key initial="28" variation="2"/>
+				<key initial="0" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="6" variation="1" d="0" dVariation="0">
+			<spline>
+				<key initial="4" variation="1"/>
+				<key initial="6" variation="1"/>
+				<key initial="8" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="90"/>
+		<Param name="red" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaWaterFall3" texture="textures\Fields\India\fontan.jpg" numOfParticles="30" lifeInitial="1.65" lifeVariation="0.3" startTime="1.65" additive="true">
+		<Param name="x" initial="0" variation="20" d="" dVariation="0">
+			<spline>
+				<key initial="37" variation="1"/>
+				<key initial="42" variation="1"/>
+				<key initial="44" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="38" variation="2"/>
+				<key initial="28" variation="2"/>
+				<key initial="0" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="6" variation="1" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="6" variation="1"/>
+				<key initial="8" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="90"/>
+		<Param name="red" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaWaterFall4" texture="textures\Fields\India\fontan.jpg" numOfParticles="30" lifeInitial="2.0" lifeVariation="0.3" startTime="2.0" additive="true">
+		<Param name="x" initial="0" variation="20" d="" dVariation="0">
+			<spline>
+				<key initial="16" variation="1"/>
+				<key initial="35" variation="1"/>
+				<key initial="34" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="44" variation="2"/>
+				<key initial="31" variation="2"/>
+				<key initial="0" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="6" variation="1" d="0" dVariation="0">
+			<spline>
+				<key initial="4" variation="0"/>
+				<key initial="4" variation="0"/>
+				<key initial="5" variation="1"/>
+				<key initial="6" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="90"/>
+		<Param name="red" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="255" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="200" variation="2"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaWaterSpark" texture="textures\Fields\India\fspark.jpg" numOfParticles="40" lifeInitial="1.2" lifeVariation="0.3" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0"/>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="4" variation="0"/>
+				<key initial="9" variation="1"/>
+				<key initial="4" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0"/>
+		<Param name="angle" initial="0" variation="360" d="0" dVariation="90"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlame1" texture="textures\Fields\India\flame.png" numOfParticles="15" lifeInitial="1.2" lifeVariation="0.2" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="8" variation="2"/>
+				<key initial="12" variation="5"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="3" variation="0"/>
+				<key initial="8" variation="1"/>
+				<key initial="3" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="20"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlame2" texture="textures\Fields\India\flame.png" numOfParticles="10" lifeInitial="1.0" lifeVariation="0.2" startTime="0.5">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="15" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="6" variation="2"/>
+				<key initial="8" variation="5"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="5" variation="1"/>
+				<key initial="1" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="10"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlame3" texture="textures\Fields\India\flame.png" numOfParticles="8" lifeInitial="0.8" lifeVariation="0.2" startTime="0.4">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="4" variation="1"/>
+				<key initial="6" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="4" variation="1"/>
+				<key initial="1" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="5"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlame4" texture="textures\Fields\India\flame.png" numOfParticles="6" lifeInitial="0.8" lifeVariation="0.2" startTime="0.3">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="2" variation="1"/>
+				<key initial="3" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="3" variation="1"/>
+				<key initial="1" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="10"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaMoonBlik" texture="textures\particles\dot.jpg" numOfParticles="12" lifeInitial="1.8" lifeVariation="0.3" startTime="0.4">
+		<Param name="x" initial="0" variation="25" d="0" dVariation="0"/>
+		<Param name="y" initial="20" variation="20" d="0" dVariation="0"/>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="5" variation="3"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="5"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="200" variation="0"/>
+				<key initial="200" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="AmericaMoonBlik" texture="textures\particles\dot.jpg" numOfParticles="12" lifeInitial="1.8" lifeVariation="0.3" startTime="0.4">
+		<Param name="x" initial="0" variation="17" d="0" dVariation="0"/>
+		<Param name="y" initial="20" variation="20" d="0" dVariation="0"/>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="4" variation="2"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="5"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="200" variation="0"/>
+				<key initial="200" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlameSpark1" texture="textures\particles\dot.jpg" numOfParticles="2" lifeInitial="1.1" lifeVariation="0.3" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="2"/>
+				<key initial="0" variation="4"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="15" variation="2"/>
+				<key initial="22" variation="5"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="2" variation="1"/>
+				<key initial="1" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="5"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="50" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="50" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="IndiaFlameSpark2" texture="textures\particles\dot.jpg" numOfParticles="2" lifeInitial="1.1" lifeVariation="0.3" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="2"/>
+				<key initial="0" variation="4"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="10" variation="2"/>
+				<key initial="18" variation="5"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="8" variation="3" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="2" variation="1"/>
+				<key initial="1" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="5"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="50" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="50" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="ChinaFlame1" texture="textures\Fields\China\flame.png" numOfParticles="15" lifeInitial="1.2" lifeVariation="0.2" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="-1" variation="0"/>
+				<key initial="-2" variation="2"/>
+				<key initial="-2" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="3" variation="0"/>
+				<key initial="6" variation="1"/>
+				<key initial="9" variation="2"/>
+				<key initial="15" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="18" variation="5" d="0" dVariation="0">
+			<spline>
+				<key initial="3" variation="0"/>
+				<key initial="9" variation="1"/>
+				<key initial="2" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="50"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="ChinaFlame2" texture="textures\Fields\China\flame.png" numOfParticles="13" lifeInitial="1.1" lifeVariation="0.2" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="0"/>
+				<key initial="-1" variation="1"/>
+				<key initial="-1" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="5" variation="1"/>
+				<key initial="8" variation="2"/>
+				<key initial="14" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="18" variation="5" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="7" variation="1"/>
+				<key initial="2" variation="2"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="50"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="ChinaFlame3" texture="textures\Fields\China\flame.png" numOfParticles="11" lifeInitial="1.0" lifeVariation="0.2" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="2" variation="1"/>
+				<key initial="4" variation="2"/>
+				<key initial="6" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="18" variation="5" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="6" variation="1"/>
+				<key initial="1" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="50"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="ChinaFlame4" texture="textures\Fields\China\flame.png" numOfParticles="6" lifeInitial="0.8" lifeVariation="0.2" startTime="1.0">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+				<key initial="0" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="1" variation="0"/>
+				<key initial="1" variation="1"/>
+				<key initial="3" variation="2"/>
+				<key initial="5" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="18" variation="5" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="1"/>
+				<key initial="3" variation="1"/>
+				<key initial="1" variation="1"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="50"/>
+		<Param name="red" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="green" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="blue" initial="220" variation="30" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="ArtFlame1" texture="textures\Fields\India\flame.png" numOfParticles="45" lifeInitial="2.5" lifeVariation="1.0" startTime="0.75">
+		<Param name="x" initial="31" variation="28" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="0" variation="2"/>
+				<key initial="0" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="y" initial="0" variation="20" d="0" dVariation="0">
+			<spline>
+				<key initial="2" variation="0"/>
+				<key initial="3" variation="0"/>
+				<key initial="4" variation="0"/>
+				<key initial="6" variation="0"/>
+				<key initial="12" variation="3"/>
+				<key initial="16" variation="5"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="14" variation="4" d="0" dVariation="0">
+			<spline>
+				<key initial="12" variation="0"/>
+				<key initial="33" variation="2"/>
+				<key initial="9" variation="3"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0" variation="0" d="0" dVariation="90"/>
+		<Param name="red" initial="200" variation="50" d="0" dVariation="0"/>
+		<Param name="green" initial="200" variation="50" d="0" dVariation="0"/>
+		<Param name="blue" initial="200" variation="50" d="0" dVariation="0"/>
+		<Param name="alpha" initial="0" variation="0" d="0" dVariation="0">
+			<spline>
+				<key initial="0" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="255" variation="0"/>
+				<key initial="0" variation="0"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<ParticleSystem name="RainBlow_RainBlow" numOfParticles="8" lifeInitial="0.50" lifeVariation="0.08" startTime="0.00" additive="false" linkedParticles="false" orientParticles="false" texture="adot.png">
+		<Param name="x" initial="0.00" variation="0.00" d="0.00" dVariation="38.00" d2="0.00" d2Variation="0.00"/>
+		<Param name="y" initial="0.00" variation="0.00" d="0.00" dVariation="50.00" d2="0.00" d2Variation="0.00">
+			<spline>
+				<key time="0.00" initial="0.00" variation="0.00"/>
+				<key time="0.50" initial="6.80" variation="3.07"/>
+				<key time="1.00" initial="0.00" variation="0.00"/>
+			</spline>
+		</Param>
+		<Param name="size" initial="3.00" variation="2.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00">
+			<spline>
+				<key time="0.00" initial="2.5" variation="1.33"/>
+				<key time="1.00" initial="1.68" variation="0.00"/>
+			</spline>
+		</Param>
+		<Param name="angle" initial="0.00" variation="0.00" d="0.00" dVariation="0.00" d2="0.00" d2Variation="0.00"/>
+		<Param name="red">
+			<spline>
+				<key time="0.00" initial="217.00" variation="0.00"/>
+				<key time="1.00" initial="255.00" variation="0.00"/>
+			</spline>
+		</Param>
+		<Param name="green">
+			<spline>
+				<key time="0.00" initial="238.00" variation="0.00"/>
+				<key time="1.00" initial="255.00" variation="0.00"/>
+			</spline>
+		</Param>
+		<Param name="blue">
+			<spline>
+				<key time="0.00" initial="253.00" variation="0.00"/>
+				<key time="1.00" initial="255.00" variation="0.00"/>
+			</spline>
+		</Param>
+		<Param name="alpha">
+			<spline>
+				<key time="0.00" initial="64.00" variation="0.00"/>
+				<key time="1.00" initial="0.00" variation="0.00"/>
+			</spline>
+		</Param>
+	</ParticleSystem>
+	<Effect name="RainBlow">
+		<ParticleSystem name="RainBlow_RainBlow" needStartDeadCounter="true" deadCountTime="0.00" bornTime="0.00"/>
+	</Effect>
+	<Effect name="IndiaWaterFall">
+		<ParticleSystem name="IndiaWaterFall1" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaWaterFall2" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaWaterFall3" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaWaterFall4" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaWaterSpark" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="IndiaFlame1">
+		<ParticleSystem name="IndiaFlame1" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaFlameSpark1" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="IndiaFlame2">
+		<ParticleSystem name="IndiaFlame2" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+		<ParticleSystem name="IndiaFlameSpark2" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="IndiaFlame3">
+		<ParticleSystem name="IndiaFlame3" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="IndiaFlame4">
+		<ParticleSystem name="IndiaFlame4" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="IndiaMoonBlik">
+		<ParticleSystem name="IndiaMoonBlik" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="AmericaMoonBlik">
+		<ParticleSystem name="AmericaMoonBlik" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="ChinaFlame1">
+		<ParticleSystem name="ChinaFlame1" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="ChinaFlame2">
+		<ParticleSystem name="ChinaFlame2" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="ChinaFlame3">
+		<ParticleSystem name="ChinaFlame3" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="ChinaFlame4">
+		<ParticleSystem name="ChinaFlame4" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+	<Effect name="ArtFlame1">
+		<ParticleSystem name="ArtFlame1" needStartDeadCounter="false" deadCountTime="0" bornTime="0"/>
+	</Effect>
+</Effects>

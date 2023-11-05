@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by vova (EMBRACE) -->
+<ArtefactsNotify>
+	<ArtefactNotify name="Mr. Fogg's Note-book">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Mr. Fogg will use his note-book to record interesting facts and details about the journey around the world."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mr. Fogg's Savings">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="One cannot travel without the necessary means. Money will help us solve many problems that may arise during the long trip."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Compass">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="One will never get lost with this accurate compass. It will always show us the right direction."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mr. Fogg's Globe">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Mr. Fogg's globe shows our route as well as our location day by day."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mr. Fogg's Pocket Watch">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="When one only has 80 days to make the tour around the world, time is most precious. We must always know how much is left."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mysterious Flask">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This is Mr. Fogg's personalized flask that he always has with him. The contents thereof remain a mystery."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Compact Binoculars">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A set of binoculars is an important tool that allows taking a closer look at something in the distance. We will definitely have a lot to see during our trip."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Heavy Anchor">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A ship cannot stop without an anchor. It will be carried away by the wind and the current."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Porthole">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="It can be chilly and windy at sea. Keep all the portholes in your cabin closed or an illness is inevitable."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mariner's Compass">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The captain must always keep an eye on the mariner's compass, thus ensuring the safe navigation of his ship."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Ship's Bell">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A ship's bell is used to sound the time on board ship and is also practical in foggy weather."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Extremely Precise Sand Glass">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Without a sand glass the crew will not be able to watch the time and remain on course."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Bright Lantern">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="At night the deck should be lit brightly or it may be very dangerous to go upon."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Lifebuoy">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A lifebuoy is used to rescue a person fallen overboard. Hopefully, there will not be a need to use it on this voyage."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Marine Telescope">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The captain uses the telescope to sight the coastline and passing vessels. Without one, the ship is blind."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Wheel">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Can there be a ship without a wheel? It is absolutely impossible to navigate the vessel without it."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Pharaoh's Ring">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This sacred ring was worn by all the pharaohs of Egypt. It was passed on from one generation to the next and was a symbol of the pharaohs' divine nature."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Lotus">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Lotus is a sacred flower of the Egyptians, a symbol of beauty, purity and creation."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Cleopatra's mirror">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The famous Egyptian ruler Cleopatra loved to look in her mirror and admire her own fascinating beauty."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Golden Ankh">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The Golden Ankh is a symbol of eternal life and the rising sun. It is believed that wearing this amulet extends your life and secures entry into the Kingdom of the Dead after death."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Egyptian Jug">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Egyptian pharaohs used such golden jugs to pour water for washing."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Nefertiti's Necklace">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='This is the golden necklace of the powerful queen Nefertiti, the "Mistress of Happiness", as Egyptians called her.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Scarab Amulet">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The Scarab Amulet was sacred to the Egyptians and symbolized rebirth. They also believed it would bring good luck in military affairs."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Goddess Bast Statue">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The golden statue of the Egyptian Goddess Bast represented as a cat is a symbol of joy, happiness and love."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Pharaoh's Sacred Crown">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The crown of Egyptian pharaohs is a symbol of power and divine nature of the person wearing it."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Egyptian Vase">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This beautiful vase was found in the tomb of the most famous Egyptian pharaoh Tutankhamun."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Cobra and Vulture">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This figurine symbolizes the unification of cobra and vulture, the sacred creatures of Upper and Lower Egypt."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="The Sun">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The depiction of the sun decorated with precious gems was the symbol of absolute and eternal truth."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Oil Lamp">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="An ancient oil lamp decorated with precious gems is not used nowadays, but can be a great gift."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Ganesha Statue">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Ganesha is a four-armed elephant-headed Hindu god, the deva of intellect and wisdom."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Golden Cow Statue">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The cow is a sacred animal in India, the symbol of abundance, the sanctity of all life and of the earth."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Jade Lotus">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="In ancient India lotus was symbolic of divinity, creative powers and fertility."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Elephant Statue">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The elephant is a revered animal in India. The white elephant which brought the good news of Buddha's birth became the symbol of liberation from the bonds of the world."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Bottle of Incense">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This bottle of extremely rare incense is a unique piece of art of the Indian perfumers, perfect in its every detail."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Quilled Jewelry">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A golden peacock's feather with gems will be a perfect decoration for the turban of any rajah."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Jeweled Amulet">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The Hamsa hand jeweled pendant is a symbol of unity and luck."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Mystic Golden Symbol">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This is a stylized pictograph of Om, the most sacred sound for Indians. They believe this symbol brings good luck and helps maintain mental and emotional calmness."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Bracelet">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A gorgeous golden bracelet with emeralds is a perfect jewelry accessory that will satisfy even the most demanding tastes."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Paper Fan">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which wind creates on a day that hot is." A traditional Chinese paper fan decorated with national ornaments will save you on a hot and windless day.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Cage with a Mechanical Nightingale">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which tirelessly pleases our ear with singing." A mechanical nightingale will sing until it runs down.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Chinese Umbrella">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which from the burning sun saves." A Chinese paper umbrella will not save you from rain, but is the best protection from the scorching sun.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Yixing Clay Teapot">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"A mysterious vessel that the living power holds." The brown Yixing clay teapot is used to brew tea, the traditional Chinese drink.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Golden Tortoise">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which from misfortunes protects." The Chinese believe that the tortoise statue keeps you protected from all external negative powers.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Two Carps">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which luck on a long journey brings." The carp is the sacred fish in China symbolizing strength and success.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Lion Statue">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"The one who will protect the home from uninvited guests." An angry lion is a Chinese statuette believed to protect from uninvited guests that is traditionally placed in front of the house.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Red Lantern">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"That which light on a pitch-dark night gives." A Chinese paper lantern is usually hung outside of the house and is believed to bring prosperity and luck.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Golden Dragon">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"The old wise dragon that by the sparkle of its scales blinds." The dragon is a Chinese mythical creature symbolizing power and prosperity.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Yin and Yang">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"The symbol of unity of all things." This is a medallion with the ancient Chinese symbol -- Yin and Yang -- a symbol of unity of two opposites.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Papyrus Picture">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text='"The message of our ancestors on a thin papyrus." Traditional Chinese landscape paintings on rice paper are symbolic of long and happy life.'/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Japanese Chess">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This is a game board for traditional Japanese chess Shogi, one of the most popular board games in the land."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Geisha Figurine">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="A geisha is a traditional Japanese female performer entertaining guests with dancing and signing as well as serving tea."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Japanese Vase">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Vases are one of the most popular interior decorations in Japan. They are usually placed in special niches on low stands or tables."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Gong">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="You will find a gong in every Japanese shrine. Any person entering the shrine has to strike the gong."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Theater Mask">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Such masks of the Japanese traditional Noh drama are real masterpieces of Japanese art."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Hair Comb">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Japanese women preferred hair ornaments to jewelry. Hair combs reflected the tastes and likings of their owners."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Netsuke">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The miniature sculpture of Hotei, one of the seven gods of happiness, the happy god of abundance and good health."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Kite">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Kites are traditional Japanese entertainment. They are made for different holidays and celebrations."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Bonsai Tree">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This dwarf tree planted in a small pot is the major decoration of Japanese houses and gardens."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Japanese Fan">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The Japanese fan is also called a sun fan as it looks like the sun with its beams coming from the center."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Holed Gold Coin">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The gold coin of happiness is a symbol of power and might of five Japanese emperors."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Love Hieroglyph Painting">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This kanji symbol means love and happiness and also brings harmony and understanding in marriage."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Skull Medallion">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This is a gold coin from ancient treasures. According to legend, such coins can bring you to the place where they were found."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Dice">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Pirates wile away the time playing the dice game in their long sea campaigns."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Pirate Cutlass">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="With a cutlass like that, a pirate fears nothing. A reliable weapon will always get him out of trouble."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Sundial">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Wherever a pirate ends up this sundial will always indicate apparent solar time in any place on earth."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Golden Cup">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="You can drink rum or decorate your cabin with this gorgeous, ornate cup."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Pipe">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The pipe is a must have for any pirate. Among other things it makes him look more menacing."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Cannon">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Each pirate ship should be equipped with cannons that can pierce any deck armor."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Evil Skull">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="The skull is believed to be a sign of death and destruction. It was used as a warning not to mess with pirates; otherwise no life would be spared."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Treasure Chest">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="Unfortunately, this large chest is empty. However if you decide to bury your treasure, you will have a proper container for it."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Old Treasure Map">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="This old map shows where the immense pirate treasure is hidden. No one has yet checked whether it is there or not."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Powder Keg">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="If there is no powder on board, there is no use for cannons. You will not be able to fire without good powder."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Exotic Shell">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="If a pirate starts missing the sea after a long time away from it, he can listen to the sounds of the breaking waves coming out of this exotic shell."/>
+		</text>
+	</ArtefactNotify>
+	<ArtefactNotify name="Wedding rings">
+		<text height="0.6">
+			<formatedText formateWidth="760" formateWidth2="300" font="Interface18" forBagFont="Interface14" text="These are golden rings for Mr. Fogg and Aouda’s wedding."/>
+		</text>
+	</ArtefactNotify>
+</ArtefactsNotify>
